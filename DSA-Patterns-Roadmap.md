@@ -66,8 +66,7 @@ while (l < r) {
 
 | ✓ | Date | # | Problem | Diff | Trigger phrase |
 |---|------|---|---------|------|----------------|
-| ✅ | 07/05/26     | 167 | [Two Sum II – Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) |🟡 | 
-sorted array, need to find pair  |
+| ✅ | 07/05/26     | 167 | [Two Sum II – Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | 🟡 |sorted array, need to find pair  |
 | ☐ |      | 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | 🟢 |  |
 | ☐ |      | 26  | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | 🟢 |  |
 | ☐ |      | 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | 🟢 |  |
