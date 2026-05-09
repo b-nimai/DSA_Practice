@@ -66,18 +66,18 @@ while (l < r) {
 
 | ✓ | Date | # | Problem | Diff | Trigger phrase |
 |---|------|---|---------|------|----------------|
-| ✅ | 07/05/26     | 167 | [Two Sum II – Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | 🟡 |Sorted array, need to find pair  |
-| ✅ |   07/05/26   | 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | 🟢 | Needs to compare both end of the String  |
-| ☐ |      | 26  | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | 🟢 |  |
-| ☐ |      | 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | 🟢 |  |
-| ☐ |      | 11  | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | 🟡 |  |
-| ☐ |      | 15  | [3Sum](https://leetcode.com/problems/3sum/) | 🟡 |  |
+| ✅ | 07/05/26 | 167 | [Two Sum II – Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | 🟡 | Sorted array, need to find pair |
+| ✅ | 07/05/26 | 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | 🟢 | Needs to compare both end of the String |
+| ✅ | 07/05/26 | 26  | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | 🟢 | In-place dedup on sorted; write lags read |
+| ✅ | 07/05/26 | 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | 🟢 | Move target value to end; slow/fast partition |
+| ✅ | 07/05/26 | 11  | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | 🟡 | Max area between two lines; move shorter wall |
+| ✅ | 09/05/26 | 15  | [3Sum](https://leetcode.com/problems/3sum/) | 🟡 | Sort + fix i + inner 2-ptr; skip dups |
 | ☐ |      | 16  | [3Sum Closest](https://leetcode.com/problems/3sum-closest/) | 🟡 |  |
 | ☐ |      | 18  | [4Sum](https://leetcode.com/problems/4sum/) | 🟡 |  |
-| ☐ |      | 75  | [Sort Colors](https://leetcode.com/problems/sort-colors/) | 🟡 |  |
-| ☐ |      | 633 | [Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/) | 🟡 |  |
-| ☐ |      | 680 | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | 🟢 |  |
-| ☐ |      | 42  | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | 🔴 |  |
+| ✅ | 09/05/26 | 75  | [Sort Colors](https://leetcode.com/problems/sort-colors/) | 🟡 | Sort 3 distinct values; Dutch flag lo/mid/hi |
+| ✅ | 09/05/26 | 633 | [Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/) | 🟡 | a²+b²=c; range 2-ptr on [0, √c] |
+| ✅ | 09/05/26 | 680 | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | 🟢 | Palindrome with ≤1 deletion; on mismatch try both |
+| ✅ | 09/05/26 | 42  | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | 🔴 | Water on elevation map; l/r + lMax/rMax |
 
 ---
 
