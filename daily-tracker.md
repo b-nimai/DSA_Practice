@@ -11,9 +11,9 @@
 ## Week 1 · May 12–18 · Finish Two Pointers + Sliding Window (1–10)
 
 **D1 · Tue May 12**
-- [ ] **New:** #16 3Sum Closest
-- [ ] Review: #167 (cal)
-- [ ] Review: #11 (cal)
+- [ ✅ ] **New:** #16 3Sum Closest
+- [ ✅ ] Review: #167 (cal)
+- [ ✅ ] Review: #11 (cal)
 
 **D2 · Wed May 13**
 - [ ] **New:** #18 4Sum ⭐ 🔴
