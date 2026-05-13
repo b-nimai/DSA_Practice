@@ -16,10 +16,10 @@
 - [ ✅ ] Review: #11 (cal)
 
 **D2 · Wed May 13**
-- [ ] **New:** #18 4Sum ⭐ 🔴
-- [ ] **New:** #643 Maximum Average Subarray I
-- [ ] Review: #15 (cal)
-- [ ] Review: #42 (cal)
+- [ ✅ ] **New:** #18 4Sum ⭐ 🔴
+- [ ✅ ] **New:** #643 Maximum Average Subarray I
+- [ ✅ ] Review: #15 (cal)
+- [ ✅ ] Review: #42 (cal)
 
 **D3 · Thu May 14**
 - [ ] **New:** #209 Min Size Subarray Sum

@@ -105,8 +105,8 @@ for (int r = 0; r < s.size(); ++r) {
 
 | ✓ | Date | # | Problem | Diff | Trigger phrase |
 |---|------|---|---------|------|----------------|
-| ☐ |      | 643 | [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/) | 🟢 |  |
-| ☐ |      | 209 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | 🟡 |  |
+| ✅ | 13/05/26 | 643 | [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/) | 🟢 | "subarray of length exactly k" → fixed window; slide, track max sum, divide once |
+| ✅ | 13/05/26 | 209 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | 🟡 | shortest subarray with sum ≥ target (positives) → grow right / shrink left while valid |
 | ☐ |      | 3   | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | 🟡 |  |
 | ☐ |      | 424 | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | 🟡 |  |
 | ☐ |      | 567 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/) | 🟡 |  |
