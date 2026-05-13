@@ -22,10 +22,10 @@
 - [ ✅ ] Review: #42 (cal)
 
 **D3 · Thu May 14**
-- [ ] **New:** #209 Min Size Subarray Sum
-- [ ] **New:** #3 Longest Substring Without Repeating Chars ⭐
-- [ ] Review: #167 (D+2)
-- [ ] Review: #11 (D+2)
+- [ ✅ ] **New:** #209 Min Size Subarray Sum
+- [ ✅ ] **New:** #3 Longest Substring Without Repeating Chars ⭐
+- [ ✅ ] Review: #167 (D+2)
+- [ ✅ ] Review: #11 (D+2)
 
 **D4 · Fri May 15**
 - [ ] **New:** #424 Longest Repeating Character Replacement ⭐

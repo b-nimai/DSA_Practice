@@ -107,7 +107,7 @@ for (int r = 0; r < s.size(); ++r) {
 |---|------|---|---------|------|----------------|
 | ✅ | 13/05/26 | 643 | [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/) | 🟢 | "subarray of length exactly k" → fixed window; slide, track max sum, divide once |
 | ✅ | 13/05/26 | 209 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | 🟡 | shortest subarray with sum ≥ target (positives) → grow right / shrink left while valid |
-| ☐ |      | 3   | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | 🟡 |  |
+| ✅ | 13/05/26 | 3   | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | 🟡 | longest substring with no duplicates → grow right / shrink left while `cnt[s[r]] > 1` |
 | ☐ |      | 424 | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | 🟡 |  |
 | ☐ |      | 567 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/) | 🟡 |  |
 | ☐ |      | 438 | [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | 🟡 |  |
