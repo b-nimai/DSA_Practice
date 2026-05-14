@@ -28,7 +28,7 @@
 - [ ✅ ] Review: #11 (D+2)
 
 **D4 · Fri May 15**
-- [ ] **New:** #424 Longest Repeating Character Replacement ⭐
+- [ ✅ ] **New:** #424 Longest Repeating Character Replacement ⭐
 - [ ] Review: #15 (D+2)
 - [ ] Review: #42 (D+2)
 - [ ] Review: #18 (D+2)
