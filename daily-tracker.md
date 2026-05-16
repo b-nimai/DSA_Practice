@@ -35,7 +35,7 @@
 
 **D5 · Sat May 16**
 - [ ✅ ] **New:** #567 Permutation in String
-- [ ] **New:** #438 Find All Anagrams
+- [ ✅ ] **New:** #438 Find All Anagrams
 - [ ] **New:** #1004 Max Consecutive Ones III
 - [ ] Review: #3 (D+2)
 

@@ -110,7 +110,7 @@ for (int r = 0; r < s.size(); ++r) {
 | ✅ | 13/05/26 | 3   | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | 🟡 | longest substring with no duplicates → grow right / shrink left while `cnt[s[r]] > 1` |
 | ✅ | 14/05/26 | 424 | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | 🟡 | longest substring of one letter with ≤ k replacements → window valid iff `len - maxFreq ≤ k`; `if`-shrink (window grows by 1/step), don't recompute `maxFreq` on shrink |
 | ✅ | 16/05/26 | 567 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/) | 🟡 | "s2 contains a permutation/anagram of s1" → fixed window width `s1.len`; compare letter freqs, or 1 array + `found` counter (add `>0`, remove `>=0`) for O(1)/step |
-| ☐ |      | 438 | [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | 🟡 |  |
+| ✅ | 16/05/26 | 438 | [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | 🟡 | SubString with same characters count as `s1` → fixed window | 
 | ☐ |      | 1004| [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/) | 🟡 |  |
 | ☐ |      | 904 | [Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/) | 🟡 |  |
 | ☐ |      | 1456| [Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/) | 🟡 |  |
