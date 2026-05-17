@@ -45,7 +45,7 @@
 - [ ✅ ] **Retro:** scan all this week's trigger phrases — any patterns colliding?
 
 **D7 · Mon May 18**
-- [ ] **New:** #1456 Maximum Vowels in Substring
+- [ ✅ ] **New:** #1456 Maximum Vowels in Substring
 - [ ] **New:** #992 Subarrays with K Different Integers ⭐ 🔴
 
 ---
