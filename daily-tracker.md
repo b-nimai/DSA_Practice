@@ -40,9 +40,9 @@
 - [ ✅ ] Review: #3 (D+2)
 
 **D6 · Sun May 17** _(+ Weekly retro 20 min)_
-- [ ] **New:** #904 Fruit Into Baskets
-- [ ] Review: #424 (D+2)
-- [ ] **Retro:** scan all this week's trigger phrases — any patterns colliding?
+- [ ✅ ] **New:** #904 Fruit Into Baskets
+- [ ✅ ] Review: #424 (D+2)
+- [ ✅ ] **Retro:** scan all this week's trigger phrases — any patterns colliding?
 
 **D7 · Mon May 18**
 - [ ] **New:** #1456 Maximum Vowels in Substring

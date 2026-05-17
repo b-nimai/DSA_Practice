@@ -112,7 +112,7 @@ for (int r = 0; r < s.size(); ++r) {
 | ✅ | 16/05/26 | 567 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/) | 🟡 | "s2 contains a permutation/anagram of s1" → fixed window width `s1.len`; compare letter freqs, or 1 array + `found` counter (add `>0`, remove `>=0`) for O(1)/step |
 | ✅ | 16/05/26 | 438 | [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | 🟡 | SubString with same characters count as `s1` → fixed window | 
 | ✅ | 16/05/26 | 1004| [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/) | 🟡 | "longest run of 1's, flip ≤ k 0's" → same template as 424: window valid while `#zeros ≤ k`; grow `right`, slide `left` over budget. `while`-shrink+`maxi` or `if`-slide + return `n-left` |
-| ☐ |      | 904 | [Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/) | 🟡 |  |
+| ✅ | 17/05/26 | 904 | [Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/) | 🟡 | I have to find subarray |
 | ☐ |      | 1456| [Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/) | 🟡 |  |
 | ☐ |      | 992 | [Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/) | 🔴 |  |
 | ☐ |      | 76  | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | 🔴 |  |
