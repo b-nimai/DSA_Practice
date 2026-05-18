@@ -115,7 +115,7 @@ for (int r = 0; r < s.size(); ++r) {
 | ✅ | 17/05/26 | 904 | [Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/) | 🟡 | I have to find subarray |
 | ✅ | 17/05/26 | 1456| [Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/) | 🟡 | fixed size substring |
 | ✅ | 18/05/26 | 992 | [Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/) | 🔴 | "count subarrays with exactly K distinct" → no monotone window for "exactly K"; `exactly K = atMost(K) − atMost(K−1)`. `atMostK`: count-window `+= right-left+1`, `k`-as-budget (no erase) |
-| ☐ |      | 76  | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | 🔴 |  |
+| ✅ | 18/05/26 | 76  | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | 🔴 | "shortest substring of `s` covering all of `t` with duplicates" → variable window, grow `right` / shrink `left` while valid; O(1) validity via `formed == required` counter (bump only when `window[c] == need[c]`), never `map.empty()` |
 | ☐ |      | 239 | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | 🔴 |  |
 
 ---

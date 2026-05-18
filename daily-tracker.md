@@ -53,7 +53,7 @@
 ## Week 2 · May 19–25 · Finish Sliding Window + Fast & Slow Pointers
 
 **D8 · Tue May 19**
-- [ ] **New:** #76 Minimum Window Substring ⭐ 🔴
+- [ ✅ ] **New:** #76 Minimum Window Substring ⭐ 🔴
 - [ ] **New:** #239 Sliding Window Maximum ⭐ 🔴
 
 **D9 · Wed May 20**
