@@ -54,7 +54,7 @@
 
 **D8 · Tue May 19**
 - [ ✅ ] **New:** #76 Minimum Window Substring ⭐ 🔴
-- [ ] **New:** #239 Sliding Window Maximum ⭐ 🔴
+- [ ✅ ] **New:** #239 Sliding Window Maximum ⭐ 🔴
 
 **D9 · Wed May 20**
 - [ ] **New:** #141 Linked List Cycle ⭐
