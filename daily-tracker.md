@@ -62,7 +62,7 @@
 - [ ] Review: #992 (D+2)
 
 **D10 · Thu May 21**
-- [ ] **New:** #876 Middle of Linked List
+- [ ✅ ] **New:** #876 Middle of Linked List
 - [ ] **New:** #234 Palindrome Linked List
 - [ ] Review: #76 (D+2)
 - [ ] Review: #239 (D+2)
