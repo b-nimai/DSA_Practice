@@ -57,8 +57,8 @@
 - [ ✅ ] **New:** #239 Sliding Window Maximum ⭐ 🔴
 
 **D9 · Wed May 20**
-- [ ] **New:** #141 Linked List Cycle ⭐
-- [ ] **New:** #142 Linked List Cycle II ⭐
+- [ ✅ ] **New:** #141 Linked List Cycle ⭐
+- [ ✅ ] **New:** #142 Linked List Cycle II ⭐
 - [ ] Review: #992 (D+2)
 
 **D10 · Thu May 21**
