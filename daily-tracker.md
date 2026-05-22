@@ -75,7 +75,7 @@
 - [ ✅ ] Review: #11 (D+10)
 
 **D12 · Sat May 23**
-- [ ] **New:** #19 Remove Nth Node From End
+- [ ✅ ] **New:** #19 Remove Nth Node From End
 - [ ] **New:** #143 Reorder List ⭐
 - [ ] Review: #15 (D+10)
 - [ ] Review: #42 (D+10)
