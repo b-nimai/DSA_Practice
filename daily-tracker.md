@@ -69,10 +69,10 @@
 
 **D11 · Fri May 22**
 - [ ✅ ] **New:** #202 Happy Number
-- [ ] Review: #141 (D+2)
-- [ ] Review: #142 (D+2)
-- [ ] Review: #167 (D+10)
-- [ ] Review: #11 (D+10)
+- [ ✅ ] Review: #141 (D+2)
+- [ ✅ ] Review: #142 (D+2)
+- [ ✅ ] Review: #167 (D+10)
+- [ ✅ ] Review: #11 (D+10)
 
 **D12 · Sat May 23**
 - [ ] **New:** #19 Remove Nth Node From End
