@@ -146,8 +146,8 @@ while (fast && fast->next) {
 | ✅ | 20/05/26 | 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | 🟢 | "does linked list contain a cycle?" → Floyd's: `slow+=1`/`fast+=2` from head, meet ⇒ cycle, `fast` hits null ⇒ none. O(1) space vs hash-set's O(n) |
 | ✅ | 20/05/26 | 142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | 🟡 | "return the node where the cycle begins" → Floyd's phase 1 (detect) + phase 2 (reset one pointer to head, walk both at speed 1 — collide at entry). `a ≡ L-b (mod L)` |
 | ✅ | 20/05/26 | 876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | 🟢 | "return the middle node, one pass" → `slow+=1`/`fast+=2` from head; when `fast` falls off, `slow` is middle. Returns 2nd middle on even; for 1st middle start `fast = head->next` |
-| ☐ |      | 234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | 🟢 |  |
-| ☐ |      | 202 | [Happy Number](https://leetcode.com/problems/happy-number/) | 🟢 |  |
+| ✅ | 22/05/26 | 234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | 🟢 | "is singly linked list a palindrome in O(1) space" → can't walk backwards: find midpoint (slow/fast, guard `fast->next && fast->next->next`), reverse second half `slow->next` in place, compare front-to-back, then reverse back to restore. Loop on shorter half (`while right`) |
+| ✅ | 22/05/26 | 202 | [Happy Number](https://leetcode.com/problems/happy-number/) | 🟢 | "repeat digit-square-sum until 1 or loops forever" → it's Floyd's on `x → f(x)`, NOT a list: the sequence is eventually periodic so an endless loop is a cycle. `do { slow=f(slow); fast=f(f(fast)); } while(slow != fast); return slow==1`. Met at 1 ⇒ happy, else non-1 cycle. O(1) space vs hash-set's O(n) |
 | ☐ |      | 19  | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | 🟡 |  |
 | ☐ |      | 143 | [Reorder List](https://leetcode.com/problems/reorder-list/) | 🟡 |  |
 | ☐ |      | 287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | 🟡 |  |

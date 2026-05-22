@@ -59,16 +59,16 @@
 **D9 · Wed May 20**
 - [ ✅ ] **New:** #141 Linked List Cycle ⭐
 - [ ✅ ] **New:** #142 Linked List Cycle II ⭐
-- [ ] Review: #992 (D+2)
+- [ ✅ ] Review: #992 (D+2)
 
 **D10 · Thu May 21**
 - [ ✅ ] **New:** #876 Middle of Linked List
-- [ ] **New:** #234 Palindrome Linked List
-- [ ] Review: #76 (D+2)
-- [ ] Review: #239 (D+2)
+- [ ✅ ] **New:** #234 Palindrome Linked List
+- [ ✅ ] Review: #76 (D+2)
+- [ ✅ ] Review: #239 (D+2)
 
 **D11 · Fri May 22**
-- [ ] **New:** #202 Happy Number
+- [ ✅ ] **New:** #202 Happy Number
 - [ ] Review: #141 (D+2)
 - [ ] Review: #142 (D+2)
 - [ ] Review: #167 (D+10)
