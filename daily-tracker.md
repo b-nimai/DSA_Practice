@@ -76,10 +76,10 @@
 
 **D12 · Sat May 23**
 - [ ✅ ] **New:** #19 Remove Nth Node From End
-- [ ] **New:** #143 Reorder List ⭐
-- [ ] Review: #15 (D+10)
-- [ ] Review: #42 (D+10)
-- [ ] Review: #18 (D+10)
+- [ ✅ ] **New:** #143 Reorder List ⭐
+- [ ✅ ] Review: #15 (D+10)
+- [ ✅ ] Review: #42 (D+10)
+- [ ✅ ] Review: #18 (D+10)
 
 **D13 · Sun May 24** _(+ Weekly retro)_
 - [ ] **New:** #2095 Delete Middle Node
