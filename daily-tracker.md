@@ -82,12 +82,12 @@
 - [ ✅ ] Review: #18 (D+10)
 
 **D13 · Sun May 24** _(+ Weekly retro)_
-- [ ] **New:** #2095 Delete Middle Node
-- [ ] Review: #3 (D+10)
+- [ ✅ ] **New:** #2095 Delete Middle Node
+- [ ✅ ] Review: #3 (D+10)
 - [ ] **Retro**
 
 **D14 · Mon May 25**
-- [ ] **New:** #287 Find the Duplicate Number ⭐
+- [ ✅ ] **New:** #287 Find the Duplicate Number ⭐
 - [ ] **New:** #457 Circular Array Loop
 - [ ] Review: #143 (D+2)
 - [ ] Review: #424 (D+10)
