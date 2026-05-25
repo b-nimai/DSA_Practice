@@ -88,7 +88,7 @@
 
 **D14 · Mon May 25**
 - [ ✅ ] **New:** #287 Find the Duplicate Number ⭐
-- [ ] **New:** #457 Circular Array Loop
+- [ ✅ ] **New:** #457 Circular Array Loop
 - [ ] Review: #143 (D+2)
 - [ ] Review: #424 (D+10)
 
