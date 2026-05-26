@@ -97,7 +97,7 @@
 ## Week 3 · May 26–Jun 1 · Prefix Sum & Hashing
 
 **D15 · Tue May 26**
-- [ ] **New:** #1 Two Sum
+- [ ✅ ] **New:** #1 Two Sum
 - [ ] **New:** #303 Range Sum Query
 
 **D16 · Wed May 27**

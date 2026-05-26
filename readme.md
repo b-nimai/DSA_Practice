@@ -180,7 +180,7 @@ for (int x : nums) {
 
 | ✓ | Date | # | Problem | Diff | Trigger phrase |
 |---|------|---|---------|------|----------------|
-| ☐ |      | 1   | [Two Sum](https://leetcode.com/problems/two-sum/) | 🟢 |  |
+| ✅ | 26/05/26 | 1   | [Two Sum](https://leetcode.com/problems/two-sum/) | 🟢 | "two indices summing to target, can't reuse element" → one-pass hash map `value→index`; for each `nums[i]` look up complement `target-nums[i]` **before** inserting, so duplicates like `[3,3]` don't self-pair |
 | ☐ |      | 303 | [Range Sum Query – Immutable](https://leetcode.com/problems/range-sum-query-immutable/) | 🟢 |  |
 | ☐ |      | 304 | [Range Sum Query 2D – Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/) | 🟡 |  |
 | ☐ |      | 560 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | 🟡 |  |
