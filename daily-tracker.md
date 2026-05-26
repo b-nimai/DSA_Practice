@@ -98,7 +98,7 @@
 
 **D15 · Tue May 26**
 - [ ✅ ] **New:** #1 Two Sum
-- [ ] **New:** #303 Range Sum Query
+- [ ✅ ] **New:** #303 Range Sum Query
 
 **D16 · Wed May 27**
 - [ ] **New:** #304 Range Sum 2D
