@@ -182,8 +182,8 @@ for (int x : nums) {
 |---|------|---|---------|------|----------------|
 | ✅ | 26/05/26 | 1   | [Two Sum](https://leetcode.com/problems/two-sum/) | 🟢 | "two indices summing to target, can't reuse element" → one-pass hash map `value→index`; for each `nums[i]` look up complement `target-nums[i]` **before** inserting, so duplicates like `[3,3]` don't self-pair |
 | ✅ | 26/05/26 | 303 | [Range Sum Query – Immutable](https://leetcode.com/problems/range-sum-query-immutable/) | 🟢 | "many `sumRange(l, r)` on immutable array" → precompute `ps` of size `n+1` with `ps[0]=0`; query is `ps[r+1] - ps[l]` in O(1). `n+1` shift kills the `l==0` edge case. Prefer `vector` over `unordered_map` for dense integer keys |
-| ☐ |      | 304 | [Range Sum Query 2D – Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/) | 🟡 |  |
-| ☐ |      | 560 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | 🟡 |  |
+| ✅ | 27/05/26 | 304 | [Range Sum Query 2D – Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/) | 🟡 | "many `sumRegion(r1,c1,r2,c2)` on immutable matrix" → 2D prefix sum sized `(m+1)×(n+1)` with zero border; build and query are the same `+ − − +` inclusion–exclusion over four top-left rectangles. O(m·n) build / O(1) query |
+| ✅ | 27/05/26 | 560 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | 🟡 | "**count** subarrays with sum = K, negatives allowed" → running prefix sum + frequency map of past prefixes; `count += cnt[sum − k]` then `cnt[sum]++`. Seed `cnt[0]=1` for empty prefix, lookup before insert so an element can't self-pair when `k=0`. Two-pointer only works if `nums[i] > 0` (or `≥ 0` via `atMost(k) − atMost(k−1)`) |
 | ☐ |      | 974 | [Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k/) | 🟡 |  |
 | ☐ |      | 523 | [Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/) | 🟡 |  |
 | ☐ |      | 525 | [Contiguous Array](https://leetcode.com/problems/contiguous-array/) | 🟡 |  |

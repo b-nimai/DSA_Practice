@@ -101,8 +101,8 @@
 - [ ✅ ] **New:** #303 Range Sum Query
 
 **D16 · Wed May 27**
-- [ ] **New:** #304 Range Sum 2D
-- [ ] **New:** #560 Subarray Sum Equals K ⭐
+- [ ✅ ] **New:** #304 Range Sum 2D
+- [ ✅ ] **New:** #560 Subarray Sum Equals K ⭐
 - [ ] Review: #287 (D+2)
 
 **D17 · Thu May 28**
