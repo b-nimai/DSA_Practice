@@ -103,11 +103,11 @@
 **D16 · Wed May 27**
 - [ ✅ ] **New:** #304 Range Sum 2D
 - [ ✅ ] **New:** #560 Subarray Sum Equals K ⭐
-- [ ] Review: #287 (D+2)
+- [ ✅ ] Review: #287 (D+2)
 
 **D17 · Thu May 28**
-- [ ] **New:** #974 Subarray Sums Divisible by K ⭐
-- [ ] Review: #992 (D+10)
+- [ ✅ ] **New:** #974 Subarray Sums Divisible by K ⭐
+- [ ✅ ] Review: #992 (D+10)
 
 **D18 · Fri May 29**
 - [ ] **New:** #523 Continuous Subarray Sum
