@@ -1,7 +1,12 @@
-# DSA Pattern-Based Practice Roadmap (C++)
+# 🧠 DSA Pattern-Based Practice Roadmap (C++)
 
-> Goal: Recognize the **pattern** behind any new problem within 60 seconds, then implement.
-> Schedule: 1 problem/day, 7:00–8:00 AM. ~190 problems → ~6 months.
+> **Part of the 6-month switch plan.** Sibling roadmaps:
+> - 🧩 **LLD:** [`lld-roadmap.md`](./lld-roadmap.md) — 10 concept sections + 11 problems
+> - 🚀 **Project + 📨 Apply:** [`project-roadmap.md`](./project-roadmap.md) — Loom-lite AI in 12 weeks + apply phase
+> - 📅 **Daily execution:** [`daily-tracker.md`](./daily-tracker.md) — day-by-day integrated tasks across all tracks
+> - Project build details: [`PROJECT_PLAN.md`](./PROJECT_PLAN.md) · LLD curriculum source: [`lld_content_index.md`](./lld_content_index.md)
+>
+> **DSA goal:** recognize the pattern behind any new problem within 60 seconds, then implement. ~190 problems → ~6 months. Mornings 6:30–8:30.
 
 ---
 
@@ -725,3 +730,23 @@ struct DSU {
 | …    |      |                  |                 |                   |
 
 > Tip: At the end of each week, scan the **Trigger phrase** column you filled in. If two patterns share similar trigger phrases, that's a sign you need to refine them — pattern recognition lives in the *differences*.
+
+---
+
+# 🧭 Daily routine cheat sheet
+
+```
+06:30 - 08:30  Mornings:     DSA daily problem (May 12 → Sep 12) → LLD problem (Sep 13 → Oct 25) → DSA upkeep + mocks (Oct 26+)
+08:30 - 10:00  Commute out:  LLD concept videos → switches to HLD videos (Sep 13+)
+10:00 - 20:30  Office
+20:30 - 22:00  Commute back: continue LLD/HLD videos
+22:00 - 23:30  Eve (non-class): Project work (3 nights/wk × 1.5 hr)
+Class evenings (4 nights/wk): Class — recovery
+Saturday + Sunday: Project (~5 hr each) + 1 weekly DSA review slot
+1 full off-period/week: Sunday afternoon (mandatory)
+```
+
+**Red lines** (never break):
+- DSA morning slot is sacred until Sep 12 — never lose to project work.
+- One full off-period/week — burnout is the #1 reason 6-month plans fail.
+- Project work only in evenings/weekends — never push it into DSA time.
