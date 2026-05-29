@@ -154,11 +154,11 @@ _(LLD + Project tracks not yet active — historical week.)_
 **D17 · Thu May 28**
 - [ ✅ ] 🧠 DSA New: #974 Subarray Sums Divisible by K ⭐
 - [ ✅ ] 🧠 DSA Review: #992 (D+10)
-- [ ] 📚 LLD: 1.1 Introduction to Low Level Design
+- [ ✅ ] 📚 LLD: 1.1 Introduction to Low Level Design
 
 **D18 · Fri May 29**
-- [ ] 🧠 DSA New: #523 Continuous Subarray Sum
-- [ ] 🧠 DSA New: #525 Contiguous Array ⭐
+- [ ✅ ] 🧠 DSA New: #523 Continuous Subarray Sum
+- [ ✅ ] 🧠 DSA New: #525 Contiguous Array ⭐
 - [ ] 🧠 DSA Review: #560 (D+2)
 - [ ] 🧠 DSA Review: #76 (D+10)
 - [ ] 🧠 DSA Review: #239 (D+10)
