@@ -159,24 +159,24 @@ _(LLD + Project tracks not yet active — historical week.)_
 **D18 · Fri May 29**
 - [ ✅ ] 🧠 DSA New: #523 Continuous Subarray Sum
 - [ ✅ ] 🧠 DSA New: #525 Contiguous Array ⭐
-- [ ] 🧠 DSA Review: #560 (D+2)
-- [ ] 🧠 DSA Review: #76 (D+10)
-- [ ] 🧠 DSA Review: #239 (D+10)
-- [ ] 📚 LLD: 1.2 Software Design Principles (part 1)
+- [ ✅ ] 🧠 DSA Review: #560 (D+2)
+- [ ✅ ] 🧠 DSA Review: #76 (D+10)
+- [ ✅ ] 🧠 DSA Review: #239 (D+10)
+- [ ✅ ] 📚 LLD: 1.2 Software Design Principles (part 1)
 
 **D19 · Sat May 30**
-- [ ] 🧠 DSA New: #1248 Count Number of Nice Subarrays
-- [ ] 🧠 DSA Review: #974 (D+2)
-- [ ] 🧠 DSA Review: #141 (D+10)
-- [ ] 🧠 DSA Review: #142 (D+10)
-- [ ] 📚 LLD: 1.2 Software Design Principles (part 2)
+- [ ✅ ] 🧠 DSA New: #1248 Count Number of Nice Subarrays
+- [ ✅ ] 🧠 DSA Review: #974 (D+2)
+- [ ✅ ] 🧠 DSA Review: #141 (D+10)
+- [ ✅ ] 🧠 DSA Review: #142 (D+10)
+- [ ✅ ] 📚 LLD: 1.2 Software Design Principles (part 2)
 - [ ] 🚀 Project: Scaffold pnpm workspace (`apps/web`, `apps/api`, `apps/worker`, `packages/shared`) + NestJS + Fastify adapter + Vite + Tailwind + shadcn init
 - [ ] 🚀 Project: `docker-compose.yml` with Postgres+pgvector, Redis, MinIO, Mailtrap — `docker-compose up` runs clean
 
 **D20 · Sun May 31** _(+ Weekly retro)_
-- [ ] 🧠 DSA New: #437 Path Sum III ⭐
-- [ ] 🧠 DSA Review: #525 (D+2)
-- [ ] 🧠 DSA Retro
+- [ ✅ ] 🧠 DSA New: #437 Path Sum III ⭐
+- [ ✅ ] 🧠 DSA Review: #525 (D+2)
+- [ ✅ ] 🧠 DSA Retro
 - [ ] 📚 LLD: Review Section 1 — note key principles
 - [ ] 🚀 Project: NestJS API skeleton — `HealthModule`, `UsersModule`, `VideosModule` (`/videos` CRUD, no upload)
 - [ ] 🚀 Project: React app — login page + empty dashboard renders, Prisma schema for `User`, `Video`, `Transcript`, `View`
