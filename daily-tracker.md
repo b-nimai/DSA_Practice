@@ -170,16 +170,16 @@ _(LLD + Project tracks not yet active — historical week.)_
 - [ ✅ ] 🧠 DSA Review: #141 (D+10)
 - [ ✅ ] 🧠 DSA Review: #142 (D+10)
 - [ ✅ ] 📚 LLD: 1.2 Software Design Principles (part 2)
-- [ ] 🚀 Project: Scaffold pnpm workspace (`apps/web`, `apps/api`, `apps/worker`, `packages/shared`) + NestJS + Fastify adapter + Vite + Tailwind + shadcn init
-- [ ] 🚀 Project: `docker-compose.yml` with Postgres+pgvector, Redis, MinIO, Mailtrap — `docker-compose up` runs clean
+- [ ] 🚀 Project: Scaffold pnpm workspace (`apps/web`, `apps/api`, `apps/worker`, `packages/shared`) + NestJS + Fastify adapter + Next.js 15 (App Router) + Tailwind + shadcn init
+- [ ] 🚀 Project: `docker-compose.yml` with Postgres+pgvector, Redis, MinIO, Mailtrap, api, worker, Next.js web — `docker-compose up` runs clean
 
 **D20 · Sun May 31** _(+ Weekly retro)_
 - [ ✅ ] 🧠 DSA New: #437 Path Sum III ⭐
 - [ ✅ ] 🧠 DSA Review: #525 (D+2)
-- [ ✅ ] 🧠 DSA Retro
+- [ ✅~ ] 🧠 DSA Retro
 - [ ] 📚 LLD: Review Section 1 — note key principles
 - [ ] 🚀 Project: NestJS API skeleton — `HealthModule`, `UsersModule`, `VideosModule` (`/videos` CRUD, no upload)
-- [ ] 🚀 Project: React app — login page + empty dashboard renders, Prisma schema for `User`, `Video`, `Transcript`, `View`
+- [ ] 🚀 Project: Next.js app (App Router) — login page + empty dashboard renders, Prisma schema for `User`, `Video`, `Transcript`, `View`
 
 **D21 · Mon Jun 1**
 - [ ] 🧠 DSA New: #49 Group Anagrams
@@ -205,7 +205,7 @@ Done when: `docker-compose up` lets you register, log in, and see an empty dashb
 - [ ] pnpm monorepo scaffolded
 - [ ] docker-compose stack runs clean
 - [ ] NestJS skeleton with Health/Users/Videos modules
-- [ ] React login + dashboard + Prisma schema
+- [ ] Next.js login + dashboard + Prisma schema
 
 ---
 
@@ -551,7 +551,7 @@ Done when: video plays via HLS URL
 - [ ] 🧠 DSA New: #116 Populating Next Right Pointers
 - [ ] 🧠 DSA New: #117 Populating Next Right Pointers II
 - [ ] 🧠 DSA Review: #199 (D+2)
-- [ ] 🚀 Project: Public share page `/v/:slug` with HLS.js adaptive-bitrate player
+- [ ] 🚀 Project: Public share page `app/v/[slug]` — server-rendered with `generateMetadata()` (OG/SEO); HLS.js adaptive-bitrate player as nested client component
 - [ ] 🚀 Project: View counter via Beacon API, watch-time tracking
 
 **D55 · Sun Jul 5** _(+ Weekly retro)_
@@ -1040,7 +1040,7 @@ Done when: search "redis caching" returns the right video at the right moment
 - [ ] 🧠 DSA Review: #53 (D+10)
 - [ ] 🧠 DSA Review: #206 (D+60)
 - [ ] 🧠 DSA Review: #21 (D+60)
-- [ ] 🚀 Project: NestJS `@WebSocketGateway` for `/chat/:videoId`
+- [ ] 🚀 Project: NestJS `@WebSocketGateway` served at the `/socket` path (Ingress-routed), `videoId` passed on the connect handshake
 - [ ] 🚀 Project: Retrieve top-K chunks from that video's embeddings
 
 **D97 · Sun Aug 16** _(+ Weekly retro)_
