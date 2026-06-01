@@ -176,14 +176,14 @@ _(LLD + Project tracks not yet active — historical week.)_
 **D20 · Sun May 31** _(+ Weekly retro)_
 - [ ✅ ] 🧠 DSA New: #437 Path Sum III ⭐
 - [ ✅ ] 🧠 DSA Review: #525 (D+2)
-- [ ✅~ ] 🧠 DSA Retro
+- [ ✅ ] 🧠 DSA Retro
 - [ ] 📚 LLD: Review Section 1 — note key principles
 - [ ] 🚀 Project: NestJS API skeleton — `HealthModule`, `UsersModule`, `VideosModule` (`/videos` CRUD, no upload)
 - [ ] 🚀 Project: Next.js app (App Router) — login page + empty dashboard renders, Prisma schema for `User`, `Video`, `Transcript`, `View`
 
 **D21 · Mon Jun 1**
-- [ ] 🧠 DSA New: #49 Group Anagrams
-- [ ] 🧠 DSA New: #128 Longest Consecutive Sequence ⭐
+- [ ✅ ] 🧠 DSA New: #49 Group Anagrams
+- [ ✅ ] 🧠 DSA New: #128 Longest Consecutive Sequence ⭐
 - [ ] 🧠 DSA New: #1590 Make Sum Divisible by P
 - [ ] 📚 LLD: Buffer / re-watch Section 1
 
