@@ -224,8 +224,8 @@ return l;
 
 | ✓ | Date | # | Problem | Diff | Trigger phrase |
 |---|------|---|---------|------|----------------|
-| ☐ |      | 704 | [Binary Search](https://leetcode.com/problems/binary-search/) | 🟢 |  |
-| ☐ |      | 35  | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | 🟢 |  |
+| ✅ | 02/06/26 | 704 | [Binary Search](https://leetcode.com/problems/binary-search/) | 🟢 | "**sorted** array → exact index of `target` in **O(log n)**" → closed interval `[low, high]`, loop `while (low <= high)`; `mid = low + (high-low)/2` (overflow-safe); `==`→return `mid`, `>`→`high = mid-1`, `<`→`low = mid+1`. Return `-1` after the loop. `mid ± 1` (never `mid`) makes the window strictly shrink; `<=` (not `<`) so the size-1 window is still checked. The exact-match seed of the whole pattern |
+| ✅ | 02/06/26 | 35  | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | 🟢 | "sorted distinct → index of `target`, **or where it'd be inserted**" → it's the 704 loop with `return -1` swapped for **`return low`** (the insertion point = #elements `< target`). Or the pure **lower-bound** template: `high = n`, `while (low < high)`, `nums[mid] < target ? low = mid+1 : high = mid`, return `low`. This is the reusable seed for "min X such that check(X)" / binary-search-on-answer. Watch: don't return `-1`; lower-bound's `high` is `n` not `n-1`, and pairs `high = mid` (no `-1`) with `low < high` |
 | ☐ |      | 278 | [First Bad Version](https://leetcode.com/problems/first-bad-version/) | 🟢 |  |
 | ☐ |      | 33  | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | 🟡 |  |
 | ☐ |      | 153 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | 🟡 |  |

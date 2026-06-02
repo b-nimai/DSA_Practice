@@ -185,27 +185,27 @@ _(LLD + Project tracks not yet active — historical week.)_
 - [ ✅ ] 🧠 DSA New: #49 Group Anagrams
 - [ ✅ ] 🧠 DSA New: #128 Longest Consecutive Sequence ⭐
 - [ ] 🧠 DSA New: #1590 Make Sum Divisible by P
-- [ ] 📚 LLD: Buffer / re-watch Section 1
+- [ ✅ ] 📚 LLD: Buffer / re-watch Section 1
 
 ---
 
 ### 🎯 Weekly Goals
 
 **🧠 DSA — Prefix Sum & Hashing pattern**
-- [ ] All week's new problems checked off
-- [ ] Sunday retro: scan trigger phrases for pattern collisions
+- [ ✅ ] All week's new problems checked off
+- [ ✅ ] Sunday retro: scan trigger phrases for pattern collisions
 
 **📚 LLD — Section 1: Intro to LLD**
 Done when: notes on key design principles captured
-- [ ] All daily videos watched
-- [ ] Section 1 review notes
+- [ ✅ ] All daily videos watched
+- [ ✅ ] Section 1 review notes
 
 **🚀 Project — Wk 1 of `PROJECT_PLAN.md`: Monorepo foundation**
 Done when: `docker-compose up` lets you register, log in, and see an empty dashboard
-- [ ] pnpm monorepo scaffolded
-- [ ] docker-compose stack runs clean
-- [ ] NestJS skeleton with Health/Users/Videos modules
-- [ ] Next.js login + dashboard + Prisma schema
+- [ ✅ ] pnpm monorepo scaffolded
+- [ ✅ ] docker-compose stack runs clean
+- [ ✅ ] NestJS skeleton with Health/Users/Videos modules
+- [ ✅ ] Next.js login + dashboard + Prisma schema
 
 ---
 
@@ -214,11 +214,11 @@ Done when: `docker-compose up` lets you register, log in, and see an empty dashb
 ### 📅 Daily
 
 **D22 · Tue Jun 2**
-- [ ] 🧠 DSA New: #704 Binary Search ⭐
-- [ ] 🧠 DSA New: #35 Search Insert Position
-- [ ] 🧠 DSA Review: #437 (D+2)
-- [ ] 🧠 DSA Review: #143 (D+10)
-- [ ] 📚 LLD: SRP (Single Responsibility)
+- [ ✅ ] 🧠 DSA New: #704 Binary Search ⭐
+- [ ✅ ] 🧠 DSA New: #35 Search Insert Position
+- [ ✅ ] 🧠 DSA Review: #437 (D+2)
+- [ ✅ ] 🧠 DSA Review: #143 (D+10)
+- [ ✅ ] 📚 LLD: SRP (Single Responsibility)
 
 **D23 · Wed Jun 3**
 - [ ] 🧠 DSA New: #278 First Bad Version
