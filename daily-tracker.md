@@ -221,10 +221,10 @@ Done when: `docker-compose up` lets you register, log in, and see an empty dashb
 - [ ✅ ] 📚 LLD: SRP (Single Responsibility)
 
 **D23 · Wed Jun 3**
-- [ ] 🧠 DSA New: #278 First Bad Version
-- [ ] 🧠 DSA New: #33 Search in Rotated Sorted Array ⭐
-- [ ] 🧠 DSA Review: #128 (D+2)
-- [ ] 📚 LLD: OCP (Open-Closed)
+- [ ✅ ] 🧠 DSA New: #278 First Bad Version
+- [ ✅ ] 🧠 DSA New: #33 Search in Rotated Sorted Array ⭐
+- [ ✅ ] 🧠 DSA Review: #128 (D+2)
+- [ ✅ ] 📚 LLD: OCP (Open-Closed)
 
 **D24 · Thu Jun 4**
 - [ ] 🧠 DSA New: #153 Find Minimum in Rotated
