@@ -227,9 +227,9 @@ Done when: `docker-compose up` lets you register, log in, and see an empty dashb
 - [ ✅ ] 📚 LLD: OCP (Open-Closed)
 
 **D24 · Thu Jun 4**
-- [ ] 🧠 DSA New: #153 Find Minimum in Rotated
-- [ ] 🧠 DSA New: #34 First and Last Position
-- [ ] 🧠 DSA Review: #704 (D+2)
+- [ ✅ ] 🧠 DSA New: #153 Find Minimum in Rotated
+- [ ✅ ] 🧠 DSA New: #34 First and Last Position
+- [ ✅ ] 🧠 DSA Review: #704 (D+2)
 - [ ] 🧠 DSA Review: #287 (D+10)
 - [ ] 📚 LLD: LSP (Liskov Substitution)
 
