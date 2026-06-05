@@ -230,13 +230,13 @@ Done when: `docker-compose up` lets you register, log in, and see an empty dashb
 - [ ✅ ] 🧠 DSA New: #153 Find Minimum in Rotated
 - [ ✅ ] 🧠 DSA New: #34 First and Last Position
 - [ ✅ ] 🧠 DSA Review: #704 (D+2)
-- [ ] 🧠 DSA Review: #287 (D+10)
+- [ ✅ ] 🧠 DSA Review: #287 (D+10)
 - [ ] 📚 LLD: LSP (Liskov Substitution)
 
 **D25 · Fri Jun 5**
-- [ ] 🧠 DSA New: #162 Find Peak Element
-- [ ] 🧠 DSA Review: #33 (D+2)
-- [ ] 📚 LLD: ISP (Interface Segregation)
+- [ ✅ ] 🧠 DSA New: #162 Find Peak Element
+- [ ✅ ] 🧠 DSA Review: #33 (D+2)
+- [ ✅ ] 📚 LLD: ISP (Interface Segregation)
 
 **D26 · Sat Jun 6**
 - [ ] 🧠 DSA New: #74 Search a 2D Matrix
