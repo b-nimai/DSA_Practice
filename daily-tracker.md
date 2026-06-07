@@ -241,14 +241,14 @@ Done when: `docker-compose up` lets you register, log in, and see an empty dashb
 **D26 · Sat Jun 6**
 - [ ✅ ] 🧠 DSA New: #74 Search a 2D Matrix
 - [ ✅ ] 🧠 DSA New: #875 Koko Eating Bananas ⭐
-- [ ] 🧠 DSA Review: #560 (D+10)
+- [ ✅ ] 🧠 DSA Review: #560 (D+10)
 - [ ] 🚀 Project: `@nestjs/passport` + `passport-local` + `passport-google-oauth20` strategies, `@fastify/secure-session`
 - [ ] 🚀 Project: Login + signup pages with shadcn `Form` + `react-hook-form` + zod
 
 **D27 · Sun Jun 7** _(+ Weekly retro)_
-- [ ] 🧠 DSA New: #1011 Capacity to Ship Packages
-- [ ] 🧠 DSA Review: #974 (D+10)
-- [ ] 🧠 DSA Retro
+- [ ✅ ] 🧠 DSA New: #1011 Capacity to Ship Packages
+- [ ✅ ] 🧠 DSA Review: #974 (D+10)
+- [ ✅ ] 🧠 DSA Retro
 - [ ] 🚀 Project: Google OAuth flow end-to-end
 - [ ] 🚀 Project: Protected dashboard route + session cookie persistence
 
