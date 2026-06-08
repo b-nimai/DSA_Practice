@@ -253,8 +253,8 @@ Done when: `docker-compose up` lets you register, log in, and see an empty dashb
 - [ ] 🚀 Project: Protected dashboard route + session cookie persistence
 
 **D28 · Mon Jun 8**
-- [ ] 🧠 DSA New: #410 Split Array Largest Sum ⭐ 🔴
-- [ ] 🧠 DSA New: #4 Median of Two Sorted Arrays ⭐ 🔴
+- [ ✅ ] 🧠 DSA New: #410 Split Array Largest Sum ⭐ 🔴
+- [ ✅ ] 🧠 DSA New: #4 Median of Two Sorted Arrays ⭐ 🔴
 - [ ] 🧠 DSA Review: #875 (D+2)
 - [ ] 🧠 DSA Review: #525 (D+10)
 - [ ] 📚 LLD: DIP (Dependency Inversion) + SOLID recap
