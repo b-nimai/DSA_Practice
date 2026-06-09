@@ -286,8 +286,8 @@ Done when: email/password + Google-OAuth login both work
 ### 📅 Daily
 
 **D29 · Tue Jun 9**
-- [ ] 🧠 DSA New: #20 Valid Parentheses ⭐
-- [ ] 🧠 DSA New: #155 Min Stack ⭐
+- [ ✅ ] 🧠 DSA New: #20 Valid Parentheses ⭐
+- [ ✅ ] 🧠 DSA New: #155 Min Stack ⭐
 - [ ] 📚 LLD: Unified Modeling Language (overview)
 
 **D30 · Wed Jun 10**

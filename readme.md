@@ -264,8 +264,8 @@ for (int i = 0; i < n; ++i) {
 
 | ✓ | Date | # | Problem | Diff | Trigger phrase |
 |---|------|---|---------|------|----------------|
-| ☐ |      | 20  | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | 🟢 |  |
-| ☐ |      | 155 | [Min Stack](https://leetcode.com/problems/min-stack/) | 🟡 |  |
+| ✅ | 09/06/26 | 20  | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | 🟢 | "are `()[]{}` balanced **and** correctly nested?" → LIFO: push openers, on a closer pop iff `top` is its matching opener (guard `!empty()` first — bare closer is UB), valid iff stack ends empty. Match the **type**, not just "closed something" (`"([)]"` must fail); leftover openers ⇒ false. Counter-only can't see order. Odd length ⇒ instant false |
+| ✅ | 09/06/26 | 155 | [Min Stack](https://leetcode.com/problems/min-stack/) | 🟡 | "stack that also returns its **min in O(1)**" → can't recompute (O(n)); **store the running min beside each element** so it's always at the top. Pair-stack `{value, minAtOrBelow}` — push `min(v, top.second)`, pop frees the prior min automatically. O(1)-space variant encodes a sentinel `2v−mini` on a new min, decodes `2mini−x` on pop — but needs **64-bit everywhere** (`int x = top()` truncates the sentinel → fails on INT_MIN/MAX). Single-min-var can't restore the min after popping it |
 | ☐ |      | 150 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | 🟡 |  |
 | ☐ |      | 739 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | 🟡 |  |
 | ☐ |      | 496 | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/) | 🟢 |  |
