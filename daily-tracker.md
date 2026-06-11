@@ -291,14 +291,14 @@ Done when: email/password + Google-OAuth login both work
 - [ ] 📚 LLD: Unified Modeling Language (overview)
 
 **D30 · Wed Jun 10**
-- [ ] 🧠 DSA New: #150 Evaluate Reverse Polish Notation
-- [ ] 🧠 DSA Review: #410 (D+2)
-- [ ] 🧠 DSA Review: #4 (D+2)
+- [ ✅ ] 🧠 DSA New: #150 Evaluate Reverse Polish Notation
+- [ ✅ ] 🧠 DSA Review: #410 (D+2)
+- [ ✅ ] 🧠 DSA Review: #4 (D+2)
 - [ ] 🧠 DSA Review: #437 (D+10)
 - [ ] 📚 LLD: Class UML diagrams (part 1)
 
 **D31 · Thu Jun 11**
-- [ ] 🧠 DSA New: #739 Daily Temperatures ⭐
+- [ ✅ ] 🧠 DSA New: #739 Daily Temperatures ⭐
 - [ ] 🧠 DSA Review: #20 (D+2)
 - [ ] 🧠 DSA Review: #155 (D+2)
 - [ ] 🧠 DSA Review: #128 (D+10)
