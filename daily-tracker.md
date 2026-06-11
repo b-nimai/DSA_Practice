@@ -299,11 +299,11 @@ Done when: email/password + Google-OAuth login both work
 
 **D31 · Thu Jun 11**
 - [ ✅ ] 🧠 DSA New: #739 Daily Temperatures ⭐
-- [ ] 🧠 DSA Review: #20 (D+2)
-- [ ] 🧠 DSA Review: #155 (D+2)
-- [ ] 🧠 DSA Review: #128 (D+10)
-- [ ] 🧠 DSA Review: #167 (D+30)
-- [ ] 🧠 DSA Review: #11 (D+30)
+- [ ✅ ] 🧠 DSA Review: #20 (D+2)
+- [ ✅ ] 🧠 DSA Review: #155 (D+2)
+- [ ✅ ] 🧠 DSA Review: #128 (D+10)
+- [ ✅ ] 🧠 DSA Review: #167 (D+30)
+- [ ✅ ] 🧠 DSA Review: #11 (D+30)
 - [ ] 📚 LLD: Class UML diagrams (part 2)
 
 **D32 · Fri Jun 12**
