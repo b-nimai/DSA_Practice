@@ -307,11 +307,11 @@ Done when: email/password + Google-OAuth login both work
 - [ ] 📚 LLD: Class UML diagrams (part 2)
 
 **D32 · Fri Jun 12**
-- [ ] 🧠 DSA New: #496 Next Greater Element I
-- [ ] 🧠 DSA New: #503 Next Greater Element II
-- [ ] 🧠 DSA Review: #739 (D+2)
-- [ ] 🧠 DSA Review: #704 (D+10)
-- [ ] 🧠 DSA Review: #15 (D+30)
+- [ ✅ ] 🧠 DSA New: #496 Next Greater Element I
+- [ ✅ ] 🧠 DSA New: #503 Next Greater Element II
+- [ ✅ ] 🧠 DSA Review: #739 (D+2)
+- [ ✅ ] 🧠 DSA Review: #704 (D+10)
+- [ ✅ ] 🧠 DSA Review: #15 (D+30)
 - [ ] 🧠 DSA Review: #42 (D+30)
 - [ ] 🧠 DSA Review: #18 (D+30)
 - [ ] 📚 LLD: Practice — draw UML for a recent project module
