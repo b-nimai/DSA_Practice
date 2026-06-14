@@ -312,21 +312,21 @@ Done when: email/password + Google-OAuth login both work
 - [ ✅ ] 🧠 DSA Review: #739 (D+2)
 - [ ✅ ] 🧠 DSA Review: #704 (D+10)
 - [ ✅ ] 🧠 DSA Review: #15 (D+30)
-- [ ] 🧠 DSA Review: #42 (D+30)
-- [ ] 🧠 DSA Review: #18 (D+30)
+- [ ✅ ] 🧠 DSA Review: #42 (D+30)
+- [ ✅ ] 🧠 DSA Review: #18 (D+30)
 - [ ] 📚 LLD: Practice — draw UML for a recent project module
 
 **D33 · Sat Jun 13**
-- [ ] 🧠 DSA New: #901 Online Stock Span
-- [ ] 🧠 DSA New: #71 Simplify Path
-- [ ] 🧠 DSA Review: #33 (D+10)
-- [ ] 🧠 DSA Review: #3 (D+30)
+- [ ✅ ] 🧠 DSA New: #901 Online Stock Span
+- [ ✅ ] 🧠 DSA New: #71 Simplify Path
+- [ ✅ ] 🧠 DSA Review: #33 (D+10)
+- [ ✅ ] 🧠 DSA Review: #3 (D+30)
 - [ ] 🚀 Project: API endpoint issuing multipart upload session (presigned URLs per part)
 - [ ] 🚀 Project: Browser uploader UI — slice Blob into parts, upload in parallel, retry on fail
 
 **D34 · Sun Jun 14** _(+ Weekly retro)_
-- [ ] 🧠 DSA New: #394 Decode String ⭐
-- [ ] 🧠 DSA Review: #424 (D+30)
+- [ ✅ ] 🧠 DSA New: #394 Decode String ⭐
+- [ ✅ ] 🧠 DSA Review: #424 (D+30)
 - [ ] 🧠 DSA Retro
 - [ ] 🚀 Project: Progress bar (shadcn `Progress`) + resumable behavior
 - [ ] 🚀 Project: DB state transitions `pending → uploading → uploaded`
