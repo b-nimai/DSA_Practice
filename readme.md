@@ -6,7 +6,7 @@
 > - 📅 **Daily execution:** [`daily-tracker.md`](./daily-tracker.md) — day-by-day integrated tasks across all tracks
 > - Project build details: [`PROJECT_PLAN.md`](./PROJECT_PLAN.md) · LLD curriculum source: [`lld_content_index.md`](./lld_content_index.md)
 >
-> **DSA goal:** recognize the pattern behind any new problem within 60 seconds, then implement. ~190 problems → ~6 months. Mornings 6:30–8:30.
+> **DSA goal:** recognize the pattern behind any new problem within 60 seconds, then implement. ~200 problems → ~6 months. Mornings 6:30–8:30.
 
 ---
 
@@ -18,7 +18,7 @@
 4. **Before checking your answer**, write your own one-line **trigger phrase** in the table (e.g., *"sorted array → find pair"*). This is what locks in pattern recognition.
 5. **Mark the checkbox** (`☐` → `✅`) and fill the **Date**.
 6. **Weekly (Sunday)**: redo 1 random problem from the past week without looking at your old code.
-7. **After all 16 patterns**: jump to **Mixed Practice** at the bottom — predict the pattern *before* expanding the answer.
+7. **After all 20 patterns**: jump to **Mixed Practice** at the bottom — predict the pattern *before* expanding the answer.
 
 Legend: 🟢 Easy · 🟡 Medium · 🔴 Hard
 
@@ -44,6 +44,11 @@ Legend: 🟢 Easy · 🟡 Medium · 🔴 Hard
 | "Number of ways", "max profit", choose/skip — 1 dimension               | **DP — 1D**                         |
 | Edit distance, LCS, grid paths, palindromes, two strings                | **DP — 2D**                         |
 | Prefix lookup / autocomplete / dynamic connectivity                     | **Trie / Union-Find**               |
+| Weighted shortest path, "cheapest", connect-all-cost                    | **Weighted Graphs (Dijkstra/MST)**  |
+| "Appears once", count bits, add without `+`, power-of-two               | **Bit Manipulation**                |
+| Rotate / spiral / set-zeroes a 2-D grid in place                        | **Matrix Simulation**               |
+| Implement a class: LRU/LFU cache, O(1) insert/delete/random             | **Design**                          |
+| Pow / sqrt / atoi / Roman, digit-cycle, overflow-careful parsing        | **Math / String**                   |
 
 ---
 
@@ -296,22 +301,14 @@ while (curr) { /* rewire */ }
 return dummy.next;
 ```
 
-**Problems:**
+**Problems:** _Basics already drilled (reverse / merge / partition / cycle done earlier) — only the MAANG-staple hards retained here. Scheduled in the Week 17 breadth block._
 
 | ✓ | Date | # | Problem | Diff | Trigger phrase |
 |---|------|---|---------|------|----------------|
-| ☐ |      | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | 🟢 |  |
-| ☐ |      | 21  | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | 🟢 |  |
-| ☐ |      | 83  | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | 🟢 |  |
-| ☐ |      | 92  | [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/) | 🟡 |  |
-| ☐ |      | 86  | [Partition List](https://leetcode.com/problems/partition-list/) | 🟡 |  |
-| ☐ |      | 24  | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | 🟡 |  |
-| ☐ |      | 61  | [Rotate List](https://leetcode.com/problems/rotate-list/) | 🟡 |  |
-| ☐ |      | 138 | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | 🟡 |  |
-| ☐ |      | 148 | [Sort List](https://leetcode.com/problems/sort-list/) | 🟡 |  |
-| ☐ |      | 2   | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | 🟡 |  |
 | ☐ |      | 25  | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | 🔴 |  |
+| ☐ |      | 138 | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | 🟡 |  |
 | ☐ |      | 23  | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | 🔴 |  |
+| ☐ |      | 146 | [LRU Cache](https://leetcode.com/problems/lru-cache/) | 🟡 | (also in #19 Design) |
 
 ---
 
@@ -430,6 +427,15 @@ while (!q.empty()) {
 | ☐ |      | 1091| [Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/) | 🟡 |  |
 | ☐ |      | 127 | [Word Ladder](https://leetcode.com/problems/word-ladder/) | 🔴 |  |
 | ☐ |      | 269 | [Alien Dictionary](https://leetcode.com/problems/alien-dictionary/) | 🔴 |  |
+
+**Weighted Graphs (Dijkstra / Bellman-Ford / MST):** edges have costs → shortest path is no longer plain BFS. Min-heap by distance (Dijkstra), relax-K-times (Bellman-Ford), or grow the cheapest tree (Prim/Kruskal MST). _Scheduled in the Week 17 breadth block._
+
+| ✓ | Date | # | Problem | Diff | Trigger phrase |
+|---|------|---|---------|------|----------------|
+| ☐ |      | 743 | [Network Delay Time](https://leetcode.com/problems/network-delay-time/) | 🟡 | Dijkstra: min time to reach all nodes from source |
+| ☐ |      | 787 | [Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/) | 🟡 | Shortest path with ≤K edges → Bellman-Ford / BFS layers |
+| ☐ |      | 1584 | [Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/) | 🟡 | Connect all nodes cheapest → MST (Prim/Kruskal) |
+| ☐ |      | 778 | [Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/) | 🔴 | Minimize max edge on a path → Dijkstra-on-grid / binary search + DFS |
 
 ---
 
@@ -668,9 +674,117 @@ struct DSU {
 
 ---
 
+# 17. Bit Manipulation
+
+**When to use it (recognition cues):**
+- "Find the one number that appears once / odd times" → XOR.
+- Count bits, swap without temp, check power of two, build from subsets via bitmask.
+- Add/subtract without `+`/`-`, or O(1) extra space on a fixed-width integer.
+
+**Core idea:** XOR cancels pairs (`a^a=0`); `n & (n-1)` drops the lowest set bit; shift + mask to read/write individual bits.
+
+**Template (C++):**
+```cpp
+int x = 0;
+for (int v : nums) x ^= v;        // lone element survives
+int bits = __builtin_popcount(n); // count set bits
+bool isPow2 = n > 0 && !(n & (n-1));
+```
+
+**Problems:**
+
+| ✓ | Date | # | Problem | Diff | Trigger phrase |
+|---|------|---|---------|------|----------------|
+| ☐ |      | 136 | [Single Number](https://leetcode.com/problems/single-number/) | 🟢 | Every element twice except one → XOR all |
+| ☐ |      | 338 | [Counting Bits](https://leetcode.com/problems/counting-bits/) | 🟢 | bits[i] = bits[i>>1] + (i&1) DP |
+| ☐ |      | 191 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | 🟢 | Pop lowest set bit with n & (n-1) |
+| ☐ |      | 371 | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) | 🟡 | Add without + : XOR = sum, AND<<1 = carry |
+| ☐ |      | 190 | [Reverse Bits](https://leetcode.com/problems/reverse-bits/) | 🟢 | Shift out of n, shift into result 32× |
+
+---
+
+# 18. Matrix Simulation
+
+**When to use it (recognition cues):**
+- Rotate / transpose / spiral-traverse a 2-D grid.
+- Mark-then-sweep state changes on a board (in-place flags).
+- "Do it in O(1) extra space" on a matrix.
+
+**Core idea:** Layer-by-layer or boundary pointers (top/bottom/left/right); use the matrix itself (first row/col, or sign bits) as the marker to hit O(1) space.
+
+**Template (C++):**
+```cpp
+// transpose then reverse each row = rotate 90° clockwise
+for (int i = 0; i < n; i++)
+    for (int j = i+1; j < n; j++) swap(m[i][j], m[j][i]);
+for (auto& row : m) reverse(row.begin(), row.end());
+```
+
+**Problems:**
+
+| ✓ | Date | # | Problem | Diff | Trigger phrase |
+|---|------|---|---------|------|----------------|
+| ☐ |      | 48  | [Rotate Image](https://leetcode.com/problems/rotate-image/) | 🟡 | Rotate 90° in place → transpose + reverse rows |
+| ☐ |      | 54  | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | 🟡 | Four shrinking boundaries top/bottom/left/right |
+| ☐ |      | 73  | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) | 🟡 | O(1) space: use row0/col0 as zero markers |
+| ☐ |      | 289 | [Game of Life](https://leetcode.com/problems/game-of-life/) | 🟡 | Encode old+new state in 2 bits, sweep twice |
+
+---
+
+# 19. Design
+
+**When to use it (recognition cues):**
+- "Implement a class with O(1) `get`/`put`/`insert`/`remove`."
+- Cache eviction (LRU/LFU), random-access set, custom hash map.
+- Combine two structures (hash map + linked list / heap) for the right complexities.
+
+**Core idea:** Pick the pair of structures whose strengths cover every required operation in O(1)/O(log n): hash map for lookup + doubly linked list (order) or heap (priority) or array+swap (random).
+
+**Problems:**
+
+| ✓ | Date | # | Problem | Diff | Trigger phrase |
+|---|------|---|---------|------|----------------|
+| ☐ |      | 146 | [LRU Cache](https://leetcode.com/problems/lru-cache/) | 🟡 | Hash map + doubly linked list, move-to-front |
+| ☐ |      | 460 | [LFU Cache](https://leetcode.com/problems/lfu-cache/) | 🔴 | Freq → DLL buckets + key→node map, track minFreq |
+| ☐ |      | 380 | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) | 🟡 | Array + value→index map; swap-with-last to delete |
+| ☐ |      | 706 | [Design HashMap](https://leetcode.com/problems/design-hashmap/) | 🟢 | Buckets + chaining; modulo hash |
+
+---
+
+# 20. Math / String
+
+**When to use it (recognition cues):**
+- Implement an arithmetic/string primitive: power, sqrt, parse an integer, convert numerals.
+- Cycle detection on digit transforms (Happy Number → fast/slow).
+- Edge-case-heavy parsing (overflow, sign, whitespace).
+
+**Core idea:** Fast exponentiation (halve the power), binary search for sqrt, careful state machine for parsing; watch INT overflow and sign.
+
+**Template (C++):**
+```cpp
+double myPow(double x, long n) {       // fast power
+    if (n < 0) { x = 1/x; n = -n; }
+    double r = 1;
+    while (n) { if (n & 1) r *= x; x *= x; n >>= 1; }
+    return r;
+}
+```
+
+**Problems:**
+
+| ✓ | Date | # | Problem | Diff | Trigger phrase |
+|---|------|---|---------|------|----------------|
+| ☐ |      | 50  | [Pow(x, n)](https://leetcode.com/problems/powx-n/) | 🟡 | Fast exponentiation by squaring |
+| ☐ |      | 69  | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) | 🟢 | Binary search on answer |
+| ☐ |      | 202 | [Happy Number](https://leetcode.com/problems/happy-number/) | 🟢 | Digit-square cycle → fast/slow pointers |
+| ☐ |      | 8   | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | 🟡 | Skip ws, sign, clamp to INT range |
+| ☐ |      | 13  | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | 🟢 | Add, but subtract when smaller precedes larger |
+
+---
+
 # 🎲 Mixed Practice — Pattern Recognition Drill
 
-> Do this **after** you complete all 16 patterns above. For each problem, **predict the pattern** before expanding the answer. Aim for a 60-second decision.
+> Do this **after** you complete all 20 patterns above. For each problem, **predict the pattern** before expanding the answer. Aim for a 60-second decision.
 
 1. [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) — 🟡  <details><summary>Pattern</summary>Sliding Window</details>
 2. [Word Ladder](https://leetcode.com/problems/word-ladder/) — 🔴  <details><summary>Pattern</summary>Graph BFS</details>
@@ -717,7 +831,7 @@ struct DSU {
 
 # 📈 Progress Tracker
 
-**Current streak:** 0 days · **Longest streak:** 0 days · **Total solved:** 0 / ~190
+**Current streak:** 0 days · **Longest streak:** 0 days · **Total solved:** 0 / ~200
 
 ### Weekly review (Sundays — redo 1 random problem from the past week)
 

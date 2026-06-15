@@ -360,69 +360,61 @@ Done when: 500 MB file uploads from browser → MinIO
 
 ---
 
-## Week 6 · Jun 16–Jun 22 · DSA: Linked List · LLD Creational pt1 · Project Wk 3
+## Week 6 · Jun 16–Jun 22 · DSA: Tree DFS · LLD Creational pt1 · Project Wk 3
 
 ### 📅 Daily
 
 **D36 · Tue Jun 16**
-- [ ] 🧠 DSA New: #206 Reverse Linked List ⭐
-- [ ] 🧠 DSA New: #21 Merge Two Sorted Lists ⭐
-- [ ] 🧠 DSA Review: #875 (D+10)
+- [ ] 🧠 DSA New: #104 Maximum Depth of Binary Tree ⭐
+- [ ] 🧠 DSA New: #100 Same Tree
 - [ ] 📚 LLD: Intro to Design Patterns
 
 **D37 · Wed Jun 17**
-- [ ] 🧠 DSA New: #83 Remove Duplicates from Sorted List
-- [ ] 🧠 DSA New: #92 Reverse Linked List II ⭐
-- [ ] 🧠 DSA Review: #84 (D+2)
-- [ ] 🧠 DSA Review: #992 (D+30)
+- [ ] 🧠 DSA New: #226 Invert Binary Tree
+- [ ] 🧠 DSA Review: #394 (D+10)
+- [ ] 🧠 DSA Review: #287 (D+30)
 - [ ] 📚 LLD: Singleton
 
 **D38 · Thu Jun 18**
-- [ ] 🧠 DSA New: #86 Partition List
-- [ ] 🧠 DSA New: #24 Swap Nodes in Pairs
-- [ ] 🧠 DSA Review: #206 (D+2)
-- [ ] 🧠 DSA Review: #21 (D+2)
-- [ ] 🧠 DSA Review: #410 (D+10)
-- [ ] 🧠 DSA Review: #4 (D+10)
-- [ ] 🧠 DSA Review: #76 (D+30)
-- [ ] 🧠 DSA Review: #239 (D+30)
+- [ ] 🧠 DSA New: #543 Diameter of Binary Tree ⭐
+- [ ] 🧠 DSA New: #110 Balanced Binary Tree
+- [ ] 🧠 DSA Review: #104 (D+2)
+- [ ] 🧠 DSA Review: #84 (D+10)
 - [ ] 📚 LLD: Factory Method
 
 **D39 · Fri Jun 19**
-- [ ] 🧠 DSA New: #61 Rotate List
-- [ ] 🧠 DSA New: #138 Copy List with Random Pointer ⭐
-- [ ] 🧠 DSA Review: #92 (D+2)
-- [ ] 🧠 DSA Review: #20 (D+10)
-- [ ] 🧠 DSA Review: #155 (D+10)
-- [ ] 🧠 DSA Review: #141 (D+30)
-- [ ] 🧠 DSA Review: #142 (D+30)
+- [ ] 🧠 DSA New: #112 Path Sum
+- [ ] 🧠 DSA Review: #560 (D+30)
 - [ ] 📚 LLD: Builder
 
 **D40 · Sat Jun 20**
-- [ ] 🧠 DSA New: #148 Sort List
-- [ ] 🧠 DSA New: #2 Add Two Numbers
+- [ ] 🧠 DSA New: #98 Validate Binary Search Tree ⭐
+- [ ] 🧠 DSA New: #230 Kth Smallest in BST
+- [ ] 🧠 DSA Review: #543 (D+2)
+- [ ] 🧠 DSA Review: #974 (D+30)
 - [ ] 🚀 Project: MediaRecorder UI — capture screen + webcam + mic, preview, trigger upload
 - [ ] 🚀 Project: BullMQ producer in API enqueues `video.process` on upload completion
 
 **D41 · Sun Jun 21** _(+ Weekly retro)_
-- [ ] 🧠 DSA New: #25 Reverse Nodes in k-Group ⭐ 🔴
-- [ ] 🧠 DSA Review: #138 (D+2)
-- [ ] 🧠 DSA Review: #739 (D+10)
+- [ ] 🧠 DSA New: #236 Lowest Common Ancestor ⭐
+- [ ] 🧠 DSA Review: #525 (D+30)
 - [ ] 🧠 DSA Retro
 - [ ] 🚀 Project: `apps/worker` NestJS standalone app (`createApplicationContext`)
 - [ ] 🚀 Project: `transcode.processor.ts` consumes job, logs video ID
 
 **D42 · Mon Jun 22**
-- [ ] 🧠 DSA New: #23 Merge k Sorted Lists 🔴
-- [ ] 🧠 DSA Review: #143 (D+30)
+- [ ] 🧠 DSA New: #105 Build Tree from Preorder + Inorder
+- [ ] 🧠 DSA New: #124 Binary Tree Maximum Path Sum ⭐ 🔴
+- [ ] 🧠 DSA New: #297 Serialize and Deserialize Binary Tree 🔴
+- [ ] 🧠 DSA Review: #98 (D+2)
 - [ ] 📚 LLD: Review Singleton/Factory/Builder
 
 ---
 
 ### 🎯 Weekly Goals
 
-**🧠 DSA — Linked List Manipulation**
-- [ ] All Linked List new problems checked off
+**🧠 DSA — Tree DFS**
+- [ ] All Tree DFS new problems checked off
 - [ ] Sunday retro
 
 **📚 LLD — Section 4 part 1: Creational Patterns**
@@ -439,66 +431,65 @@ Done when: 30s clip records → uploads → worker logs "received video X"
 
 ---
 
-## Week 7 · Jun 23–Jun 29 · DSA: Tree DFS · LLD Creational pt2 · Project Wk 4
+## Week 7 · Jun 23–Jun 29 · DSA: Tree BFS + start Graphs · LLD Creational pt2 · Project Wk 4
 
 ### 📅 Daily
 
 **D43 · Tue Jun 23**
-- [ ] 🧠 DSA New: #104 Maximum Depth of Binary Tree ⭐
-- [ ] 🧠 DSA New: #100 Same Tree
-- [ ] 🧠 DSA Review: #25 (D+2)
+- [ ] 🧠 DSA New: #102 Level Order Traversal ⭐
+- [ ] 🧠 DSA New: #107 Level Order Traversal II
+- [ ] 🧠 DSA Review: #236 (D+2)
+- [ ] 🧠 DSA Review: #437 (D+30)
 - [ ] 📚 LLD: Abstract Factory
 
 **D44 · Wed Jun 24**
-- [ ] 🧠 DSA New: #226 Invert Binary Tree
-- [ ] 🧠 DSA Review: #394 (D+10)
-- [ ] 🧠 DSA Review: #287 (D+30)
+- [ ] 🧠 DSA New: #103 Zigzag Level Order ⭐
+- [ ] 🧠 DSA Review: #124 (D+2)
+- [ ] 🧠 DSA Review: #128 (D+30)
 - [ ] 📚 LLD: Prototype Pattern
 
 **D45 · Thu Jun 25**
-- [ ] 🧠 DSA New: #543 Diameter of Binary Tree ⭐
-- [ ] 🧠 DSA New: #110 Balanced Binary Tree
-- [ ] 🧠 DSA Review: #104 (D+2)
-- [ ] 🧠 DSA Review: #84 (D+10)
+- [ ] 🧠 DSA New: #199 Right Side View ⭐
+- [ ] 🧠 DSA New: #637 Average of Levels
+- [ ] 🧠 DSA Review: #102 (D+2)
+- [ ] 🧠 DSA Review: #704 (D+30)
 - [ ] 📚 LLD: Review Singleton/Factory/Abstract Factory
 
 **D46 · Fri Jun 26**
-- [ ] 🧠 DSA New: #112 Path Sum
-- [ ] 🧠 DSA Review: #206 (D+10)
-- [ ] 🧠 DSA Review: #21 (D+10)
-- [ ] 🧠 DSA Review: #560 (D+30)
+- [ ] 🧠 DSA New: #111 Minimum Depth ⭐
+- [ ] 🧠 DSA Review: #103 (D+2)
+- [ ] 🧠 DSA Review: #104 (D+10)
+- [ ] 🧠 DSA Review: #33 (D+30)
 - [ ] 📚 LLD: Review Builder/Prototype
 
 **D47 · Sat Jun 27**
-- [ ] 🧠 DSA New: #98 Validate Binary Search Tree ⭐
-- [ ] 🧠 DSA New: #230 Kth Smallest in BST
-- [ ] 🧠 DSA Review: #543 (D+2)
-- [ ] 🧠 DSA Review: #92 (D+10)
-- [ ] 🧠 DSA Review: #974 (D+30)
+- [ ] 🧠 DSA New: #116 Populating Next Right Pointers
+- [ ] 🧠 DSA New: #117 Populating Next Right Pointers II
+- [ ] 🧠 DSA Review: #199 (D+2)
 - [ ] 🚀 Project: Worker downloads original from S3, ffmpeg → 1080p + 720p + 480p MP4 variants
 - [ ] 🚀 Project: HLS playlist generation (`.m3u8` + segments) + thumbnail
 
 **D48 · Sun Jun 28** _(+ Weekly retro)_
-- [ ] 🧠 DSA New: #236 Lowest Common Ancestor ⭐
-- [ ] 🧠 DSA Review: #525 (D+30)
+- [ ] 🧠 DSA New: #515 Find Largest Value in Each Row
+- [ ] 🧠 DSA Review: #111 (D+2)
+- [ ] 🧠 DSA Review: #543 (D+10)
 - [ ] 🧠 DSA Retro
 - [ ] 🚀 Project: Upload variants back to S3, mark `transcoded`, emit BullMQ progress events
 - [ ] 🚀 Project: Idempotency — jobs check current state, skip already-done steps
 
 **D49 · Mon Jun 29**
-- [ ] 🧠 DSA New: #105 Build Tree from Preorder + Inorder
-- [ ] 🧠 DSA New: #124 Binary Tree Maximum Path Sum ⭐ 🔴
-- [ ] 🧠 DSA New: #297 Serialize and Deserialize Binary Tree 🔴
-- [ ] 🧠 DSA Review: #98 (D+2)
-- [ ] 🧠 DSA Review: #138 (D+10)
+- [ ] 🧠 DSA New: #1161 Maximum Level Sum
+- [ ] 🧠 DSA New: #200 Number of Islands ⭐
+- [ ] 🧠 DSA New: #695 Max Area of Island
+- [ ] 🧠 DSA Review: #875 (D+30)
 - [ ] 📚 LLD: Start Section 5 — Adapter Pattern
 
 ---
 
 ### 🎯 Weekly Goals
 
-**🧠 DSA — Tree DFS**
-- [ ] All Tree DFS new problems checked off
+**🧠 DSA — Tree BFS + start Graphs**
+- [ ] All week's new problems checked off
 - [ ] Sunday retro
 
 **📚 LLD — Section 4 part 2: Creational Patterns finish**
@@ -515,65 +506,73 @@ Done when: video plays via HLS URL
 
 ---
 
-## Week 8 · Jun 30–Jul 6 · DSA: Tree BFS + start Graphs · LLD Structural pt1 · Project Wk 5
+## Week 8 · Jun 30–Jul 6 · DSA: Finish Graphs + start Heap · LLD Structural pt1 · Project Wk 5
 
 ### 📅 Daily
 
 **D50 · Tue Jun 30**
-- [ ] 🧠 DSA New: #102 Level Order Traversal ⭐
-- [ ] 🧠 DSA New: #107 Level Order Traversal II
-- [ ] 🧠 DSA Review: #236 (D+2)
-- [ ] 🧠 DSA Review: #437 (D+30)
+- [ ] 🧠 DSA New: #994 Rotting Oranges ⭐
+- [ ] 🧠 DSA New: #130 Surrounded Regions
+- [ ] 🧠 DSA Review: #98 (D+10)
 - [ ] 📚 LLD: Adapter Pattern
 
 **D51 · Wed Jul 1**
-- [ ] 🧠 DSA New: #103 Zigzag Level Order ⭐
-- [ ] 🧠 DSA Review: #124 (D+2)
-- [ ] 🧠 DSA Review: #25 (D+10)
-- [ ] 🧠 DSA Review: #128 (D+30)
+- [ ] 🧠 DSA New: #133 Clone Graph
+- [ ] 🧠 DSA Review: #200 (D+2)
+- [ ] 🧠 DSA Review: #236 (D+10)
+- [ ] 🧠 DSA Review: #410 (D+30)
+- [ ] 🧠 DSA Review: #4 (D+30)
 - [ ] 📚 LLD: Decorator Pattern
 
 **D52 · Thu Jul 2**
-- [ ] 🧠 DSA New: #199 Right Side View ⭐
-- [ ] 🧠 DSA New: #637 Average of Levels
-- [ ] 🧠 DSA Review: #102 (D+2)
-- [ ] 🧠 DSA Review: #704 (D+30)
+- [ ] 🧠 DSA New: #207 Course Schedule ⭐
+- [ ] 🧠 DSA New: #210 Course Schedule II
+- [ ] 🧠 DSA Review: #994 (D+2)
+- [ ] 🧠 DSA Review: #124 (D+10)
+- [ ] 🧠 DSA Review: #20 (D+30)
+- [ ] 🧠 DSA Review: #155 (D+30)
 - [ ] 📚 LLD: Facade Pattern
 
 **D53 · Fri Jul 3**
-- [ ] 🧠 DSA New: #111 Minimum Depth ⭐
-- [ ] 🧠 DSA Review: #103 (D+2)
-- [ ] 🧠 DSA Review: #104 (D+10)
-- [ ] 🧠 DSA Review: #33 (D+30)
+- [ ] 🧠 DSA New: #785 Is Graph Bipartite? ⭐
+- [ ] 🧠 DSA Review: #102 (D+10)
 - [ ] 📚 LLD: Composite Pattern
 
 **D54 · Sat Jul 4**
-- [ ] 🧠 DSA New: #116 Populating Next Right Pointers
-- [ ] 🧠 DSA New: #117 Populating Next Right Pointers II
-- [ ] 🧠 DSA Review: #199 (D+2)
+- [ ] 🧠 DSA New: #417 Pacific Atlantic Water Flow
+- [ ] 🧠 DSA New: #1091 Shortest Path in Binary Matrix
+- [ ] 🧠 DSA Review: #207 (D+2)
+- [ ] 🧠 DSA Review: #103 (D+10)
+- [ ] 🧠 DSA Review: #739 (D+30)
+- [ ] 🧠 DSA Review: #167 (D+60)
+- [ ] 🧠 DSA Review: #11 (D+60)
 - [ ] 🚀 Project: Public share page `app/v/[slug]` — server-rendered with `generateMetadata()` (OG/SEO); HLS.js adaptive-bitrate player as nested client component
 - [ ] 🚀 Project: View counter via Beacon API, watch-time tracking
 
 **D55 · Sun Jul 5** _(+ Weekly retro)_
-- [ ] 🧠 DSA New: #515 Find Largest Value in Each Row
-- [ ] 🧠 DSA Review: #111 (D+2)
-- [ ] 🧠 DSA Review: #543 (D+10)
+- [ ] 🧠 DSA New: #127 Word Ladder ⭐ 🔴
+- [ ] 🧠 DSA Review: #785 (D+2)
+- [ ] 🧠 DSA Review: #199 (D+10)
+- [ ] 🧠 DSA Review: #15 (D+60)
+- [ ] 🧠 DSA Review: #42 (D+60)
+- [ ] 🧠 DSA Review: #18 (D+60)
 - [ ] 🧠 DSA Retro
 - [ ] 🚀 Project: Dashboard polish — status badges, thumbnails, copy-link button + Sonner toast
 - [ ] 🚀 Project: `MailModule` scaffold — Mailtrap dev, Brevo prod via env vars
 
 **D56 · Mon Jul 6**
-- [ ] 🧠 DSA New: #1161 Maximum Level Sum
-- [ ] 🧠 DSA New: #200 Number of Islands ⭐
-- [ ] 🧠 DSA New: #695 Max Area of Island
-- [ ] 🧠 DSA Review: #875 (D+30)
+- [ ] 🧠 DSA New: #269 Alien Dictionary 🔴
+- [ ] 🧠 DSA New: #215 Kth Largest Element ⭐
+- [ ] 🧠 DSA New: #703 Kth Largest in Stream
+- [ ] 🧠 DSA Review: #111 (D+10)
+- [ ] 🧠 DSA Review: #3 (D+60)
 - [ ] 📚 LLD: Review the 4 structural patterns so far
 
 ---
 
 ### 🎯 Weekly Goals
 
-**🧠 DSA — Tree BFS + start Graphs**
+**🧠 DSA — Finish Graphs + start Heap**
 - [ ] All week's new problems checked off
 - [ ] Sunday retro
 
@@ -591,73 +590,68 @@ Done when: public share URL plays + view counter increments
 
 ---
 
-## Week 9 · Jul 7–Jul 13 · DSA: Finish Graphs + start Heap · LLD Structural pt2 · Project Wk 6 start
+## Week 9 · Jul 7–Jul 13 · DSA: Finish Heap + start Backtracking · LLD Structural pt2 · Project Wk 6 start
 
 ### 📅 Daily
 
 **D57 · Tue Jul 7**
-- [ ] 🧠 DSA New: #994 Rotting Oranges ⭐
-- [ ] 🧠 DSA New: #130 Surrounded Regions
-- [ ] 🧠 DSA Review: #98 (D+10)
+- [ ] 🧠 DSA New: #347 Top K Frequent Elements ⭐
+- [ ] 🧠 DSA New: #692 Top K Frequent Words
+- [ ] 🧠 DSA Review: #127 (D+2)
+- [ ] 🧠 DSA Review: #394 (D+30)
+- [ ] 🧠 DSA Review: #424 (D+60)
 - [ ] 📚 LLD: Proxy Pattern
 
 **D58 · Wed Jul 8**
-- [ ] 🧠 DSA New: #133 Clone Graph
-- [ ] 🧠 DSA Review: #200 (D+2)
-- [ ] 🧠 DSA Review: #236 (D+10)
-- [ ] 🧠 DSA Review: #410 (D+30)
-- [ ] 🧠 DSA Review: #4 (D+30)
+- [ ] 🧠 DSA New: #973 K Closest Points to Origin ⭐
+- [ ] 🧠 DSA Review: #215 (D+2)
+- [ ] 🧠 DSA Review: #84 (D+30)
 - [ ] 📚 LLD: Bridge Pattern
 
 **D59 · Thu Jul 9**
-- [ ] 🧠 DSA New: #207 Course Schedule ⭐
-- [ ] 🧠 DSA New: #210 Course Schedule II
-- [ ] 🧠 DSA Review: #994 (D+2)
-- [ ] 🧠 DSA Review: #124 (D+10)
-- [ ] 🧠 DSA Review: #20 (D+30)
-- [ ] 🧠 DSA Review: #155 (D+30)
+- [ ] 🧠 DSA New: #658 Find K Closest Elements
+- [ ] 🧠 DSA New: #1046 Last Stone Weight
+- [ ] 🧠 DSA Review: #347 (D+2)
+- [ ] 🧠 DSA Review: #200 (D+10)
 - [ ] 📚 LLD: Flyweight Pattern
 
 **D60 · Fri Jul 10**
-- [ ] 🧠 DSA New: #785 Is Graph Bipartite? ⭐
-- [ ] 🧠 DSA Review: #102 (D+10)
+- [ ] 🧠 DSA New: #621 Task Scheduler ⭐
+- [ ] 🧠 DSA Review: #973 (D+2)
+- [ ] 🧠 DSA Review: #994 (D+10)
+- [ ] 🧠 DSA Review: #992 (D+60)
 - [ ] 📚 LLD: Review all 7 structural patterns
 
 **D61 · Sat Jul 11**
-- [ ] 🧠 DSA New: #417 Pacific Atlantic Water Flow
-- [ ] 🧠 DSA New: #1091 Shortest Path in Binary Matrix
-- [ ] 🧠 DSA Review: #207 (D+2)
-- [ ] 🧠 DSA Review: #103 (D+10)
-- [ ] 🧠 DSA Review: #739 (D+30)
-- [ ] 🧠 DSA Review: #167 (D+60)
-- [ ] 🧠 DSA Review: #11 (D+60)
+- [ ] 🧠 DSA New: #1167 Minimum Cost to Connect Sticks
+- [ ] 🧠 DSA New: #378 Kth Smallest in Sorted Matrix
+- [ ] 🧠 DSA Review: #76 (D+60)
+- [ ] 🧠 DSA Review: #239 (D+60)
 - [ ] 🚀 Project: New `video.transcribe` job; worker extracts audio with ffmpeg
 - [ ] 🚀 Project: Call OpenAI Whisper API, parse timestamped segments, store in `Transcript` table
 
 **D62 · Sun Jul 12** _(+ Weekly retro)_
-- [ ] 🧠 DSA New: #127 Word Ladder ⭐ 🔴
-- [ ] 🧠 DSA Review: #785 (D+2)
-- [ ] 🧠 DSA Review: #199 (D+10)
-- [ ] 🧠 DSA Review: #15 (D+60)
-- [ ] 🧠 DSA Review: #42 (D+60)
-- [ ] 🧠 DSA Review: #18 (D+60)
+- [ ] 🧠 DSA New: #295 Find Median from Data Stream ⭐ 🔴
+- [ ] 🧠 DSA Review: #621 (D+2)
+- [ ] 🧠 DSA Review: #207 (D+10)
+- [ ] 🧠 DSA Review: #141 (D+60)
+- [ ] 🧠 DSA Review: #142 (D+60)
 - [ ] 🧠 DSA Retro
 - [ ] 🚀 Project: `GET /videos/:id/transcript` endpoint + scrollable sidebar UI with click-to-seek
 - [ ] 🚀 Project: Per-video AI cost tracking (token + $ per call) — store on `Video` row
 
 **D63 · Mon Jul 13**
-- [ ] 🧠 DSA New: #269 Alien Dictionary 🔴
-- [ ] 🧠 DSA New: #215 Kth Largest Element ⭐
-- [ ] 🧠 DSA New: #703 Kth Largest in Stream
-- [ ] 🧠 DSA Review: #111 (D+10)
-- [ ] 🧠 DSA Review: #3 (D+60)
+- [ ] 🧠 DSA New: #480 Sliding Window Median 🔴
+- [ ] 🧠 DSA New: #78 Subsets ⭐
+- [ ] 🧠 DSA New: #90 Subsets II
+- [ ] 🧠 DSA Review: #785 (D+10)
 - [ ] 📚 LLD: Start Section 6 — Iterator Pattern
 
 ---
 
 ### 🎯 Weekly Goals
 
-**🧠 DSA — Finish Graphs + start Heap**
+**🧠 DSA — Finish Heap + start Backtracking**
 - [ ] All week's new problems checked off
 - [ ] Sunday retro
 
@@ -675,72 +669,66 @@ Done when: 1-min video gets transcript with clickable timestamps
 
 ---
 
-## Week 10 · Jul 14–Jul 20 · DSA: Finish Heap + start Backtracking · LLD Behavioural pt1 · Project Wk 6 finish / Wk 7 start
+## Week 10 · Jul 14–Jul 20 · DSA: Finish Backtracking + start Greedy · LLD Behavioural pt1 · Project Wk 6 finish / Wk 7 start
 
 ### 📅 Daily
 
 **D64 · Tue Jul 14**
-- [ ] 🧠 DSA New: #347 Top K Frequent Elements ⭐
-- [ ] 🧠 DSA New: #692 Top K Frequent Words
-- [ ] 🧠 DSA Review: #127 (D+2)
-- [ ] 🧠 DSA Review: #394 (D+30)
-- [ ] 🧠 DSA Review: #424 (D+60)
+- [ ] 🧠 DSA New: #46 Permutations ⭐
+- [ ] 🧠 DSA New: #47 Permutations II
+- [ ] 🧠 DSA Review: #295 (D+2)
 - [ ] 📚 LLD: Iterator Pattern
 
 **D65 · Wed Jul 15**
-- [ ] 🧠 DSA New: #973 K Closest Points to Origin ⭐
-- [ ] 🧠 DSA Review: #215 (D+2)
-- [ ] 🧠 DSA Review: #84 (D+30)
+- [ ] 🧠 DSA New: #39 Combination Sum ⭐
+- [ ] 🧠 DSA Review: #78 (D+2)
+- [ ] 🧠 DSA Review: #127 (D+10)
 - [ ] 📚 LLD: Observer Pattern
 
 **D66 · Thu Jul 16**
-- [ ] 🧠 DSA New: #658 Find K Closest Elements
-- [ ] 🧠 DSA New: #1046 Last Stone Weight
-- [ ] 🧠 DSA Review: #347 (D+2)
-- [ ] 🧠 DSA Review: #200 (D+10)
-- [ ] 🧠 DSA Review: #206 (D+30)
-- [ ] 🧠 DSA Review: #21 (D+30)
+- [ ] 🧠 DSA New: #40 Combination Sum II
+- [ ] 🧠 DSA New: #17 Letter Combinations of Phone Number
+- [ ] 🧠 DSA Review: #46 (D+2)
+- [ ] 🧠 DSA Review: #215 (D+10)
+- [ ] 🧠 DSA Review: #104 (D+30)
 - [ ] 📚 LLD: Strategy Pattern
 
 **D67 · Fri Jul 17**
-- [ ] 🧠 DSA New: #621 Task Scheduler ⭐
-- [ ] 🧠 DSA Review: #973 (D+2)
-- [ ] 🧠 DSA Review: #994 (D+10)
-- [ ] 🧠 DSA Review: #92 (D+30)
-- [ ] 🧠 DSA Review: #992 (D+60)
+- [ ] 🧠 DSA New: #79 Word Search ⭐
+- [ ] 🧠 DSA Review: #39 (D+2)
+- [ ] 🧠 DSA Review: #347 (D+10)
+- [ ] 🧠 DSA Review: #287 (D+60)
 - [ ] 📚 LLD: Command Pattern
 
 **D68 · Sat Jul 18**
-- [ ] 🧠 DSA New: #1167 Minimum Cost to Connect Sticks
-- [ ] 🧠 DSA New: #378 Kth Smallest in Sorted Matrix
-- [ ] 🧠 DSA Review: #76 (D+60)
-- [ ] 🧠 DSA Review: #239 (D+60)
+- [ ] 🧠 DSA New: #131 Palindrome Partitioning
+- [ ] 🧠 DSA New: #93 Restore IP Addresses
+- [ ] 🧠 DSA Review: #973 (D+10)
+- [ ] 🧠 DSA Review: #543 (D+30)
 - [ ] 🚀 Project: Transcript sidebar polish — search within transcript, copy-segment
 - [ ] 🚀 Project: Wire MailModule "video ready" email — sends when transcription completes
 
 **D69 · Sun Jul 19** _(+ Weekly retro)_
-- [ ] 🧠 DSA New: #295 Find Median from Data Stream ⭐ 🔴
-- [ ] 🧠 DSA Review: #621 (D+2)
-- [ ] 🧠 DSA Review: #207 (D+10)
-- [ ] 🧠 DSA Review: #138 (D+30)
-- [ ] 🧠 DSA Review: #141 (D+60)
-- [ ] 🧠 DSA Review: #142 (D+60)
+- [ ] 🧠 DSA New: #51 N-Queens ⭐ 🔴
+- [ ] 🧠 DSA Review: #79 (D+2)
+- [ ] 🧠 DSA Review: #560 (D+60)
 - [ ] 🧠 DSA Retro
 - [ ] 🚀 Project: `video.summarize` job — send transcript to Claude Haiku, get JSON `{tldr, chapters}`
 - [ ] 🚀 Project: Map-reduce chunking for long transcripts
 
 **D70 · Mon Jul 20**
-- [ ] 🧠 DSA New: #480 Sliding Window Median 🔴
-- [ ] 🧠 DSA New: #78 Subsets ⭐
-- [ ] 🧠 DSA New: #90 Subsets II
-- [ ] 🧠 DSA Review: #785 (D+10)
+- [ ] 🧠 DSA New: #37 Sudoku Solver 🔴
+- [ ] 🧠 DSA New: #56 Merge Intervals ⭐
+- [ ] 🧠 DSA New: #57 Insert Interval
+- [ ] 🧠 DSA Review: #98 (D+30)
+- [ ] 🧠 DSA Review: #974 (D+60)
 - [ ] 📚 LLD: Template Method
 
 ---
 
 ### 🎯 Weekly Goals
 
-**🧠 DSA — Finish Heap + start Backtracking**
+**🧠 DSA — Finish Backtracking + start Greedy**
 - [ ] All week's new problems checked off
 - [ ] Sunday retro
 
@@ -756,68 +744,73 @@ Done when: comfortable with Iterator/Observer/Strategy/Command/Template
 
 ---
 
-## Week 11 · Jul 21–Jul 27 · DSA: Finish Backtracking + start Greedy · LLD Behavioural pt2 · Project Wk 7
+## Week 11 · Jul 21–Jul 27 · DSA: Finish Greedy + start DP 1D · LLD Behavioural pt2 · Project Wk 7
 
 ### 📅 Daily
 
 **D71 · Tue Jul 21**
-- [ ] 🧠 DSA New: #46 Permutations ⭐
-- [ ] 🧠 DSA New: #47 Permutations II
-- [ ] 🧠 DSA Review: #295 (D+2)
-- [ ] 🧠 DSA Review: #25 (D+30)
+- [ ] 🧠 DSA New: #252 Meeting Rooms
+- [ ] 🧠 DSA New: #253 Meeting Rooms II ⭐
+- [ ] 🧠 DSA Review: #51 (D+2)
+- [ ] 🧠 DSA Review: #621 (D+10)
+- [ ] 🧠 DSA Review: #236 (D+30)
+- [ ] 🧠 DSA Review: #525 (D+60)
 - [ ] 📚 LLD: State Pattern
 
 **D72 · Wed Jul 22**
-- [ ] 🧠 DSA New: #39 Combination Sum ⭐
-- [ ] 🧠 DSA Review: #78 (D+2)
-- [ ] 🧠 DSA Review: #127 (D+10)
-- [ ] 🧠 DSA Review: #143 (D+60)
+- [ ] 🧠 DSA New: #435 Non-overlapping Intervals ⭐
+- [ ] 🧠 DSA Review: #56 (D+2)
+- [ ] 🧠 DSA Review: #124 (D+30)
 - [ ] 📚 LLD: Chain of Responsibility
 
 **D73 · Thu Jul 23**
-- [ ] 🧠 DSA New: #40 Combination Sum II
-- [ ] 🧠 DSA New: #17 Letter Combinations of Phone Number
-- [ ] 🧠 DSA Review: #46 (D+2)
-- [ ] 🧠 DSA Review: #215 (D+10)
-- [ ] 🧠 DSA Review: #104 (D+30)
+- [ ] 🧠 DSA New: #452 Min Arrows to Burst Balloons
+- [ ] 🧠 DSA New: #55 Jump Game ⭐
+- [ ] 🧠 DSA Review: #253 (D+2)
+- [ ] 🧠 DSA Review: #295 (D+10)
+- [ ] 🧠 DSA Review: #102 (D+30)
+- [ ] 🧠 DSA Review: #437 (D+60)
 - [ ] 📚 LLD: Visitor Pattern
 
 **D74 · Fri Jul 24**
-- [ ] 🧠 DSA New: #79 Word Search ⭐
-- [ ] 🧠 DSA Review: #39 (D+2)
-- [ ] 🧠 DSA Review: #347 (D+10)
-- [ ] 🧠 DSA Review: #287 (D+60)
+- [ ] 🧠 DSA New: #45 Jump Game II
+- [ ] 🧠 DSA Review: #435 (D+2)
+- [ ] 🧠 DSA Review: #78 (D+10)
+- [ ] 🧠 DSA Review: #103 (D+30)
+- [ ] 🧠 DSA Review: #128 (D+60)
 - [ ] 📚 LLD: Mediator Pattern
 
 **D75 · Sat Jul 25**
-- [ ] 🧠 DSA New: #131 Palindrome Partitioning
-- [ ] 🧠 DSA New: #93 Restore IP Addresses
-- [ ] 🧠 DSA Review: #973 (D+10)
-- [ ] 🧠 DSA Review: #543 (D+30)
+- [ ] 🧠 DSA New: #763 Partition Labels ⭐
+- [ ] 🧠 DSA New: #134 Gas Station
+- [ ] 🧠 DSA Review: #55 (D+2)
+- [ ] 🧠 DSA Review: #39 (D+10)
+- [ ] 🧠 DSA Review: #199 (D+30)
+- [ ] 🧠 DSA Review: #704 (D+60)
 - [ ] 🚀 Project: Frontend renders chapter markers on player timeline
 - [ ] 🚀 Project: TL;DR card above player
 
 **D76 · Sun Jul 26** _(+ Weekly retro)_
-- [ ] 🧠 DSA New: #51 N-Queens ⭐ 🔴
-- [ ] 🧠 DSA Review: #79 (D+2)
-- [ ] 🧠 DSA Review: #560 (D+60)
+- [ ] 🧠 DSA New: #122 Best Time to Buy/Sell Stock II
+- [ ] 🧠 DSA Review: #111 (D+30)
+- [ ] 🧠 DSA Review: #33 (D+60)
 - [ ] 🧠 DSA Retro
 - [ ] 🚀 Project: Click chapter → seek video to chapter start
 - [ ] 🚀 Project: AI cost dashboard tile (rough $ per video)
 
 **D77 · Mon Jul 27**
-- [ ] 🧠 DSA New: #37 Sudoku Solver 🔴
-- [ ] 🧠 DSA New: #56 Merge Intervals ⭐
-- [ ] 🧠 DSA New: #57 Insert Interval
-- [ ] 🧠 DSA Review: #98 (D+30)
-- [ ] 🧠 DSA Review: #974 (D+60)
+- [ ] 🧠 DSA New: #1326 Minimum Taps to Water Garden 🔴
+- [ ] 🧠 DSA New: #70 Climbing Stairs ⭐
+- [ ] 🧠 DSA New: #746 Min Cost Climbing Stairs
+- [ ] 🧠 DSA Review: #763 (D+2)
+- [ ] 🧠 DSA Review: #79 (D+10)
 - [ ] 📚 LLD: Memento Pattern
 
 ---
 
 ### 🎯 Weekly Goals
 
-**🧠 DSA — Finish Backtracking + start Greedy**
+**🧠 DSA — Finish Greedy + start DP 1D**
 - [ ] All week's new problems checked off
 - [ ] Sunday retro
 
@@ -834,73 +827,73 @@ Done when: 10-min video gets TL;DR + 5 chapter markers
 
 ---
 
-## Week 12 · Jul 28–Aug 3 · DSA: Finish Greedy + start DP 1D · LLD Concurrency pt1 · Project Wk 7 polish + Wk 8 start
+## Week 12 · Jul 28–Aug 3 · DSA: Finish DP 1D + start DP 2D · LLD Concurrency pt1 · Project Wk 7 polish + Wk 8 start
 
 ### 📅 Daily
 
 **D78 · Tue Jul 28**
-- [ ] 🧠 DSA New: #252 Meeting Rooms
-- [ ] 🧠 DSA New: #253 Meeting Rooms II ⭐
-- [ ] 🧠 DSA Review: #51 (D+2)
-- [ ] 🧠 DSA Review: #621 (D+10)
-- [ ] 🧠 DSA Review: #236 (D+30)
-- [ ] 🧠 DSA Review: #525 (D+60)
+- [ ] 🧠 DSA New: #198 House Robber ⭐
+- [ ] 🧠 DSA New: #213 House Robber II
+- [ ] 🧠 DSA Review: #51 (D+10)
 - [ ] 📚 LLD: Multithreading & Concurrency intro
 
 **D79 · Wed Jul 29**
-- [ ] 🧠 DSA New: #435 Non-overlapping Intervals ⭐
-- [ ] 🧠 DSA Review: #56 (D+2)
-- [ ] 🧠 DSA Review: #124 (D+30)
+- [ ] 🧠 DSA New: #53 Maximum Subarray (Kadane) ⭐
+- [ ] 🧠 DSA Review: #70 (D+2)
+- [ ] 🧠 DSA Review: #56 (D+10)
+- [ ] 🧠 DSA Review: #200 (D+30)
+- [ ] 🧠 DSA Review: #875 (D+60)
 - [ ] 📚 LLD: Creating and Managing Threads
 
 **D80 · Thu Jul 30**
-- [ ] 🧠 DSA New: #452 Min Arrows to Burst Balloons
-- [ ] 🧠 DSA New: #55 Jump Game ⭐
-- [ ] 🧠 DSA Review: #253 (D+2)
-- [ ] 🧠 DSA Review: #295 (D+10)
-- [ ] 🧠 DSA Review: #102 (D+30)
-- [ ] 🧠 DSA Review: #437 (D+60)
+- [ ] 🧠 DSA New: #152 Maximum Product Subarray
+- [ ] 🧠 DSA New: #121 Best Time to Buy/Sell Stock
+- [ ] 🧠 DSA Review: #198 (D+2)
+- [ ] 🧠 DSA Review: #253 (D+10)
+- [ ] 🧠 DSA Review: #994 (D+30)
 - [ ] 📚 LLD: Thread Pools and Executors
 
 **D81 · Fri Jul 31**
-- [ ] 🧠 DSA New: #45 Jump Game II
-- [ ] 🧠 DSA Review: #435 (D+2)
-- [ ] 🧠 DSA Review: #78 (D+10)
-- [ ] 🧠 DSA Review: #103 (D+30)
-- [ ] 🧠 DSA Review: #128 (D+60)
+- [ ] 🧠 DSA New: #322 Coin Change ⭐
+- [ ] 🧠 DSA Review: #53 (D+2)
+- [ ] 🧠 DSA Review: #435 (D+10)
+- [ ] 🧠 DSA Review: #207 (D+30)
+- [ ] 🧠 DSA Review: #410 (D+60)
+- [ ] 🧠 DSA Review: #4 (D+60)
 - [ ] 📚 LLD: Recap concurrency basics
 
 **D82 · Sat Aug 1**
-- [ ] 🧠 DSA New: #763 Partition Labels ⭐
-- [ ] 🧠 DSA New: #134 Gas Station
-- [ ] 🧠 DSA Review: #55 (D+2)
-- [ ] 🧠 DSA Review: #39 (D+10)
-- [ ] 🧠 DSA Review: #199 (D+30)
-- [ ] 🧠 DSA Review: #704 (D+60)
+- [ ] 🧠 DSA New: #300 Longest Increasing Subsequence ⭐
+- [ ] 🧠 DSA New: #139 Word Break ⭐
+- [ ] 🧠 DSA Review: #55 (D+10)
+- [ ] 🧠 DSA Review: #785 (D+30)
 - [ ] 🚀 Project: Install pgvector extension; `transcript_chunks` table with `vector(1536)` column
 - [ ] 🚀 Project: Chunking strategy — 30-60s overlapping segments from transcript
 
 **D83 · Sun Aug 2** _(+ Weekly retro)_
-- [ ] 🧠 DSA New: #122 Best Time to Buy/Sell Stock II
-- [ ] 🧠 DSA Review: #111 (D+30)
-- [ ] 🧠 DSA Review: #33 (D+60)
+- [ ] 🧠 DSA New: #91 Decode Ways
+- [ ] 🧠 DSA Review: #322 (D+2)
 - [ ] 🧠 DSA Retro
 - [ ] 🚀 Project: Embedding job (`video.embed`) — call text-embedding-3-small, store vectors
 - [ ] 🚀 Project: HNSW index on `transcript_chunks.embedding`
 
 **D84 · Mon Aug 3**
-- [ ] 🧠 DSA New: #1326 Minimum Taps to Water Garden 🔴
-- [ ] 🧠 DSA New: #70 Climbing Stairs ⭐
-- [ ] 🧠 DSA New: #746 Min Cost Climbing Stairs
-- [ ] 🧠 DSA Review: #763 (D+2)
-- [ ] 🧠 DSA Review: #79 (D+10)
+- [ ] 🧠 DSA New: #416 Partition Equal Subset Sum
+- [ ] 🧠 DSA New: #62 Unique Paths ⭐
+- [ ] 🧠 DSA New: #63 Unique Paths II
+- [ ] 🧠 DSA Review: #300 (D+2)
+- [ ] 🧠 DSA Review: #139 (D+2)
+- [ ] 🧠 DSA Review: #763 (D+10)
+- [ ] 🧠 DSA Review: #215 (D+30)
+- [ ] 🧠 DSA Review: #20 (D+60)
+- [ ] 🧠 DSA Review: #155 (D+60)
 - [ ] 📚 LLD: Thread Safety intro
 
 ---
 
 ### 🎯 Weekly Goals
 
-**🧠 DSA — Finish Greedy + start DP 1D**
+**🧠 DSA — Finish DP 1D + start DP 2D**
 - [ ] All week's new problems checked off
 - [ ] Sunday retro
 
@@ -916,73 +909,67 @@ Done when: comfortable with threads + thread pools
 
 ---
 
-## Week 13 · Aug 4–Aug 10 · DSA: Finish DP 1D + start DP 2D · LLD Concurrency pt2 · Project Wk 8
+## Week 13 · Aug 4–Aug 10 · DSA: Finish DP 2D + start Trie/UF · LLD Concurrency pt2 · Project Wk 8
 
 ### 📅 Daily
 
 **D85 · Tue Aug 4**
-- [ ] 🧠 DSA New: #198 House Robber ⭐
-- [ ] 🧠 DSA New: #213 House Robber II
-- [ ] 🧠 DSA Review: #51 (D+10)
+- [ ] 🧠 DSA New: #64 Minimum Path Sum
+- [ ] 🧠 DSA New: #1143 Longest Common Subsequence ⭐
+- [ ] 🧠 DSA Review: #70 (D+10)
+- [ ] 🧠 DSA Review: #127 (D+30)
+- [ ] 🧠 DSA Review: #739 (D+60)
 - [ ] 📚 LLD: Thread Safety and Synchronization
 
 **D86 · Wed Aug 5**
-- [ ] 🧠 DSA New: #53 Maximum Subarray (Kadane) ⭐
-- [ ] 🧠 DSA Review: #70 (D+2)
-- [ ] 🧠 DSA Review: #56 (D+10)
-- [ ] 🧠 DSA Review: #200 (D+30)
-- [ ] 🧠 DSA Review: #875 (D+60)
+- [ ] 🧠 DSA New: #72 Edit Distance ⭐
+- [ ] 🧠 DSA Review: #62 (D+2)
+- [ ] 🧠 DSA Review: #347 (D+30)
 - [ ] 📚 LLD: Locks and Synchronization Mechanism
 
 **D87 · Thu Aug 6**
-- [ ] 🧠 DSA New: #152 Maximum Product Subarray
-- [ ] 🧠 DSA New: #121 Best Time to Buy/Sell Stock
-- [ ] 🧠 DSA Review: #198 (D+2)
-- [ ] 🧠 DSA Review: #253 (D+10)
-- [ ] 🧠 DSA Review: #994 (D+30)
+- [ ] 🧠 DSA New: #583 Delete Operation for Two Strings
+- [ ] 🧠 DSA New: #5 Longest Palindromic Substring ⭐
+- [ ] 🧠 DSA Review: #1143 (D+2)
+- [ ] 🧠 DSA Review: #394 (D+60)
 - [ ] 📚 LLD: Deadlock and Prevention Techniques
 
 **D88 · Fri Aug 7**
-- [ ] 🧠 DSA New: #322 Coin Change ⭐
-- [ ] 🧠 DSA Review: #53 (D+2)
-- [ ] 🧠 DSA Review: #435 (D+10)
-- [ ] 🧠 DSA Review: #207 (D+30)
-- [ ] 🧠 DSA Review: #410 (D+60)
-- [ ] 🧠 DSA Review: #4 (D+60)
+- [ ] 🧠 DSA New: #647 Palindromic Substrings
+- [ ] 🧠 DSA Review: #72 (D+2)
+- [ ] 🧠 DSA Review: #198 (D+10)
+- [ ] 🧠 DSA Review: #973 (D+30)
+- [ ] 🧠 DSA Review: #84 (D+60)
 - [ ] 📚 LLD: Producer Consumer Problem
 
 **D89 · Sat Aug 8**
-- [ ] 🧠 DSA New: #300 Longest Increasing Subsequence ⭐
-- [ ] 🧠 DSA New: #139 Word Break ⭐
-- [ ] 🧠 DSA Review: #55 (D+10)
-- [ ] 🧠 DSA Review: #785 (D+30)
+- [ ] 🧠 DSA New: #516 Longest Palindromic Subsequence
+- [ ] 🧠 DSA New: #221 Maximal Square
+- [ ] 🧠 DSA Review: #5 (D+2)
+- [ ] 🧠 DSA Review: #53 (D+10)
 - [ ] 🚀 Project: `POST /search` endpoint — embeds query, returns top-K chunks with timestamps + scores
 - [ ] 🚀 Project: Global search bar in dashboard with results list
 
 **D90 · Sun Aug 9** _(+ Weekly retro)_
-- [ ] 🧠 DSA New: #91 Decode Ways
-- [ ] 🧠 DSA Review: #322 (D+2)
+- [ ] 🧠 DSA New: #10 Regular Expression Matching ⭐ 🔴
+- [ ] 🧠 DSA Review: #621 (D+30)
 - [ ] 🧠 DSA Retro
 - [ ] 🚀 Project: Click result → jumps to video at right timestamp
 - [ ] 🚀 Project: Hybrid search (vector + full-text) optional stretch
 
 **D91 · Mon Aug 10**
-- [ ] 🧠 DSA New: #416 Partition Equal Subset Sum
-- [ ] 🧠 DSA New: #62 Unique Paths ⭐
-- [ ] 🧠 DSA New: #63 Unique Paths II
-- [ ] 🧠 DSA Review: #300 (D+2)
-- [ ] 🧠 DSA Review: #139 (D+2)
-- [ ] 🧠 DSA Review: #763 (D+10)
-- [ ] 🧠 DSA Review: #215 (D+30)
-- [ ] 🧠 DSA Review: #20 (D+60)
-- [ ] 🧠 DSA Review: #155 (D+60)
+- [ ] 🧠 DSA New: #312 Burst Balloons 🔴
+- [ ] 🧠 DSA New: #208 Implement Trie ⭐
+- [ ] 🧠 DSA New: #211 Design Add and Search Words
+- [ ] 🧠 DSA Review: #322 (D+10)
+- [ ] 🧠 DSA Review: #200 (D+60)
 - [ ] 📚 LLD: Review the full concurrency section
 
 ---
 
 ### 🎯 Weekly Goals
 
-**🧠 DSA — Finish DP 1D + start DP 2D**
+**🧠 DSA — Finish DP 2D + start Trie/UF**
 - [ ] All week's new problems checked off
 - [ ] Sunday retro
 
@@ -1000,69 +987,75 @@ Done when: search "redis caching" returns the right video at the right moment
 
 ---
 
-## Week 14 · Aug 11–Aug 17 · DSA: Finish DP 2D + start Trie/UF · LLD DI · Project Wk 9 start
+## Week 14 · Aug 11–Aug 17 · DSA: Finish Trie/UF + start Mixed Practice · LLD DI · Project Wk 9 start
+
+> Mixed Practice (MP) entries are predict-pattern-in-60s drills on problems you've already done.
 
 ### 📅 Daily
 
 **D92 · Tue Aug 11**
-- [ ] 🧠 DSA New: #64 Minimum Path Sum
-- [ ] 🧠 DSA New: #1143 Longest Common Subsequence ⭐
-- [ ] 🧠 DSA Review: #70 (D+10)
-- [ ] 🧠 DSA Review: #127 (D+30)
-- [ ] 🧠 DSA Review: #739 (D+60)
+- [ ] 🧠 DSA New: #648 Replace Words
+- [ ] 🧠 DSA MP drill: #3 (recognize Sliding Window in 60s, then re-solve in ≤20 min)
+- [ ] 🧠 DSA Review: #10 (D+2)
+- [ ] 🧠 DSA Review: #300 (D+10)
+- [ ] 🧠 DSA Review: #139 (D+10)
+- [ ] 🧠 DSA Review: #295 (D+30)
 - [ ] 📚 LLD: DI fundamentals
 
 **D93 · Wed Aug 12**
-- [ ] 🧠 DSA New: #72 Edit Distance ⭐
-- [ ] 🧠 DSA Review: #62 (D+2)
-- [ ] 🧠 DSA Review: #347 (D+30)
+- [ ] 🧠 DSA New: #677 Map Sum Pairs
+- [ ] 🧠 DSA New: #1268 Search Suggestions System
+- [ ] 🧠 DSA Review: #208 (D+2)
+- [ ] 🧠 DSA Review: #62 (D+10)
+- [ ] 🧠 DSA Review: #46 (D+30)
 - [ ] 📚 LLD: DI in NestJS (relate to your project)
 
 **D94 · Thu Aug 13**
-- [ ] 🧠 DSA New: #583 Delete Operation for Two Strings
-- [ ] 🧠 DSA New: #5 Longest Palindromic Substring ⭐
-- [ ] 🧠 DSA Review: #1143 (D+2)
-- [ ] 🧠 DSA Review: #394 (D+60)
+- [ ] 🧠 DSA New: #212 Word Search II ⭐ 🔴
+- [ ] 🧠 DSA New: #547 Number of Provinces ⭐
+- [ ] 🧠 DSA Review: #39 (D+30)
 - [ ] 📚 LLD: Constructor vs setter vs interface injection
 
 **D95 · Fri Aug 14**
-- [ ] 🧠 DSA New: #647 Palindromic Substrings
-- [ ] 🧠 DSA Review: #72 (D+2)
-- [ ] 🧠 DSA Review: #198 (D+10)
-- [ ] 🧠 DSA Review: #973 (D+30)
-- [ ] 🧠 DSA Review: #84 (D+60)
+- [ ] 🧠 DSA New: #684 Redundant Connection ⭐
+- [ ] 🧠 DSA MP drill: #127
+- [ ] 🧠 DSA Review: #1143 (D+10)
+- [ ] 🧠 DSA Review: #79 (D+30)
 - [ ] 📚 LLD: IoC containers
 
 **D96 · Sat Aug 15**
-- [ ] 🧠 DSA New: #516 Longest Palindromic Subsequence
-- [ ] 🧠 DSA New: #221 Maximal Square
-- [ ] 🧠 DSA Review: #5 (D+2)
-- [ ] 🧠 DSA Review: #53 (D+10)
-- [ ] 🧠 DSA Review: #206 (D+60)
-- [ ] 🧠 DSA Review: #21 (D+60)
+- [ ] 🧠 DSA New: #990 Satisfiability of Equality Equations
+- [ ] 🧠 DSA New: #721 Accounts Merge ⭐
+- [ ] 🧠 DSA Review: #212 (D+2)
+- [ ] 🧠 DSA Review: #547 (D+2)
+- [ ] 🧠 DSA Review: #72 (D+10)
+- [ ] 🧠 DSA Review: #104 (D+60)
 - [ ] 🚀 Project: NestJS `@WebSocketGateway` served at the `/socket` path (Ingress-routed), `videoId` passed on the connect handshake
 - [ ] 🚀 Project: Retrieve top-K chunks from that video's embeddings
 
 **D97 · Sun Aug 16** _(+ Weekly retro)_
-- [ ] 🧠 DSA New: #10 Regular Expression Matching ⭐ 🔴
-- [ ] 🧠 DSA Review: #621 (D+30)
+- [ ] 🧠 DSA New: #305 Number of Islands II 🔴
+- [ ] 🧠 DSA MP drill: #198
+- [ ] 🧠 DSA Review: #684 (D+2)
+- [ ] 🧠 DSA Review: #5 (D+10)
+- [ ] 🧠 DSA Review: #51 (D+30)
 - [ ] 🧠 DSA Retro
 - [ ] 🚀 Project: Build RAG prompt (system + retrieved chunks + chat history), stream Claude response
 - [ ] 🚀 Project: Strict citation format `[mm:ss]` enforced by system prompt
 
 **D98 · Mon Aug 17**
-- [ ] 🧠 DSA New: #312 Burst Balloons 🔴
-- [ ] 🧠 DSA New: #208 Implement Trie ⭐
-- [ ] 🧠 DSA New: #211 Design Add and Search Words
-- [ ] 🧠 DSA Review: #322 (D+10)
-- [ ] 🧠 DSA Review: #200 (D+60)
+- [ ] 🧠 DSA New: #952 Largest Component by Common Factor 🔴
+- [ ] 🧠 DSA New: #146 LRU Cache (Hash Map + Doubly Linked List)
+- [ ] 🧠 DSA MP drill: #142
+- [ ] 🧠 DSA Review: #721 (D+2)
+- [ ] 🧠 DSA Review: #543 (D+60)
 - [ ] 📚 LLD: Buffer
 
 ---
 
 ### 🎯 Weekly Goals
 
-**🧠 DSA — Finish DP 2D + start Trie/UF**
+**🧠 DSA — Finish Trie/UF + start Mixed Practice**
 - [ ] All week's new problems checked off
 - [ ] Sunday retro
 
@@ -1079,76 +1072,76 @@ Done when: answers include clickable `[mm:ss]` citations
 
 ---
 
-## Week 15 · Aug 18–Aug 24 · DSA: Finish Trie/UF + start Mixed Practice · LLD Exceptions · Project Wk 9 finish
+## Week 15 · Aug 18–Aug 24 · DSA: Mixed Practice drills · LLD Exceptions · Project Wk 9 finish
 
-> Mixed Practice (MP) entries are predict-pattern-in-60s drills on problems you've already done.
+> MP drills: title → predict pattern in 60s → solve under timer (≤25 min).
 
 ### 📅 Daily
 
 **D99 · Tue Aug 18**
-- [ ] 🧠 DSA New: #648 Replace Words
-- [ ] 🧠 DSA MP drill: #3 (recognize Sliding Window in 60s, then re-solve in ≤20 min)
-- [ ] 🧠 DSA Review: #10 (D+2)
-- [ ] 🧠 DSA Review: #300 (D+10)
-- [ ] 🧠 DSA Review: #139 (D+10)
-- [ ] 🧠 DSA Review: #295 (D+30)
+- [ ] 🧠 DSA MP drill: #210
+- [ ] 🧠 DSA MP drill: #295
+- [ ] 🧠 DSA MP drill: #739
+- [ ] 🧠 DSA Review: #56 (D+30)
 - [ ] 📚 LLD: Exception Handling in LLD
 
 **D100 · Wed Aug 19**
-- [ ] 🧠 DSA New: #677 Map Sum Pairs
-- [ ] 🧠 DSA New: #1268 Search Suggestions System
-- [ ] 🧠 DSA Review: #208 (D+2)
-- [ ] 🧠 DSA Review: #62 (D+10)
-- [ ] 🧠 DSA Review: #46 (D+30)
+- [ ] 🧠 DSA MP drill: #90
+- [ ] 🧠 DSA MP drill: #875
+- [ ] 🧠 DSA Review: #10 (D+10)
+- [ ] 🧠 DSA Review: #98 (D+60)
 - [ ] 📚 LLD: Building Resilient Systems intro
 
 **D101 · Thu Aug 20**
-- [ ] 🧠 DSA New: #212 Word Search II ⭐ 🔴
-- [ ] 🧠 DSA New: #547 Number of Provinces ⭐
-- [ ] 🧠 DSA Review: #39 (D+30)
+- [ ] 🧠 DSA MP drill: #560
+- [ ] 🧠 DSA MP drill: #72
+- [ ] 🧠 DSA MP drill: #56
+- [ ] 🧠 DSA Review: #208 (D+10)
+- [ ] 🧠 DSA Review: #253 (D+30)
+- [ ] 🧠 DSA Review: #236 (D+60)
 - [ ] 📚 LLD: Retry/timeout/circuit-breaker patterns
 
 **D102 · Fri Aug 21**
-- [ ] 🧠 DSA New: #684 Redundant Connection ⭐
-- [ ] 🧠 DSA MP drill: #127
-- [ ] 🧠 DSA Review: #1143 (D+10)
-- [ ] 🧠 DSA Review: #79 (D+30)
+- [ ] 🧠 DSA MP drill: #11
+- [ ] 🧠 DSA MP drill: #547
+- [ ] 🧠 DSA Review: #435 (D+30)
+- [ ] 🧠 DSA Review: #124 (D+60)
 - [ ] 📚 LLD: Failure handling strategies
 
 **D103 · Sat Aug 22**
-- [ ] 🧠 DSA New: #990 Satisfiability of Equality Equations
-- [ ] 🧠 DSA New: #721 Accounts Merge ⭐
-- [ ] 🧠 DSA Review: #212 (D+2)
-- [ ] 🧠 DSA Review: #547 (D+2)
-- [ ] 🧠 DSA Review: #72 (D+10)
-- [ ] 🧠 DSA Review: #104 (D+60)
+- [ ] 🧠 DSA MP drill: #124
+- [ ] 🧠 DSA MP drill: #199
+- [ ] 🧠 DSA Review: #55 (D+30)
+- [ ] 🧠 DSA Review: #102 (D+60)
 - [ ] 🚀 Project: Chat panel UI next to player with streaming response rendering
 - [ ] 🚀 Project: Parse `[mm:ss]` citations → clickable buttons that seek the player
 
 **D104 · Sun Aug 23** _(+ Weekly retro)_
-- [ ] 🧠 DSA New: #305 Number of Islands II 🔴
-- [ ] 🧠 DSA MP drill: #198
-- [ ] 🧠 DSA Review: #684 (D+2)
-- [ ] 🧠 DSA Review: #5 (D+10)
-- [ ] 🧠 DSA Review: #51 (D+30)
+- [ ] 🧠 DSA MP drill: #347
+- [ ] 🧠 DSA MP drill: #212
+- [ ] 🧠 DSA Review: #212 (D+10)
+- [ ] 🧠 DSA Review: #547 (D+10)
+- [ ] 🧠 DSA Review: #103 (D+60)
 - [ ] 🧠 DSA Retro
 - [ ] 🚀 Project: "I don't know" handling when retrieved chunks have no relevant info
 - [ ] 🚀 Project: Conversation history persistence per video
 
 **D105 · Mon Aug 24**
-- [ ] 🧠 DSA New: #952 Largest Component by Common Factor 🔴
-- [ ] 🧠 DSA New: #146 LRU Cache (Hash Map + Doubly Linked List)
-- [ ] 🧠 DSA MP drill: #142
-- [ ] 🧠 DSA Review: #721 (D+2)
-- [ ] 🧠 DSA Review: #543 (D+60)
+- [ ] 🧠 DSA MP drill: #5
+- [ ] 🧠 DSA MP drill: #155
+- [ ] 🧠 DSA MP drill: #76
+- [ ] 🧠 DSA Review: #684 (D+10)
+- [ ] 🧠 DSA Review: #763 (D+30)
+- [ ] 🧠 DSA Review: #199 (D+60)
+- [ ] 🧠 DSA Review: #111 (D+60)
 - [ ] 📚 LLD: Buffer
 
 ---
 
 ### 🎯 Weekly Goals
 
-**🧠 DSA — Finish Trie/UF + start Mixed Practice**
-- [ ] All week's new problems checked off
+**🧠 DSA — Mixed Practice drills**
+- [ ] All week's MP drills completed
 - [ ] Sunday retro
 
 **📚 LLD — Section 9: Exception Handling + Resilience**
@@ -1170,62 +1163,55 @@ Done when: comfortable with retry/timeout/circuit-breaker patterns
 ### 📅 Daily
 
 **D106 · Tue Aug 25**
-- [ ] 🧠 DSA MP drill: #210
-- [ ] 🧠 DSA MP drill: #295
-- [ ] 🧠 DSA MP drill: #739
-- [ ] 🧠 DSA Review: #56 (D+30)
+- [ ] 🧠 DSA MP drill: #45
+- [ ] 🧠 DSA MP drill: #98
+- [ ] 🧠 DSA MP drill: #33
+- [ ] 🧠 DSA Review: #721 (D+10)
+- [ ] 🧠 DSA Review: #200 (D+60)
 - [ ] 📚 LLD: All About APIs
 
 **D107 · Wed Aug 26**
-- [ ] 🧠 DSA MP drill: #90
-- [ ] 🧠 DSA MP drill: #875
-- [ ] 🧠 DSA Review: #10 (D+10)
-- [ ] 🧠 DSA Review: #98 (D+60)
+- [ ] 🧠 DSA MP drill: #200
+- [ ] 🧠 DSA MP drill: #322
+- [ ] 🧠 DSA MP drill: #15
+- [ ] 🧠 DSA Review: #70 (D+30)
 - [ ] 📚 LLD: Database Design and Integration
 
 **D108 · Thu Aug 27**
-- [ ] 🧠 DSA MP drill: #560
-- [ ] 🧠 DSA MP drill: #72
-- [ ] 🧠 DSA MP drill: #56
-- [ ] 🧠 DSA Review: #208 (D+10)
-- [ ] 🧠 DSA Review: #253 (D+30)
-- [ ] 🧠 DSA Review: #236 (D+60)
+- [ ] 🧠 DSA MP drill: #46
+- [ ] 🧠 DSA MP drill: #973
+- [ ] 🧠 DSA MP drill: #42
+- [ ] 🧠 DSA Review: #198 (D+30)
 - [ ] 📚 LLD: How to approach a LLD Interview
 
 **D109 · Fri Aug 28**
-- [ ] 🧠 DSA MP drill: #11
-- [ ] 🧠 DSA MP drill: #547
-- [ ] 🧠 DSA Review: #435 (D+30)
-- [ ] 🧠 DSA Review: #124 (D+60)
+- [ ] 🧠 DSA MP drill: #208
+- [ ] 🧠 DSA MP drill: #91
+- [ ] 🧠 DSA Review: #53 (D+30)
+- [ ] 🧠 DSA Review: #994 (D+60)
 - [ ] 📚 LLD: Review key takeaways
 
 **D110 · Sat Aug 29**
-- [ ] 🧠 DSA MP drill: #124
-- [ ] 🧠 DSA MP drill: #199
-- [ ] 🧠 DSA MP drill: #25
-- [ ] 🧠 DSA Review: #55 (D+30)
-- [ ] 🧠 DSA Review: #102 (D+60)
+- [ ] 🧠 DSA MP drill: #162
+- [ ] 🧠 DSA MP drill: #236
+- [ ] 🧠 DSA MP drill: #994
+- [ ] 🧠 DSA Review: #207 (D+60)
 - [ ] 🚀 Project: Multi-stage Dockerfiles for api, worker, web
 - [ ] 🚀 Project: GitHub Actions CI — lint, typecheck, test, build, Trivy + Hadolint + Gitleaks
 
 **D111 · Sun Aug 30** _(+ Weekly retro)_
-- [ ] 🧠 DSA MP drill: #347
-- [ ] 🧠 DSA MP drill: #212
-- [ ] 🧠 DSA Review: #212 (D+10)
-- [ ] 🧠 DSA Review: #547 (D+10)
-- [ ] 🧠 DSA Review: #103 (D+60)
-- [ ] 🧠 DSA Retro
+- [ ] 🧠 DSA MP drill: #53
+- [ ] 🧠 DSA MP drill: #22
+- [ ] 🧠 DSA MP drill: #84
+- [ ] 🧠 DSA Review: #322 (D+30)
+- [ ] 🧠 DSA Review: #785 (D+60)
+- [ ] 🧠 DSA Retro: read every trigger phrase in the roadmap. Any patterns still mushy?
 - [ ] 🚀 Project: Reusable workflow + path filters for monorepo
 - [ ] 🚀 Project: Local k3d cluster + Helm charts for api/worker/web + Bitnami Postgres/Redis/MinIO
 
 **D112 · Mon Aug 31**
-- [ ] 🧠 DSA MP drill: #5
-- [ ] 🧠 DSA MP drill: #155
-- [ ] 🧠 DSA MP drill: #76
-- [ ] 🧠 DSA Review: #684 (D+10)
-- [ ] 🧠 DSA Review: #763 (D+30)
-- [ ] 🧠 DSA Review: #199 (D+60)
-- [ ] 🧠 DSA Review: #111 (D+60)
+- [ ] 🧠 DSA MP drill: #146 (LRU Cache final)
+- [ ] 🧠 DSA Review: #127 (D+60)
 - [ ] 📚 LLD: Self-quiz on patterns + principles
 
 ---
@@ -1250,59 +1236,64 @@ Done when: `helm upgrade` works on local k3d cluster
 
 ---
 
-## Week 17 · Sep 1–Sep 7 · DSA: MP drills + final retro · LLD re-watch weakest · Project Wk 10 finish
+## Week 17 · Sep 1–Sep 7 · DSA: MAANG breadth (Matrix · Bit · Math · Design · Weighted Graphs · LL hards) · LLD re-watch weakest · Project Wk 10 finish
+
+> Breadth week: the patterns MAANG asks beyond the core 16 — matrix simulation, bit tricks, math/string, design, weighted graphs (Dijkstra/MST) — plus the 3 linked-list hards worth keeping.
 
 ### 📅 Daily
 
-**D113 · Tue Sep 1**
-- [ ] 🧠 DSA MP drill: #45
-- [ ] 🧠 DSA MP drill: #98
-- [ ] 🧠 DSA MP drill: #33
+**D113 · Tue Sep 1** — Matrix simulation
+- [ ] 🧠 DSA New: #48 Rotate Image ⭐
+- [ ] 🧠 DSA New: #54 Spiral Matrix ⭐
+- [ ] 🧠 DSA New: #73 Set Matrix Zeroes
 - [ ] 🧠 DSA Review: #721 (D+10)
 - [ ] 🧠 DSA Review: #200 (D+60)
 - [ ] 📚 LLD: Pick weakest pattern from notes — re-watch
 
-**D114 · Wed Sep 2**
-- [ ] 🧠 DSA MP drill: #200
-- [ ] 🧠 DSA MP drill: #322
-- [ ] 🧠 DSA MP drill: #15
+**D114 · Wed Sep 2** — Bit Manipulation
+- [ ] 🧠 DSA New: #136 Single Number ⭐
+- [ ] 🧠 DSA New: #338 Counting Bits ⭐
+- [ ] 🧠 DSA New: #371 Sum of Two Integers
 - [ ] 🧠 DSA Review: #70 (D+30)
 - [ ] 📚 LLD: Pick next weakest — re-watch
 
-**D115 · Thu Sep 3**
-- [ ] 🧠 DSA MP drill: #46
-- [ ] 🧠 DSA MP drill: #973
-- [ ] 🧠 DSA MP drill: #42
+**D115 · Thu Sep 3** — Math / String
+- [ ] 🧠 DSA New: #50 Pow(x, n) ⭐
+- [ ] 🧠 DSA New: #69 Sqrt(x)
+- [ ] 🧠 DSA New: #202 Happy Number
+- [ ] 🧠 DSA New: #8 String to Integer (atoi)
 - [ ] 🧠 DSA Review: #198 (D+30)
 - [ ] 📚 LLD: Re-watch UML class diagrams
 
-**D116 · Fri Sep 4**
-- [ ] 🧠 DSA MP drill: #208
-- [ ] 🧠 DSA MP drill: #91
+**D116 · Fri Sep 4** — Design
+- [ ] 🧠 DSA New: #380 Insert Delete GetRandom O(1) ⭐
+- [ ] 🧠 DSA New: #460 LFU Cache 🔴
 - [ ] 🧠 DSA Review: #53 (D+30)
 - [ ] 🧠 DSA Review: #994 (D+60)
 - [ ] 📚 LLD: Re-watch concurrency section
 
-**D117 · Sat Sep 5**
-- [ ] 🧠 DSA MP drill: #162
-- [ ] 🧠 DSA MP drill: #236
-- [ ] 🧠 DSA MP drill: #994
+**D117 · Sat Sep 5** — Weighted Graphs (Dijkstra / MST)
+- [ ] 🧠 DSA New: #743 Network Delay Time ⭐
+- [ ] 🧠 DSA New: #787 Cheapest Flights Within K Stops
+- [ ] 🧠 DSA New: #1584 Min Cost to Connect All Points (MST)
 - [ ] 🧠 DSA Review: #207 (D+60)
 - [ ] 🚀 Project: Nginx ingress + cert-manager + Let's Encrypt locally
 - [ ] 🚀 Project: Helm chart values for staging vs production
 
-**D118 · Sun Sep 6** _(+ Final pattern retro)_
-- [ ] 🧠 DSA MP drill: #53
-- [ ] 🧠 DSA MP drill: #22
-- [ ] 🧠 DSA MP drill: #84
+**D118 · Sun Sep 6** _(+ Final pattern retro)_ — Linked List hards (kept)
+- [ ] 🧠 DSA New: #25 Reverse Nodes in k-Group ⭐ 🔴
+- [ ] 🧠 DSA New: #138 Copy List with Random Pointer ⭐
+- [ ] 🧠 DSA New: #23 Merge k Sorted Lists 🔴
 - [ ] 🧠 DSA Review: #322 (D+30)
 - [ ] 🧠 DSA Review: #785 (D+60)
 - [ ] 🧠 DSA Retro: read every trigger phrase in the roadmap. Any patterns still mushy?
 - [ ] 🚀 Project: Final local cluster end-to-end test (record → transcode → transcribe → embed → chat → play)
 - [ ] 🚀 Project: Document runbook / cluster boot order
 
-**D119 · Mon Sep 7**
-- [ ] 🧠 DSA MP drill: #146 (LRU Cache final)
+**D119 · Mon Sep 7** — Breadth wrap
+- [ ] 🧠 DSA New: #778 Swim in Rising Water 🔴 (Dijkstra-on-grid)
+- [ ] 🧠 DSA New: #289 Game of Life
+- [ ] 🧠 DSA Review: #146 (LRU Cache final)
 - [ ] 🧠 DSA Review: #127 (D+60)
 - [ ] 📚 LLD: Self-quiz: name all 22 patterns + when to use each
 
@@ -1310,8 +1301,9 @@ Done when: `helm upgrade` works on local k3d cluster
 
 ### 🎯 Weekly Goals
 
-**🧠 DSA — Mixed Practice + final pattern retro**
-- [ ] All MP drills cleared
+**🧠 DSA — MAANG breadth buckets**
+- [ ] Matrix + Bit + Math/String + Design + Weighted Graphs new problems checked off
+- [ ] 3 kept linked-list hards (#25, #138, #23) checked off
 - [ ] Final pattern retro
 
 **📚 LLD — Re-watch weakest sections**
