@@ -332,10 +332,10 @@ Done when: email/password + Google-OAuth login both work
 - [ ] 🚀 Project: DB state transitions `pending → uploading → uploaded`
 
 **D35 · Mon Jun 15**
-- [ ] 🧠 DSA New: #22 Generate Parentheses
-- [ ] 🧠 DSA New: #84 Largest Rectangle in Histogram ⭐ 🔴
+- [ ✅ ] 🧠 DSA New: #22 Generate Parentheses
+- [ ✅ ] 🧠 DSA New: #84 Largest Rectangle in Histogram ⭐ 🔴
 - [ ] 🧠 DSA New: #85 Maximal Rectangle 🔴
-- [ ] 🧠 DSA Review: #394 (D+2)
+- [ ✅ ] 🧠 DSA Review: #394 (D+2)
 - [ ] 📚 LLD: Buffer / review UML
 
 ---
