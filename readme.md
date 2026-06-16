@@ -280,7 +280,7 @@ for (int i = 0; i < n; ++i) {
 | ✅ | 14/06/26 | 394 | [Decode String](https://leetcode.com/problems/decode-string/) | 🟡 | "expand `k[encoded]`, possibly **nested** (`3[a2[c]]`)" → **stack the context**: keep `current` string + `num`; digit → `num=num*10+(ch-'0')` (**multi-digit**); `[` → push `num` & `current` to two stacks, reset; `]` → pop `k` & `prev`, `current = prev + current*k`; letter → `current+=ch`. Two stacks (count + string) beats single-string stack (no `stoi`, no `[`-marker, **append** not prepend → no O(n²), no `to_string`/`isdigit(top)`/empty-`stoi` traps). Innermost-first = LIFO = recursion made explicit | O(N_out) | O(N_out) |
 | ✅ | 15/06/26 | 22  | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | 🟡 | "generate **all** well-formed combinations of `n` pairs" → backtracking DFS, **not** generate-then-filter. Carry `open`/`close` = parens **remaining**; **add `(` when `open > 0`**, **add `)` when `close > open`** (unmatched `(` in string = `close − open`, must be `> 0`). Both 0 ⇒ push (no validity check needed — guards guarantee it). Append → recurse → `pop_back()` to backtrack the shared `string&` (or pass by value). Bugs: dangling `return` outside braces; inverted guard `open > close` → `)` never fires → **empty result**; missing `pop_back`. Count = **Catalan(n)** ⇒ O(4ⁿ/√n), prune beats 2^(2n) |
 | ✅ | 15/06/26 | 84  | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | 🔴 | "fixed-width bars, biggest rectangle?" → each bar is the **shortest** bar of some rectangle, which stretches to its **previous-smaller** and **next-smaller** boundaries → one **increasing** monotonic stack of **indices**. When bar `i` pops `j`: `i` is `j`'s right wall, the new top is `j`'s left wall, `area = h[j] × (i − top − 1)` (or `i` if stack empties). **Sentinel 0** at `i==n` flushes the stack (no separate drain). Pop on `≥` not `>` (equal heights), guard empty-stack width. Reuse row-by-row for Maximal Rectangle (85). O(n)/O(n) |
-| ☐ |      | 85  | [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/) | 🔴 |  |
+| ✅ | 16/06/26 | 85  | [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/) | 🔴 | "largest all-1s rectangle in a binary matrix" → sweep rows top→bottom building `heights[]` per column (`+1` on `'1'`, **reset 0** on `'0'`), run **Largest Rectangle in Histogram (84)** on each row, take the max. The Hard 1-D monotonic-stack routine lifted to 2-D. O(rows·cols)/O(cols) |
 
 ---
 
@@ -335,8 +335,8 @@ int dfs(TreeNode* node) {
 
 | ✓ | Date | # | Problem | Diff | Trigger phrase |
 |---|------|---|---------|------|----------------|
-| ☐ |      | 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | 🟢 |  |
-| ☐ |      | 100 | [Same Tree](https://leetcode.com/problems/same-tree/) | 🟢 |  |
+| ✅ | Jun 16 | 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | 🟢 | "how deep/tall is the tree" → post-order, each node returns `1 + max(L, R)`, null returns 0 |
+| ✅ | Jun 16 | 100 | [Same Tree](https://leetcode.com/problems/same-tree/) | 🟢 | "two trees identical (shape + values)" → parallel DFS, 3 base cases (both null/one null/val differ), recurse L-L & R-R |
 | ☐ |      | 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | 🟢 |  |
 | ☐ |      | 543 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | 🟢 |  |
 | ☐ |      | 110 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | 🟢 |  |

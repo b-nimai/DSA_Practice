@@ -334,7 +334,7 @@ Done when: email/password + Google-OAuth login both work
 **D35 · Mon Jun 15**
 - [ ✅ ] 🧠 DSA New: #22 Generate Parentheses
 - [ ✅ ] 🧠 DSA New: #84 Largest Rectangle in Histogram ⭐ 🔴
-- [ ] 🧠 DSA New: #85 Maximal Rectangle 🔴
+- [ ✅ ] 🧠 DSA New: #85 Maximal Rectangle 🔴
 - [ ✅ ] 🧠 DSA Review: #394 (D+2)
 - [ ] 📚 LLD: Buffer / review UML
 
@@ -365,8 +365,8 @@ Done when: 500 MB file uploads from browser → MinIO
 ### 📅 Daily
 
 **D36 · Tue Jun 16**
-- [ ] 🧠 DSA New: #104 Maximum Depth of Binary Tree ⭐
-- [ ] 🧠 DSA New: #100 Same Tree
+- [ ✅ ] 🧠 DSA New: #104 Maximum Depth of Binary Tree ⭐ (Jun 16)
+- [ ✅ ] 🧠 DSA New: #100 Same Tree (Jun 16)
 - [ ] 📚 LLD: Intro to Design Patterns
 
 **D37 · Wed Jun 17**
