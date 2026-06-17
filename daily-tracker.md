@@ -370,9 +370,9 @@ Done when: 500 MB file uploads from browser → MinIO
 - [ ] 📚 LLD: Intro to Design Patterns
 
 **D37 · Wed Jun 17**
-- [ ] 🧠 DSA New: #226 Invert Binary Tree
-- [ ] 🧠 DSA Review: #394 (D+10)
-- [ ] 🧠 DSA Review: #287 (D+30)
+- [ ✅ ] 🧠 DSA New: #226 Invert Binary Tree (Jun 17)
+- [ ✅ ] 🧠 DSA Review: #394 (D+10)
+- [ ✅ ] 🧠 DSA Review: #287 (D+30)
 - [ ] 📚 LLD: Singleton
 
 **D38 · Thu Jun 18**

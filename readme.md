@@ -337,7 +337,7 @@ int dfs(TreeNode* node) {
 |---|------|---|---------|------|----------------|
 | ✅ | Jun 16 | 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | 🟢 | "how deep/tall is the tree" → post-order, each node returns `1 + max(L, R)`, null returns 0 |
 | ✅ | Jun 16 | 100 | [Same Tree](https://leetcode.com/problems/same-tree/) | 🟢 | "two trees identical (shape + values)" → parallel DFS, 3 base cases (both null/one null/val differ), recurse L-L & R-R |
-| ☐ |      | 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | 🟢 |  |
+| ✅ | Jun 17 | 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | 🟢 | "mirror/flip the tree left↔right" → swap each node's two children, recurse both; order irrelevant. Mutate-in-place DFS, return root |
 | ☐ |      | 543 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | 🟢 |  |
 | ☐ |      | 110 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | 🟢 |  |
 | ☐ |      | 112 | [Path Sum](https://leetcode.com/problems/path-sum/) | 🟢 |  |
