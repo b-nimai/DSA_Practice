@@ -338,8 +338,8 @@ int dfs(TreeNode* node) {
 | ✅ | Jun 16 | 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | 🟢 | "how deep/tall is the tree" → post-order, each node returns `1 + max(L, R)`, null returns 0 |
 | ✅ | Jun 16 | 100 | [Same Tree](https://leetcode.com/problems/same-tree/) | 🟢 | "two trees identical (shape + values)" → parallel DFS, 3 base cases (both null/one null/val differ), recurse L-L & R-R |
 | ✅ | Jun 17 | 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | 🟢 | "mirror/flip the tree left↔right" → swap each node's two children, recurse both; order irrelevant. Mutate-in-place DFS, return root |
-| ☐ |      | 543 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | 🟢 |  |
-| ☐ |      | 110 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | 🟢 |  |
+| ✅ | Jun 18 | 543 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | 🟢 | "longest path between any two nodes, in edges, may skip root" → height recursion, at every node update global `max(L+R)`, return `1+max(L,R)` |
+| ✅ | Jun 18 | 110 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | 🟢 | "every node's two subtree heights differ by ≤1" → height recursion + `-1` sentinel: return `-1` if any child is `-1` or `abs(L-R)>1`, else `max(L,R)+1`; balanced iff root ≠ `-1` |
 | ☐ |      | 112 | [Path Sum](https://leetcode.com/problems/path-sum/) | 🟢 |  |
 | ☐ |      | 98  | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | 🟡 |  |
 | ☐ |      | 230 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | 🟡 |  |

@@ -376,9 +376,9 @@ Done when: 500 MB file uploads from browser → MinIO
 - [ ] 📚 LLD: Singleton
 
 **D38 · Thu Jun 18**
-- [ ] 🧠 DSA New: #543 Diameter of Binary Tree ⭐
-- [ ] 🧠 DSA New: #110 Balanced Binary Tree
-- [ ] 🧠 DSA Review: #104 (D+2)
+- [ ✅ ] 🧠 DSA New: #543 Diameter of Binary Tree ⭐
+- [ ✅ ] 🧠 DSA New: #110 Balanced Binary Tree
+- [ ✅ ] 🧠 DSA Review: #104 (D+2)
 - [ ] 🧠 DSA Review: #84 (D+10)
 - [ ] 📚 LLD: Factory Method
 
