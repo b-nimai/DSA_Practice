@@ -340,7 +340,7 @@ int dfs(TreeNode* node) {
 | ✅ | Jun 17 | 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | 🟢 | "mirror/flip the tree left↔right" → swap each node's two children, recurse both; order irrelevant. Mutate-in-place DFS, return root |
 | ✅ | Jun 18 | 543 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | 🟢 | "longest path between any two nodes, in edges, may skip root" → height recursion, at every node update global `max(L+R)`, return `1+max(L,R)` |
 | ✅ | Jun 18 | 110 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | 🟢 | "every node's two subtree heights differ by ≤1" → height recursion + `-1` sentinel: return `-1` if any child is `-1` or `abs(L-R)>1`, else `max(L,R)+1`; balanced iff root ≠ `-1` |
-| ☐ |      | 112 | [Path Sum](https://leetcode.com/problems/path-sum/) | 🟢 |  |
+| ✅ | Jun 19 | 112 | [Path Sum](https://leetcode.com/problems/path-sum/) | 🟢 | "is there a root-to-leaf path summing to target" → DFS carrying remaining budget (`target - val`), at a leaf test `remaining == 0`, bubble up `left \|\| right`; null tree → false |
 | ☐ |      | 98  | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | 🟡 |  |
 | ☐ |      | 230 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | 🟡 |  |
 | ☐ |      | 236 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | 🟡 |  |

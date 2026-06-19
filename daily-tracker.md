@@ -379,12 +379,12 @@ Done when: 500 MB file uploads from browser → MinIO
 - [ ✅ ] 🧠 DSA New: #543 Diameter of Binary Tree ⭐
 - [ ✅ ] 🧠 DSA New: #110 Balanced Binary Tree
 - [ ✅ ] 🧠 DSA Review: #104 (D+2)
-- [ ] 🧠 DSA Review: #84 (D+10)
+- [ ✅ ] 🧠 DSA Review: #84 (D+10)
 - [ ] 📚 LLD: Factory Method
 
 **D39 · Fri Jun 19**
-- [ ] 🧠 DSA New: #112 Path Sum
-- [ ] 🧠 DSA Review: #560 (D+30)
+- [ ✅ ] 🧠 DSA New: #112 Path Sum
+- [ ✅ ] 🧠 DSA Review: #560 (D+30)
 - [ ] 📚 LLD: Builder
 
 **D40 · Sat Jun 20**
