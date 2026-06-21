@@ -388,16 +388,16 @@ Done when: 500 MB file uploads from browser → MinIO
 - [ ] 📚 LLD: Builder
 
 **D40 · Sat Jun 20**
-- [ ] 🧠 DSA New: #98 Validate Binary Search Tree ⭐
-- [ ] 🧠 DSA New: #230 Kth Smallest in BST
-- [ ] 🧠 DSA Review: #543 (D+2)
-- [ ] 🧠 DSA Review: #974 (D+30)
+- [ ✅ ] 🧠 DSA New: #98 Validate Binary Search Tree ⭐
+- [ ✅ ] 🧠 DSA New: #230 Kth Smallest in BST
+- [ ✅ ] 🧠 DSA Review: #543 (D+2)
+- [ ✅ ] 🧠 DSA Review: #974 (D+30)
 - [ ] 🚀 Project: MediaRecorder UI — capture screen + webcam + mic, preview, trigger upload
 - [ ] 🚀 Project: BullMQ producer in API enqueues `video.process` on upload completion
 
 **D41 · Sun Jun 21** _(+ Weekly retro)_
-- [ ] 🧠 DSA New: #236 Lowest Common Ancestor ⭐
-- [ ] 🧠 DSA Review: #525 (D+30)
+- [ ✅ ] 🧠 DSA New: #236 Lowest Common Ancestor ⭐
+- [ ✅ ] 🧠 DSA Review: #525 (D+30)
 - [ ] 🧠 DSA Retro
 - [ ] 🚀 Project: `apps/worker` NestJS standalone app (`createApplicationContext`)
 - [ ] 🚀 Project: `transcode.processor.ts` consumes job, logs video ID
