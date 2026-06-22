@@ -403,8 +403,8 @@ Done when: 500 MB file uploads from browser → MinIO
 - [ ] 🚀 Project: `transcode.processor.ts` consumes job, logs video ID
 
 **D42 · Mon Jun 22**
-- [ ] 🧠 DSA New: #105 Build Tree from Preorder + Inorder
-- [ ] 🧠 DSA New: #124 Binary Tree Maximum Path Sum ⭐ 🔴
+- [ ✅ ] 🧠 DSA New: #105 Build Tree from Preorder + Inorder
+- [ ✅ ] 🧠 DSA New: #124 Binary Tree Maximum Path Sum ⭐ 🔴
 - [ ] 🧠 DSA New: #297 Serialize and Deserialize Binary Tree 🔴
 - [ ] 🧠 DSA Review: #98 (D+2)
 - [ ] 📚 LLD: Review Singleton/Factory/Builder
