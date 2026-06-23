@@ -405,7 +405,7 @@ Done when: 500 MB file uploads from browser → MinIO
 **D42 · Mon Jun 22**
 - [ ✅ ] 🧠 DSA New: #105 Build Tree from Preorder + Inorder
 - [ ✅ ] 🧠 DSA New: #124 Binary Tree Maximum Path Sum ⭐ 🔴
-- [ ] 🧠 DSA New: #297 Serialize and Deserialize Binary Tree 🔴
+- [ ✅ ] 🧠 DSA New: #297 Serialize and Deserialize Binary Tree 🔴 (Jun 23)
 - [ ] 🧠 DSA Review: #98 (D+2)
 - [ ] 📚 LLD: Review Singleton/Factory/Builder
 
@@ -436,8 +436,8 @@ Done when: 30s clip records → uploads → worker logs "received video X"
 ### 📅 Daily
 
 **D43 · Tue Jun 23**
-- [ ] 🧠 DSA New: #102 Level Order Traversal ⭐
-- [ ] 🧠 DSA New: #107 Level Order Traversal II
+- [ ✅ ] 🧠 DSA New: #102 Level Order Traversal ⭐ (Jun 23)
+- [ ✅ ] 🧠 DSA New: #107 Level Order Traversal II (Jun 23)
 - [ ] 🧠 DSA Review: #236 (D+2)
 - [ ] 🧠 DSA Review: #437 (D+30)
 - [ ] 📚 LLD: Abstract Factory

@@ -346,7 +346,7 @@ int dfs(TreeNode* node) {
 | ✅ | Jun 21 | 236 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | 🟡 | "LCA of two nodes in a **plain** binary tree" → post-order DFS returning the found node; base `!root \|\| root==p \|\| root==q → root`; if **both** children return non-null, this node is the LCA, else bubble up whichever side hit. Match-returns-node handles self-ancestor; no BST shortcut (that's 235) |
 | ✅ | Jun 22 | 105 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | 🟡 | "rebuild tree from preorder + inorder" → march one shared `preIdx` through preorder (each elem = next root), use a `value→inorder index` map to split into left range `[s, mid-1]` / right range `[mid+1, e]`; recurse **left before right**, base `s > e`. Inorder gives the split → uniqueness; O(n) |
 | ✅ | Jun 22 | 124 | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | 🔴 | "max path sum, path bends anywhere, may skip root" → post-order; each child arm clamped `max(0, dfs(child))` (drop negative branches), update global `best = val + left + right` (bend here), **return** `val + max(left, right)` (straight arm for parent). Init `best = INT_MIN` (single negative node valid). Clamp the **arms**, not `val`. Value twin of 543 Diameter |
-| ☐ |      | 297 | [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | 🔴 |  |
+| ✅ | Jun 23 | 297 | [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | 🔴 | "serialize/deserialize a tree, convert tree ↔ string" → pick **one** traversal (preorder DFS or level-order BFS), emit `#` for **every null** (that's what makes shape unambiguous), decode by consuming tokens in the **same** order. Build **left before right**; split on `,` not `-` (negatives); handle empty tree. Mirror of 105 but with explicit nulls → one traversal suffices |
 
 ---
 
@@ -376,8 +376,8 @@ while (!q.empty()) {
 
 | ✓ | Date | # | Problem | Diff | Trigger phrase |
 |---|------|---|---------|------|----------------|
-| ☐ |      | 102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | 🟡 |  |
-| ☐ |      | 107 | [Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/) | 🟡 |  |
+| ✅ | Jun 23 | 102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | 🟡 | "level order, group nodes by depth, process level-by-level" → queue + **snapshot `sz = q.size()` before** the inner loop (queue *is* the level at that instant), drain `sz` nodes into a per-level vector, push non-null children for the next level. Empty tree → `[]`. The founding Tree BFS skeleton — zigzag/right-view/level-averages are all this + one tweak |
+| ✅ | Jun 23 | 107 | [Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/) | 🟡 | "bottom-up level order, leaf level first" → do plain 102 level order, then **`reverse(result.begin(), result.end())`** once (flips outer list of levels, O(#levels); inner left→right stays). Avoid front-insert per level — that's O(levels²). 102 + one reverse |
 | ☐ |      | 103 | [Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) | 🟡 |  |
 | ☐ |      | 199 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | 🟡 |  |
 | ☐ |      | 637 | [Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/) | 🟢 |  |
