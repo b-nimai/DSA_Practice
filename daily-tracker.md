@@ -438,14 +438,14 @@ Done when: 30s clip records → uploads → worker logs "received video X"
 **D43 · Tue Jun 23**
 - [ ✅ ] 🧠 DSA New: #102 Level Order Traversal ⭐ (Jun 23)
 - [ ✅ ] 🧠 DSA New: #107 Level Order Traversal II (Jun 23)
-- [ ] 🧠 DSA Review: #236 (D+2)
-- [ ] 🧠 DSA Review: #437 (D+30)
+- [ ✅ ] 🧠 DSA Review: #236 (D+2)
+- [ ✅ ] 🧠 DSA Review: #437 (D+30)
 - [ ] 📚 LLD: Abstract Factory
 
 **D44 · Wed Jun 24**
-- [ ] 🧠 DSA New: #103 Zigzag Level Order ⭐
-- [ ] 🧠 DSA Review: #124 (D+2)
-- [ ] 🧠 DSA Review: #128 (D+30)
+- [ ✅ ] 🧠 DSA New: #103 Zigzag Level Order ⭐ (Jun 24)
+- [ ✅ ] 🧠 DSA Review: #124 (D+2)
+- [ ✅ ] 🧠 DSA Review: #128 (D+30)
 - [ ] 📚 LLD: Prototype Pattern
 
 **D45 · Thu Jun 25**
