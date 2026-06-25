@@ -449,8 +449,8 @@ Done when: 30s clip records → uploads → worker logs "received video X"
 - [ ] 📚 LLD: Prototype Pattern
 
 **D45 · Thu Jun 25**
-- [ ] 🧠 DSA New: #199 Right Side View ⭐
-- [ ] 🧠 DSA New: #637 Average of Levels
+- [ ✅ ] 🧠 DSA New: #199 Right Side View ⭐
+- [ ✅ ] 🧠 DSA New: #637 Average of Levels
 - [ ] 🧠 DSA Review: #102 (D+2)
 - [ ] 🧠 DSA Review: #704 (D+30)
 - [ ] 📚 LLD: Review Singleton/Factory/Abstract Factory
