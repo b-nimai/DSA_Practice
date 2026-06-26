@@ -451,15 +451,15 @@ Done when: 30s clip records → uploads → worker logs "received video X"
 **D45 · Thu Jun 25**
 - [ ✅ ] 🧠 DSA New: #199 Right Side View ⭐
 - [ ✅ ] 🧠 DSA New: #637 Average of Levels
-- [ ] 🧠 DSA Review: #102 (D+2)
-- [ ] 🧠 DSA Review: #704 (D+30)
+- [ ✅ ] 🧠 DSA Review: #102 (D+2)
+- [ ✅ ] 🧠 DSA Review: #704 (D+30)
 - [ ] 📚 LLD: Review Singleton/Factory/Abstract Factory
 
 **D46 · Fri Jun 26**
-- [ ] 🧠 DSA New: #111 Minimum Depth ⭐
-- [ ] 🧠 DSA Review: #103 (D+2)
-- [ ] 🧠 DSA Review: #104 (D+10)
-- [ ] 🧠 DSA Review: #33 (D+30)
+- [ ✅ ] 🧠 DSA New: #111 Minimum Depth ⭐
+- [ ✅ ] 🧠 DSA Review: #103 (D+2)
+- [ ✅ ] 🧠 DSA Review: #104 (D+10)
+- [ ✅ ] 🧠 DSA Review: #33 (D+30)
 - [ ] 📚 LLD: Review Builder/Prototype
 
 **D47 · Sat Jun 27**
