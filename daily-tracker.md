@@ -478,7 +478,7 @@ Done when: 30s clip records → uploads → worker logs "received video X"
 - [ ] 🚀 Project: Idempotency — jobs check current state, skip already-done steps
 
 **D49 · Mon Jun 29**
-- [ ] 🧠 DSA New: #1161 Maximum Level Sum
+- [ ✅ ] 🧠 DSA New: #1161 Maximum Level Sum
 - [ ] 🧠 DSA New: #200 Number of Islands ⭐
 - [ ] 🧠 DSA New: #695 Max Area of Island
 - [ ] 🧠 DSA Review: #875 (D+30)
