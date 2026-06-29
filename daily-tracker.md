@@ -463,16 +463,16 @@ Done when: 30s clip records → uploads → worker logs "received video X"
 - [ ] 📚 LLD: Review Builder/Prototype
 
 **D47 · Sat Jun 27**
-- [ ] 🧠 DSA New: #116 Populating Next Right Pointers
-- [ ] 🧠 DSA New: #117 Populating Next Right Pointers II
-- [ ] 🧠 DSA Review: #199 (D+2)
+- [ ✅ ] 🧠 DSA New: #116 Populating Next Right Pointers
+- [ ✅ ] 🧠 DSA New: #117 Populating Next Right Pointers II
+- [ ✅ ] 🧠 DSA Review: #199 (D+2)
 - [ ] 🚀 Project: Worker downloads original from S3, ffmpeg → 1080p + 720p + 480p MP4 variants
 - [ ] 🚀 Project: HLS playlist generation (`.m3u8` + segments) + thumbnail
 
 **D48 · Sun Jun 28** _(+ Weekly retro)_
-- [ ] 🧠 DSA New: #515 Find Largest Value in Each Row
-- [ ] 🧠 DSA Review: #111 (D+2)
-- [ ] 🧠 DSA Review: #543 (D+10)
+- [ ✅ ] 🧠 DSA New: #515 Find Largest Value in Each Row
+- [ ✅ ] 🧠 DSA Review: #111 (D+2)
+- [ ✅ ] 🧠 DSA Review: #543 (D+10)
 - [ ] 🧠 DSA Retro
 - [ ] 🚀 Project: Upload variants back to S3, mark `transcoded`, emit BullMQ progress events
 - [ ] 🚀 Project: Idempotency — jobs check current state, skip already-done steps
