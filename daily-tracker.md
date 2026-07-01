@@ -479,9 +479,9 @@ Done when: 30s clip records → uploads → worker logs "received video X"
 
 **D49 · Mon Jun 29**
 - [ ✅ ] 🧠 DSA New: #1161 Maximum Level Sum
-- [ ] 🧠 DSA New: #200 Number of Islands ⭐
-- [ ] 🧠 DSA New: #695 Max Area of Island
-- [ ] 🧠 DSA Review: #875 (D+30)
+- [ ✅ ] 🧠 DSA New: #200 Number of Islands ⭐
+- [ ✅ ] 🧠 DSA New: #695 Max Area of Island
+- [ ✅ ] 🧠 DSA Review: #875 (D+30)
 - [ ] 📚 LLD: Start Section 5 — Adapter Pattern
 
 ---
@@ -511,7 +511,7 @@ Done when: video plays via HLS URL
 ### 📅 Daily
 
 **D50 · Tue Jun 30**
-- [ ] 🧠 DSA New: #994 Rotting Oranges ⭐
+- [ ✅ ] 🧠 DSA New: #994 Rotting Oranges ⭐
 - [ ] 🧠 DSA New: #130 Surrounded Regions
 - [ ] 🧠 DSA Review: #98 (D+10)
 - [ ] 📚 LLD: Adapter Pattern

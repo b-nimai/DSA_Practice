@@ -415,9 +415,9 @@ while (!q.empty()) {
 
 | ✓ | Date | # | Problem | Diff | Trigger phrase |
 |---|------|---|---------|------|----------------|
-| ☐ |      | 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | 🟡 |  |
-| ☐ |      | 695 | [Max Area of Island](https://leetcode.com/problems/max-area-of-island/) | 🟡 |  |
-| ☐ |      | 994 | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | 🟡 |  |
+| ✅ | Jul 1 | 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | 🟡 | "count connected blobs/regions of `1`s in a grid" → #islands = #connected components. Scan cells; each unvisited land cell → `++count` then flood-fill (DFS sink to `'0'` / BFS) its whole 4-adjacent island. **Mark visited on discovery**, not on pop. 4 dirs only. 300×300 ⇒ 90k-deep DFS can overflow → BFS. Dynamic-add → Union-Find (305) |
+| ✅ | Jul 1 | 695 | [Max Area of Island](https://leetcode.com/problems/max-area-of-island/) | 🟡 | "largest island / biggest connected region / max area of `1`s" → same scan-and-flood as 200, but DFS **returns a size** (`1 + Σ dfs(neighbour)`) and outer loop keeps the `max`. Mark visited on entry; seed `maxArea = 0`. Sink-in-place = O(1) aux, `visited` grid = non-destructive. 4 dirs only |
+| ✅ | Jul 1 | 994 | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | 🟡 | "every minute all rotten cells infect neighbours **simultaneously**; min minutes till none fresh" → **multi-source BFS, level = time** (NOT DFS). Seed queue with all rotten + count fresh; drain **ring by ring**, freeze `sz=q.size()`, mark rotten on discovery (`grid=2`). `fresh==0`→0, end `fresh>0`→-1 |
 | ☐ |      | 130 | [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) | 🟡 |  |
 | ☐ |      | 133 | [Clone Graph](https://leetcode.com/problems/clone-graph/) | 🟡 |  |
 | ☐ |      | 207 | [Course Schedule](https://leetcode.com/problems/course-schedule/) | 🟡 |  |
