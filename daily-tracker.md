@@ -509,6 +509,8 @@ Done when: video plays via HLS URL
 ## Week 8 · Jun 30–Jul 6 · DSA: Finish Graphs + start Heap · LLD Structural pt1 · Project Wk 2a (Auth)
 
 > **📍 Project re-baseline (Jul 2):** the Loom code is at **PROJECT_PLAN Wk 1 ✅ (foundation)**, ~4 weeks behind the DSA/LLD lanes. The 🚀 Project lane below is re-mapped to **restart at PP Wk 2 today** and hold ~1 plan-week/calendar-week. The two heavy AI weeks (PP Wk 8/9) are compressed, and DevOps switches to the leaner **VM-first path** (ship to one cloud VM; K8s/KEDA/Terraform become a post-completion *Phase B*), so the project still lands portfolio-ready ~Oct 10. **DSA + LLD + Apply dates are unchanged.**
+>
+> **📍 Update (Jul 3):** the project sprinted ahead — **PP Wk 2 (Auth), Wk 2b (Upload), and Wk 3 (Browser recording + worker enqueue) are all ✅ done and code-verified** (auth: argon2 local + Google OAuth + Fastify secure sessions; upload: multipart presigned parts create/complete/abort; recording: MediaRecorder screen/camera/PiP hook feeding the same upload flow; API enqueues `video.process` → worker consumes it, verified end-to-end). So the 🚀 Project lane is now **~3 plan-weeks ahead** of the Jul-2 schedule below; the scheduled Project items in Weeks 8–10 are pre-ticked as done. **Next project step: PP Wk 4 — Transcoding pipeline (ffmpeg → HLS variants + thumbnail).** DSA + LLD + Apply lanes unchanged.
 
 ### 📅 Daily
 
@@ -548,8 +550,8 @@ Done when: video plays via HLS URL
 - [ ] 🧠 DSA Review: #739 (D+30)
 - [ ] 🧠 DSA Review: #167 (D+60)
 - [ ] 🧠 DSA Review: #11 (D+60)
-- [ ] 🚀 Project: `@nestjs/passport` + `passport-local` + `passport-google-oauth20` + `@fastify/secure-session` wired
-- [ ] 🚀 Project: Login + signup pages (shadcn `Form` + react-hook-form + zod), hitting `/api/*` same-origin
+- [ ✅ ] 🚀 Project: `@nestjs/passport` + `passport-local` + `passport-google-oauth20` + `@fastify/secure-session` wired _(done ahead Jul 3)_
+- [ ✅ ] 🚀 Project: Login + signup pages (shadcn `Form` + react-hook-form + zod), hitting `/api/*` same-origin _(done ahead Jul 3)_
 
 **D55 · Sun Jul 5** _(+ Weekly retro)_
 - [ ] 🧠 DSA New: #127 Word Ladder ⭐ 🔴
@@ -559,8 +561,8 @@ Done when: video plays via HLS URL
 - [ ] 🧠 DSA Review: #42 (D+60)
 - [ ] 🧠 DSA Review: #18 (D+60)
 - [ ] 🧠 DSA Retro
-- [ ] 🚀 Project: Google OAuth flow end-to-end
-- [ ] 🚀 Project: Protected dashboard route + session cookie persistence
+- [ ✅ ] 🚀 Project: Google OAuth flow end-to-end _(done ahead Jul 3)_
+- [ ✅ ] 🚀 Project: Protected dashboard route + session cookie persistence _(done ahead Jul 3)_
 
 **D56 · Mon Jul 6**
 - [ ] 🧠 DSA New: #269 Alien Dictionary 🔴
@@ -583,12 +585,12 @@ Done when: comfortable with Adapter/Decorator/Facade/Composite
 - [ ] All 4 daily videos watched
 - [ ] Recap
 
-**🚀 Project — PP Wk 2a: Authentication (re-baselined)**
+**🚀 Project — PP Wk 2a: Authentication (re-baselined)** ✅ done ahead (Jul 3)
 Done when: email/password + Google-OAuth login both work
-- [ ] Passport strategies + `@fastify/secure-session` wired
-- [ ] Login/signup pages built
-- [ ] OAuth flow end-to-end
-- [ ] Protected dashboard + session persistence
+- [ ✅ ] Passport strategies + `@fastify/secure-session` wired
+- [ ✅ ] Login/signup pages built
+- [ ✅ ] OAuth flow end-to-end
+- [ ✅ ] Protected dashboard + session persistence
 
 ---
 
@@ -629,8 +631,8 @@ Done when: email/password + Google-OAuth login both work
 - [ ] 🧠 DSA New: #378 Kth Smallest in Sorted Matrix
 - [ ] 🧠 DSA Review: #76 (D+60)
 - [ ] 🧠 DSA Review: #239 (D+60)
-- [ ] 🚀 Project: API endpoint issuing multipart upload session (presigned URLs per part)
-- [ ] 🚀 Project: Browser uploader — slice Blob into parts, upload in parallel, retry on fail
+- [ ✅ ] 🚀 Project: API endpoint issuing multipart upload session (presigned URLs per part) _(done ahead Jul 3)_
+- [ ✅ ] 🚀 Project: Browser uploader — slice Blob into parts, upload in parallel, retry on fail _(done ahead Jul 3)_
 
 **D62 · Sun Jul 12** _(+ Weekly retro)_
 - [ ] 🧠 DSA New: #295 Find Median from Data Stream ⭐ 🔴
@@ -639,8 +641,8 @@ Done when: email/password + Google-OAuth login both work
 - [ ] 🧠 DSA Review: #141 (D+60)
 - [ ] 🧠 DSA Review: #142 (D+60)
 - [ ] 🧠 DSA Retro
-- [ ] 🚀 Project: Progress bar (shadcn `Progress`) + resumable behavior
-- [ ] 🚀 Project: DB state transitions `pending → uploading → uploaded`
+- [ ✅ ] 🚀 Project: Progress bar (shadcn `Progress`) + resumable behavior _(done ahead Jul 3)_
+- [ ✅ ] 🚀 Project: DB state transitions `pending → uploading → uploaded` _(done ahead Jul 3)_
 
 **D63 · Mon Jul 13**
 - [ ] 🧠 DSA New: #480 Sliding Window Median 🔴
@@ -662,12 +664,12 @@ Done when: comfortable with all 7 structural patterns
 - [ ] Proxy + Bridge + Flyweight videos watched
 - [ ] 7-pattern review
 
-**🚀 Project — PP Wk 2b: Large-file upload (re-baselined)**
+**🚀 Project — PP Wk 2b: Large-file upload (re-baselined)** ✅ done ahead (Jul 3)
 Done when: 500 MB file uploads from browser → MinIO
-- [ ] Multipart presigned upload session endpoint
-- [ ] Parallel chunked browser uploader with retry
-- [ ] Progress bar + resumable
-- [ ] DB state machine
+- [ ✅ ] Multipart presigned upload session endpoint
+- [ ✅ ] Parallel chunked browser uploader with retry
+- [ ✅ ] Progress bar + resumable
+- [ ✅ ] DB state machine
 
 ---
 
@@ -707,16 +709,16 @@ Done when: 500 MB file uploads from browser → MinIO
 - [ ] 🧠 DSA New: #93 Restore IP Addresses
 - [ ] 🧠 DSA Review: #973 (D+10)
 - [ ] 🧠 DSA Review: #543 (D+30)
-- [ ] 🚀 Project: MediaRecorder UI — capture screen + webcam + mic, preview, trigger upload
-- [ ] 🚀 Project: BullMQ producer in API enqueues `video.process` on upload completion
+- [ ✅ ] 🚀 Project: MediaRecorder UI — capture screen + webcam + mic, preview, trigger upload _(done ahead Jul 3)_
+- [ ✅ ] 🚀 Project: BullMQ producer in API enqueues `video.process` on upload completion _(done ahead Jul 3)_
 
 **D69 · Sun Jul 19** _(+ Weekly retro)_
 - [ ] 🧠 DSA New: #51 N-Queens ⭐ 🔴
 - [ ] 🧠 DSA Review: #79 (D+2)
 - [ ] 🧠 DSA Review: #560 (D+60)
 - [ ] 🧠 DSA Retro
-- [ ] 🚀 Project: `apps/worker` NestJS standalone app (`createApplicationContext`)
-- [ ] 🚀 Project: `transcode.processor.ts` consumes job, logs video ID
+- [ ✅ ] 🚀 Project: `apps/worker` NestJS standalone app (`createApplicationContext`) _(done ahead Jul 3)_
+- [ ✅ ] 🚀 Project: `transcode.processor.ts` consumes job, logs video ID _(done ahead Jul 3)_
 
 **D70 · Mon Jul 20**
 - [ ] 🧠 DSA New: #37 Sudoku Solver 🔴
@@ -738,12 +740,12 @@ Done when: 500 MB file uploads from browser → MinIO
 Done when: comfortable with Iterator/Observer/Strategy/Command/Template
 - [ ] All 5 daily videos watched
 
-**🚀 Project — PP Wk 3: Browser recording + worker skeleton (re-baselined)**
+**🚀 Project — PP Wk 3: Browser recording + worker skeleton (re-baselined)** ✅ done ahead (Jul 3)
 Done when: 30s clip records → uploads → worker logs "received video X"
-- [ ] MediaRecorder UI capturing screen/webcam/mic
-- [ ] BullMQ producer enqueues on upload completion
-- [ ] Worker standalone app boots
-- [ ] Transcode processor consumes jobs
+- [ ✅ ] MediaRecorder UI capturing screen/webcam/mic
+- [ ✅ ] BullMQ producer enqueues on upload completion
+- [ ✅ ] Worker standalone app boots
+- [ ✅ ] Transcode processor consumes jobs
 
 ---
 
