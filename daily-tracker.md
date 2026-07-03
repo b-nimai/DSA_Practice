@@ -506,7 +506,9 @@ Done when: video plays via HLS URL
 
 ---
 
-## Week 8 · Jun 30–Jul 6 · DSA: Finish Graphs + start Heap · LLD Structural pt1 · Project Wk 5
+## Week 8 · Jun 30–Jul 6 · DSA: Finish Graphs + start Heap · LLD Structural pt1 · Project Wk 2a (Auth)
+
+> **📍 Project re-baseline (Jul 2):** the Loom code is at **PROJECT_PLAN Wk 1 ✅ (foundation)**, ~4 weeks behind the DSA/LLD lanes. The 🚀 Project lane below is re-mapped to **restart at PP Wk 2 today** and hold ~1 plan-week/calendar-week. The two heavy AI weeks (PP Wk 8/9) are compressed, and DevOps switches to the leaner **VM-first path** (ship to one cloud VM; K8s/KEDA/Terraform become a post-completion *Phase B*), so the project still lands portfolio-ready ~Oct 10. **DSA + LLD + Apply dates are unchanged.**
 
 ### 📅 Daily
 
@@ -525,7 +527,7 @@ Done when: video plays via HLS URL
 - [ ] 📚 LLD: Decorator Pattern
 
 **D52 · Thu Jul 2**
-- [ ] 🧠 DSA New: #207 Course Schedule ⭐
+- [ ✅ ] 🧠 DSA New: #207 Course Schedule ⭐
 - [ ] 🧠 DSA New: #210 Course Schedule II
 - [ ] 🧠 DSA Review: #994 (D+2)
 - [ ] 🧠 DSA Review: #124 (D+10)
@@ -546,8 +548,8 @@ Done when: video plays via HLS URL
 - [ ] 🧠 DSA Review: #739 (D+30)
 - [ ] 🧠 DSA Review: #167 (D+60)
 - [ ] 🧠 DSA Review: #11 (D+60)
-- [ ] 🚀 Project: Public share page `app/v/[slug]` — server-rendered with `generateMetadata()` (OG/SEO); HLS.js adaptive-bitrate player as nested client component
-- [ ] 🚀 Project: View counter via Beacon API, watch-time tracking
+- [ ] 🚀 Project: `@nestjs/passport` + `passport-local` + `passport-google-oauth20` + `@fastify/secure-session` wired
+- [ ] 🚀 Project: Login + signup pages (shadcn `Form` + react-hook-form + zod), hitting `/api/*` same-origin
 
 **D55 · Sun Jul 5** _(+ Weekly retro)_
 - [ ] 🧠 DSA New: #127 Word Ladder ⭐ 🔴
@@ -557,8 +559,8 @@ Done when: video plays via HLS URL
 - [ ] 🧠 DSA Review: #42 (D+60)
 - [ ] 🧠 DSA Review: #18 (D+60)
 - [ ] 🧠 DSA Retro
-- [ ] 🚀 Project: Dashboard polish — status badges, thumbnails, copy-link button + Sonner toast
-- [ ] 🚀 Project: `MailModule` scaffold — Mailtrap dev, Brevo prod via env vars
+- [ ] 🚀 Project: Google OAuth flow end-to-end
+- [ ] 🚀 Project: Protected dashboard route + session cookie persistence
 
 **D56 · Mon Jul 6**
 - [ ] 🧠 DSA New: #269 Alien Dictionary 🔴
@@ -581,16 +583,16 @@ Done when: comfortable with Adapter/Decorator/Facade/Composite
 - [ ] All 4 daily videos watched
 - [ ] Recap
 
-**🚀 Project — Wk 5 of `PROJECT_PLAN.md`: Playback, sharing, mail scaffold**
-Done when: public share URL plays + view counter increments
-- [ ] Public share page with HLS.js player
-- [ ] View counter + watch-time tracking
-- [ ] Dashboard polish
-- [ ] MailModule scaffold (dev + prod envs)
+**🚀 Project — PP Wk 2a: Authentication (re-baselined)**
+Done when: email/password + Google-OAuth login both work
+- [ ] Passport strategies + `@fastify/secure-session` wired
+- [ ] Login/signup pages built
+- [ ] OAuth flow end-to-end
+- [ ] Protected dashboard + session persistence
 
 ---
 
-## Week 9 · Jul 7–Jul 13 · DSA: Finish Heap + start Backtracking · LLD Structural pt2 · Project Wk 6 start
+## Week 9 · Jul 7–Jul 13 · DSA: Finish Heap + start Backtracking · LLD Structural pt2 · Project Wk 2b (Upload)
 
 ### 📅 Daily
 
@@ -627,8 +629,8 @@ Done when: public share URL plays + view counter increments
 - [ ] 🧠 DSA New: #378 Kth Smallest in Sorted Matrix
 - [ ] 🧠 DSA Review: #76 (D+60)
 - [ ] 🧠 DSA Review: #239 (D+60)
-- [ ] 🚀 Project: New `video.transcribe` job; worker extracts audio with ffmpeg
-- [ ] 🚀 Project: Call OpenAI Whisper API, parse timestamped segments, store in `Transcript` table
+- [ ] 🚀 Project: API endpoint issuing multipart upload session (presigned URLs per part)
+- [ ] 🚀 Project: Browser uploader — slice Blob into parts, upload in parallel, retry on fail
 
 **D62 · Sun Jul 12** _(+ Weekly retro)_
 - [ ] 🧠 DSA New: #295 Find Median from Data Stream ⭐ 🔴
@@ -637,8 +639,8 @@ Done when: public share URL plays + view counter increments
 - [ ] 🧠 DSA Review: #141 (D+60)
 - [ ] 🧠 DSA Review: #142 (D+60)
 - [ ] 🧠 DSA Retro
-- [ ] 🚀 Project: `GET /videos/:id/transcript` endpoint + scrollable sidebar UI with click-to-seek
-- [ ] 🚀 Project: Per-video AI cost tracking (token + $ per call) — store on `Video` row
+- [ ] 🚀 Project: Progress bar (shadcn `Progress`) + resumable behavior
+- [ ] 🚀 Project: DB state transitions `pending → uploading → uploaded`
 
 **D63 · Mon Jul 13**
 - [ ] 🧠 DSA New: #480 Sliding Window Median 🔴
@@ -660,16 +662,16 @@ Done when: comfortable with all 7 structural patterns
 - [ ] Proxy + Bridge + Flyweight videos watched
 - [ ] 7-pattern review
 
-**🚀 Project — Wk 6 start of `PROJECT_PLAN.md`: Whisper transcription**
-Done when: 1-min video gets transcript with clickable timestamps
-- [ ] Transcribe job with audio extract
-- [ ] Whisper API + timestamped segments stored
-- [ ] Transcript endpoint + sidebar UI
-- [ ] Per-video AI cost tracking
+**🚀 Project — PP Wk 2b: Large-file upload (re-baselined)**
+Done when: 500 MB file uploads from browser → MinIO
+- [ ] Multipart presigned upload session endpoint
+- [ ] Parallel chunked browser uploader with retry
+- [ ] Progress bar + resumable
+- [ ] DB state machine
 
 ---
 
-## Week 10 · Jul 14–Jul 20 · DSA: Finish Backtracking + start Greedy · LLD Behavioural pt1 · Project Wk 6 finish / Wk 7 start
+## Week 10 · Jul 14–Jul 20 · DSA: Finish Backtracking + start Greedy · LLD Behavioural pt1 · Project Wk 3 (Recording + worker)
 
 ### 📅 Daily
 
@@ -705,16 +707,16 @@ Done when: 1-min video gets transcript with clickable timestamps
 - [ ] 🧠 DSA New: #93 Restore IP Addresses
 - [ ] 🧠 DSA Review: #973 (D+10)
 - [ ] 🧠 DSA Review: #543 (D+30)
-- [ ] 🚀 Project: Transcript sidebar polish — search within transcript, copy-segment
-- [ ] 🚀 Project: Wire MailModule "video ready" email — sends when transcription completes
+- [ ] 🚀 Project: MediaRecorder UI — capture screen + webcam + mic, preview, trigger upload
+- [ ] 🚀 Project: BullMQ producer in API enqueues `video.process` on upload completion
 
 **D69 · Sun Jul 19** _(+ Weekly retro)_
 - [ ] 🧠 DSA New: #51 N-Queens ⭐ 🔴
 - [ ] 🧠 DSA Review: #79 (D+2)
 - [ ] 🧠 DSA Review: #560 (D+60)
 - [ ] 🧠 DSA Retro
-- [ ] 🚀 Project: `video.summarize` job — send transcript to Claude Haiku, get JSON `{tldr, chapters}`
-- [ ] 🚀 Project: Map-reduce chunking for long transcripts
+- [ ] 🚀 Project: `apps/worker` NestJS standalone app (`createApplicationContext`)
+- [ ] 🚀 Project: `transcode.processor.ts` consumes job, logs video ID
 
 **D70 · Mon Jul 20**
 - [ ] 🧠 DSA New: #37 Sudoku Solver 🔴
@@ -736,15 +738,16 @@ Done when: 1-min video gets transcript with clickable timestamps
 Done when: comfortable with Iterator/Observer/Strategy/Command/Template
 - [ ] All 5 daily videos watched
 
-**🚀 Project — Wk 6 finish + Wk 7 start: Transcript polish + summarization start**
-- [ ] Transcript sidebar polished + searchable
-- [ ] "Video ready" email sent on transcription complete
-- [ ] Summarize job calls Claude Haiku for `{tldr, chapters}`
-- [ ] Map-reduce chunking for long transcripts
+**🚀 Project — PP Wk 3: Browser recording + worker skeleton (re-baselined)**
+Done when: 30s clip records → uploads → worker logs "received video X"
+- [ ] MediaRecorder UI capturing screen/webcam/mic
+- [ ] BullMQ producer enqueues on upload completion
+- [ ] Worker standalone app boots
+- [ ] Transcode processor consumes jobs
 
 ---
 
-## Week 11 · Jul 21–Jul 27 · DSA: Finish Greedy + start DP 1D · LLD Behavioural pt2 · Project Wk 7
+## Week 11 · Jul 21–Jul 27 · DSA: Finish Greedy + start DP 1D · LLD Behavioural pt2 · Project Wk 4 (Transcoding)
 
 ### 📅 Daily
 
@@ -787,16 +790,16 @@ Done when: comfortable with Iterator/Observer/Strategy/Command/Template
 - [ ] 🧠 DSA Review: #39 (D+10)
 - [ ] 🧠 DSA Review: #199 (D+30)
 - [ ] 🧠 DSA Review: #704 (D+60)
-- [ ] 🚀 Project: Frontend renders chapter markers on player timeline
-- [ ] 🚀 Project: TL;DR card above player
+- [ ] 🚀 Project: Worker downloads original from S3, ffmpeg → 1080p + 720p + 480p MP4 variants
+- [ ] 🚀 Project: HLS playlist generation (`.m3u8` + segments) + thumbnail
 
 **D76 · Sun Jul 26** _(+ Weekly retro)_
 - [ ] 🧠 DSA New: #122 Best Time to Buy/Sell Stock II
 - [ ] 🧠 DSA Review: #111 (D+30)
 - [ ] 🧠 DSA Review: #33 (D+60)
 - [ ] 🧠 DSA Retro
-- [ ] 🚀 Project: Click chapter → seek video to chapter start
-- [ ] 🚀 Project: AI cost dashboard tile (rough $ per video)
+- [ ] 🚀 Project: Upload variants back to S3, mark `transcoded`, emit BullMQ progress events
+- [ ] 🚀 Project: Idempotency — jobs check current state, skip already-done steps
 
 **D77 · Mon Jul 27**
 - [ ] 🧠 DSA New: #1326 Minimum Taps to Water Garden 🔴
@@ -818,16 +821,16 @@ Done when: comfortable with Iterator/Observer/Strategy/Command/Template
 Done when: comfortable with all behavioural patterns
 - [ ] State + CoR + Visitor + Mediator + Memento videos watched
 
-**🚀 Project — Wk 7 of `PROJECT_PLAN.md`: Summarization + auto-chapters**
-Done when: 10-min video gets TL;DR + 5 chapter markers
-- [ ] Chapter markers on player timeline
-- [ ] TL;DR card
-- [ ] Click-to-seek on chapters
-- [ ] AI cost dashboard tile
+**🚀 Project — PP Wk 4: Transcoding pipeline (re-baselined)**
+Done when: video plays via HLS URL
+- [ ] ffmpeg multi-bitrate MP4 variants
+- [ ] HLS playlist + thumbnail
+- [ ] Variants uploaded + status flips to `transcoded`
+- [ ] Idempotent job handling
 
 ---
 
-## Week 12 · Jul 28–Aug 3 · DSA: Finish DP 1D + start DP 2D · LLD Concurrency pt1 · Project Wk 7 polish + Wk 8 start
+## Week 12 · Jul 28–Aug 3 · DSA: Finish DP 1D + start DP 2D · LLD Concurrency pt1 · Project Wk 5 (Playback + sharing)
 
 ### 📅 Daily
 
@@ -867,15 +870,15 @@ Done when: 10-min video gets TL;DR + 5 chapter markers
 - [ ] 🧠 DSA New: #139 Word Break ⭐
 - [ ] 🧠 DSA Review: #55 (D+10)
 - [ ] 🧠 DSA Review: #785 (D+30)
-- [ ] 🚀 Project: Install pgvector extension; `transcript_chunks` table with `vector(1536)` column
-- [ ] 🚀 Project: Chunking strategy — 30-60s overlapping segments from transcript
+- [ ] 🚀 Project: Public share page `app/v/[slug]` — server-rendered w/ `generateMetadata()` (OG/SEO); HLS.js player as nested client component
+- [ ] 🚀 Project: View counter via Beacon API + watch-time tracking
 
 **D83 · Sun Aug 2** _(+ Weekly retro)_
 - [ ] 🧠 DSA New: #91 Decode Ways
 - [ ] 🧠 DSA Review: #322 (D+2)
 - [ ] 🧠 DSA Retro
-- [ ] 🚀 Project: Embedding job (`video.embed`) — call text-embedding-3-small, store vectors
-- [ ] 🚀 Project: HNSW index on `transcript_chunks.embedding`
+- [ ] 🚀 Project: Dashboard polish — status badges, thumbnails, copy-link + Sonner toast
+- [ ] 🚀 Project: `MailModule` scaffold — Mailtrap dev, Brevo prod via env vars
 
 **D84 · Mon Aug 3**
 - [ ] 🧠 DSA New: #416 Partition Equal Subset Sum
@@ -901,15 +904,16 @@ Done when: 10-min video gets TL;DR + 5 chapter markers
 Done when: comfortable with threads + thread pools
 - [ ] All 5 daily videos watched
 
-**🚀 Project — Wk 7 polish + Wk 8 start: Embeddings infrastructure**
-- [ ] pgvector + `transcript_chunks` table
-- [ ] Overlapping chunking strategy
-- [ ] Embedding job stores vectors
-- [ ] HNSW index created
+**🚀 Project — PP Wk 5: Playback, sharing, mail scaffold (re-baselined)**
+Done when: public share URL plays + view counter increments
+- [ ] Public share page with HLS.js player
+- [ ] View counter + watch-time tracking
+- [ ] Dashboard polish
+- [ ] MailModule scaffold (dev + prod envs)
 
 ---
 
-## Week 13 · Aug 4–Aug 10 · DSA: Finish DP 2D + start Trie/UF · LLD Concurrency pt2 · Project Wk 8
+## Week 13 · Aug 4–Aug 10 · DSA: Finish DP 2D + start Trie/UF · LLD Concurrency pt2 · Project Wk 6 (Transcription)
 
 ### 📅 Daily
 
@@ -947,15 +951,15 @@ Done when: comfortable with threads + thread pools
 - [ ] 🧠 DSA New: #221 Maximal Square
 - [ ] 🧠 DSA Review: #5 (D+2)
 - [ ] 🧠 DSA Review: #53 (D+10)
-- [ ] 🚀 Project: `POST /search` endpoint — embeds query, returns top-K chunks with timestamps + scores
-- [ ] 🚀 Project: Global search bar in dashboard with results list
+- [ ] 🚀 Project: New `video.transcribe` job; worker extracts audio with ffmpeg → Whisper API
+- [ ] 🚀 Project: Parse timestamped segments, store in `Transcript` table
 
 **D90 · Sun Aug 9** _(+ Weekly retro)_
 - [ ] 🧠 DSA New: #10 Regular Expression Matching ⭐ 🔴
 - [ ] 🧠 DSA Review: #621 (D+30)
 - [ ] 🧠 DSA Retro
-- [ ] 🚀 Project: Click result → jumps to video at right timestamp
-- [ ] 🚀 Project: Hybrid search (vector + full-text) optional stretch
+- [ ] 🚀 Project: `GET /videos/:id/transcript` + scrollable sidebar UI with click-to-seek
+- [ ] 🚀 Project: Per-video AI cost tracking (token + $ per call) on `Video` row
 
 **D91 · Mon Aug 10**
 - [ ] 🧠 DSA New: #312 Burst Balloons 🔴
@@ -978,16 +982,16 @@ Done when: comfortable with locks, deadlock prevention, producer/consumer
 - [ ] All 5 daily videos watched
 - [ ] Full concurrency-section review
 
-**🚀 Project — Wk 8 of `PROJECT_PLAN.md`: Semantic search**
-Done when: search "redis caching" returns the right video at the right moment
-- [ ] `/search` endpoint returns top-K chunks
-- [ ] Global search bar UI
-- [ ] Result click jumps to timestamp
-- [ ] (Stretch) hybrid vector + full-text
+**🚀 Project — PP Wk 6: Whisper transcription (re-baselined)**
+Done when: 1-min video gets transcript with clickable timestamps
+- [ ] Transcribe job with audio extract
+- [ ] Whisper API + timestamped segments stored
+- [ ] Transcript endpoint + sidebar UI
+- [ ] Per-video AI cost tracking
 
 ---
 
-## Week 14 · Aug 11–Aug 17 · DSA: Finish Trie/UF + start Mixed Practice · LLD DI · Project Wk 9 start
+## Week 14 · Aug 11–Aug 17 · DSA: Finish Trie/UF + start Mixed Practice · LLD DI · Project Wk 7 (Summarization)
 
 > Mixed Practice (MP) entries are predict-pattern-in-60s drills on problems you've already done.
 
@@ -1030,8 +1034,8 @@ Done when: search "redis caching" returns the right video at the right moment
 - [ ] 🧠 DSA Review: #547 (D+2)
 - [ ] 🧠 DSA Review: #72 (D+10)
 - [ ] 🧠 DSA Review: #104 (D+60)
-- [ ] 🚀 Project: NestJS `@WebSocketGateway` served at the `/socket` path (Ingress-routed), `videoId` passed on the connect handshake
-- [ ] 🚀 Project: Retrieve top-K chunks from that video's embeddings
+- [ ] 🚀 Project: `video.summarize` job — send transcript to Claude Haiku → JSON `{tldr, chapters}`
+- [ ] 🚀 Project: Map-reduce chunking for long transcripts
 
 **D97 · Sun Aug 16** _(+ Weekly retro)_
 - [ ] 🧠 DSA New: #305 Number of Islands II 🔴
@@ -1040,8 +1044,8 @@ Done when: search "redis caching" returns the right video at the right moment
 - [ ] 🧠 DSA Review: #5 (D+10)
 - [ ] 🧠 DSA Review: #51 (D+30)
 - [ ] 🧠 DSA Retro
-- [ ] 🚀 Project: Build RAG prompt (system + retrieved chunks + chat history), stream Claude response
-- [ ] 🚀 Project: Strict citation format `[mm:ss]` enforced by system prompt
+- [ ] 🚀 Project: Chapter markers on player timeline + TL;DR card above player
+- [ ] 🚀 Project: Click chapter → seek to start; AI cost dashboard tile
 
 **D98 · Mon Aug 17**
 - [ ] 🧠 DSA New: #952 Largest Component by Common Factor 🔴
@@ -1063,16 +1067,16 @@ Done when: search "redis caching" returns the right video at the right moment
 Done when: can explain DI variants and IoC containers
 - [ ] All 4 daily videos watched
 
-**🚀 Project — Wk 9 start of `PROJECT_PLAN.md`: RAG chat**
-Done when: answers include clickable `[mm:ss]` citations
-- [ ] WebSocket gateway for chat
-- [ ] Top-K retrieval per video
-- [ ] Streaming Claude response
-- [ ] Enforced `[mm:ss]` citations
+**🚀 Project — PP Wk 7: Summarization + auto-chapters (re-baselined)**
+Done when: 10-min video gets TL;DR + 5 chapter markers
+- [ ] Summarize job → `{tldr, chapters}` via Claude Haiku
+- [ ] Map-reduce chunking for long transcripts
+- [ ] Chapter markers + TL;DR card + click-to-seek
+- [ ] AI cost dashboard tile
 
 ---
 
-## Week 15 · Aug 18–Aug 24 · DSA: Mixed Practice drills · LLD Exceptions · Project Wk 9 finish
+## Week 15 · Aug 18–Aug 24 · DSA: Mixed Practice drills · LLD Exceptions · Project Wk 8 (Embeddings + search) — compressed
 
 > MP drills: title → predict pattern in 60s → solve under timer (≤25 min).
 
@@ -1113,8 +1117,8 @@ Done when: answers include clickable `[mm:ss]` citations
 - [ ] 🧠 DSA MP drill: #199
 - [ ] 🧠 DSA Review: #55 (D+30)
 - [ ] 🧠 DSA Review: #102 (D+60)
-- [ ] 🚀 Project: Chat panel UI next to player with streaming response rendering
-- [ ] 🚀 Project: Parse `[mm:ss]` citations → clickable buttons that seek the player
+- [ ] 🚀 Project: pgvector `transcript_chunks` (vector(1536)); `video.embed` job → text-embedding-3-small + HNSW index
+- [ ] 🚀 Project: 30–60s overlapping chunking strategy from transcript
 
 **D104 · Sun Aug 23** _(+ Weekly retro)_
 - [ ] 🧠 DSA MP drill: #347
@@ -1123,8 +1127,8 @@ Done when: answers include clickable `[mm:ss]` citations
 - [ ] 🧠 DSA Review: #547 (D+10)
 - [ ] 🧠 DSA Review: #103 (D+60)
 - [ ] 🧠 DSA Retro
-- [ ] 🚀 Project: "I don't know" handling when retrieved chunks have no relevant info
-- [ ] 🚀 Project: Conversation history persistence per video
+- [ ] 🚀 Project: `POST /search` — embed query, return top-K chunks (video, timestamp, score)
+- [ ] 🚀 Project: Global search bar; click result → jump to video at timestamp
 
 **D105 · Mon Aug 24**
 - [ ] 🧠 DSA MP drill: #5
@@ -1148,15 +1152,16 @@ Done when: answers include clickable `[mm:ss]` citations
 Done when: comfortable with retry/timeout/circuit-breaker patterns
 - [ ] All 4 daily videos watched
 
-**🚀 Project — Wk 9 finish: Chat UI polish**
-- [ ] Streaming chat panel UI
-- [ ] Clickable `[mm:ss]` citations
-- [ ] "I don't know" fallback
-- [ ] Per-video conversation history
+**🚀 Project — PP Wk 8: Semantic search (re-baselined, compressed)**
+Done when: search "redis caching" returns the right video at the right moment
+- [ ] pgvector chunks + embedding job + HNSW index
+- [ ] Overlapping chunking strategy
+- [ ] `/search` returns top-K + global search bar
+- [ ] Result click jumps to timestamp
 
 ---
 
-## Week 16 · Aug 25–Aug 31 · DSA: MP drills · LLD Best Practices · Project Wk 10 start
+## Week 16 · Aug 25–Aug 31 · DSA: MP drills · LLD Best Practices · Project Wk 9 (RAG chat) — compressed
 
 > MP drills: title → predict pattern in 60s → solve under timer (≤25 min).
 
@@ -1196,8 +1201,8 @@ Done when: comfortable with retry/timeout/circuit-breaker patterns
 - [ ] 🧠 DSA MP drill: #236
 - [ ] 🧠 DSA MP drill: #994
 - [ ] 🧠 DSA Review: #207 (D+60)
-- [ ] 🚀 Project: Multi-stage Dockerfiles for api, worker, web
-- [ ] 🚀 Project: GitHub Actions CI — lint, typecheck, test, build, Trivy + Hadolint + Gitleaks
+- [ ] 🚀 Project: NestJS `@WebSocketGateway` at `/socket`, `videoId` on handshake; retrieve top-K chunks
+- [ ] 🚀 Project: Build RAG prompt (chunks + history), stream Claude response token-by-token
 
 **D111 · Sun Aug 30** _(+ Weekly retro)_
 - [ ] 🧠 DSA MP drill: #53
@@ -1206,8 +1211,8 @@ Done when: comfortable with retry/timeout/circuit-breaker patterns
 - [ ] 🧠 DSA Review: #322 (D+30)
 - [ ] 🧠 DSA Review: #785 (D+60)
 - [ ] 🧠 DSA Retro: read every trigger phrase in the roadmap. Any patterns still mushy?
-- [ ] 🚀 Project: Reusable workflow + path filters for monorepo
-- [ ] 🚀 Project: Local k3d cluster + Helm charts for api/worker/web + Bitnami Postgres/Redis/MinIO
+- [ ] 🚀 Project: Enforce `[mm:ss]` citations; chat panel UI parses them → clickable seek buttons
+- [ ] 🚀 Project: "I don't know" fallback + per-video conversation history
 
 **D112 · Mon Aug 31**
 - [ ] 🧠 DSA MP drill: #146 (LRU Cache final)
@@ -1227,16 +1232,16 @@ Done when: passed self-quiz on patterns + principles
 - [ ] All 4 daily videos watched
 - [ ] Self-quiz passed
 
-**🚀 Project — Wk 10 of `PROJECT_PLAN.md`: Containers + CI + local K8s**
-Done when: `helm upgrade` works on local k3d cluster
-- [ ] Multi-stage Dockerfiles
-- [ ] GH Actions CI with security scans
-- [ ] Reusable workflows + path filters
-- [ ] k3d cluster + Helm charts deployed
+**🚀 Project — PP Wk 9: "Chat with video" RAG (re-baselined, compressed) — feature build complete**
+Done when: answers stream with clickable `[mm:ss]` citations
+- [ ] WebSocket gateway + top-K retrieval per video
+- [ ] Streaming Claude response
+- [ ] Enforced `[mm:ss]` citations + chat UI
+- [ ] "I don't know" fallback + conversation history
 
 ---
 
-## Week 17 · Sep 1–Sep 7 · DSA: MAANG breadth (Matrix · Bit · Math · Design · Weighted Graphs · LL hards) · LLD re-watch weakest · Project Wk 10 finish
+## Week 17 · Sep 1–Sep 7 · DSA: MAANG breadth (Matrix · Bit · Math · Design · Weighted Graphs · LL hards) · LLD re-watch weakest · Project DevOps VM-first S1–3 (Docker + CI + GHCR)
 
 > Breadth week: the patterns MAANG asks beyond the core 16 — matrix simulation, bit tricks, math/string, design, weighted graphs (Dijkstra/MST) — plus the 3 linked-list hards worth keeping.
 
@@ -1277,8 +1282,8 @@ Done when: `helm upgrade` works on local k3d cluster
 - [ ] 🧠 DSA New: #787 Cheapest Flights Within K Stops
 - [ ] 🧠 DSA New: #1584 Min Cost to Connect All Points (MST)
 - [ ] 🧠 DSA Review: #207 (D+60)
-- [ ] 🚀 Project: Nginx ingress + cert-manager + Let's Encrypt locally
-- [ ] 🚀 Project: Helm chart values for staging vs production
+- [ ] 🚀 Project: Multi-stage prod Dockerfiles for api/worker/web (standalone, non-root, prod-only deps)
+- [ ] 🚀 Project: GitHub Actions CI — install/typecheck/lint/build, pnpm cache, path filters
 
 **D118 · Sun Sep 6** _(+ Final pattern retro)_ — Linked List hards (kept)
 - [ ] 🧠 DSA New: #25 Reverse Nodes in k-Group ⭐ 🔴
@@ -1287,8 +1292,8 @@ Done when: `helm upgrade` works on local k3d cluster
 - [ ] 🧠 DSA Review: #322 (D+30)
 - [ ] 🧠 DSA Review: #785 (D+60)
 - [ ] 🧠 DSA Retro: read every trigger phrase in the roadmap. Any patterns still mushy?
-- [ ] 🚀 Project: Final local cluster end-to-end test (record → transcode → transcribe → embed → chat → play)
-- [ ] 🚀 Project: Document runbook / cluster boot order
+- [ ] 🚀 Project: Publish images to GHCR on push to `main`, tagged SHA + `latest`
+- [ ] 🚀 Project: Local end-to-end smoke test of the built images via `docker-compose.prod.yml`
 
 **D119 · Mon Sep 7** — Breadth wrap
 - [ ] 🧠 DSA New: #778 Swim in Rising Water 🔴 (Dijkstra-on-grid)
@@ -1312,16 +1317,16 @@ Done when: self-quiz lists all 22 patterns confidently
 - [ ] UML + concurrency re-watch
 - [ ] Self-quiz passed
 
-**🚀 Project — Wk 10 finish: Ingress + cert-manager**
-Done when: local cluster end-to-end pipeline works
-- [ ] Nginx ingress + cert-manager + Let's Encrypt
-- [ ] Helm values per env
-- [ ] Full pipeline end-to-end test
-- [ ] Runbook documented
+**🚀 Project — DevOps L1 (VM-first): production images + CI**
+Done when: push to `main` publishes 3 images to GHCR
+- [ ] Multi-stage prod Dockerfiles (api/worker/web)
+- [ ] GH Actions CI (typecheck/lint/build + path filters)
+- [ ] Images pushed to GHCR (SHA + latest)
+- [ ] Prod images run locally via compose
 
 ---
 
-## Buffer · Sep 8–Sep 12 · DSA: Catch-up + Mock tests · LLD final review · Project catch-up
+## Buffer · Sep 8–Sep 12 · DSA: Catch-up + Mock tests · LLD final review · Project DevOps VM-first S4 (first live deploy)
 
 ### 📅 Daily
 
@@ -1330,13 +1335,13 @@ Done when: local cluster end-to-end pipeline works
 - [ ] 🧠 DSA Review: #295 (D+60)
 - [ ] 🧠 DSA Review: #62 (D+30)
 - [ ] 📚 LLD final review: principles + UML
-- [ ] 🚀 Project: catch-up on any missed milestones
+- [ ] 🚀 Project: Provision cloud VM (Hetzner/DO/Lightsail) + install Docker; `docker-compose.prod.yml` pulling GHCR images
 
 **D121 · Wed Sep 9**
 - [ ] 🧠 DSA Catch-up on any missed reviews from prior weeks
 - [ ] 🧠 DSA Review: #215 (D+60)
 - [ ] 📚 LLD final review: creational + structural patterns
-- [ ] 🚀 Project: polish before AI-related rework
+- [ ] 🚀 Project: Caddy/nginx reverse proxy + HTTPS + domain; same `/api`+`/socket` path routing → **live URL**
 
 **D122 · Thu Sep 10**
 - [ ] 🧠 DSA Mock 2: 5 random past titles · Target ≥4/5 correctly identified
@@ -1371,9 +1376,12 @@ Done when: local cluster end-to-end pipeline works
 - [ ] All sections re-skimmed
 - [ ] Ready for active problem-solving phase
 
-**🚀 Project — Buffer**
-- [ ] Catch-up on missed weekly deliverables
-- [ ] Polish before AI-related rework
+**🚀 Project — DevOps L1 (VM-first): first live deploy**
+Done when: Loom is live at https://<domain>, register + login works
+- [ ] Cloud VM + docker-compose.prod.yml pulling GHCR images
+- [ ] Caddy/nginx reverse proxy + HTTPS + domain
+- [ ] Same-origin path routing (/api, /socket → api; else web)
+- [ ] Register + log in on the live site
 
 ---
 
@@ -1383,7 +1391,7 @@ Mornings switch: **2 LLD problems/week** = design diagram first (~30 min Mon/Wed
 
 ---
 
-## Week 18 · Sep 13–19 · LLD: Parking Lot + Logging Framework · Project Wk 11 start
+## Week 18 · Sep 13–19 · LLD: Parking Lot + Logging Framework · Project DevOps VM-first S5–6 (secrets + CD)
 
 ### 📅 Daily
 
@@ -1417,8 +1425,8 @@ Mornings switch: **2 LLD problems/week** = design diagram first (~30 min Mon/Wed
 **D131 · Sat Sep 19** _(+ Weekly retro)_
 - [ ] 🧠 DSA: 2 timed mediums
 - [ ] 🧩 LLD Retro — what patterns surfaced?
-- [ ] 🚀 Project: KEDA installed on local cluster, autoscaler on worker deployment based on BullMQ queue depth
-- [ ] 🚀 Project: Terraform skeleton for AWS (VPC, EKS, S3, CloudFront, RDS) OR Hetzner+k3s
+- [ ] 🚀 Project: Secrets out of git → GitHub Actions secrets + server `.env`; strong `SESSION_SECRET`; real S3/MinIO creds
+- [ ] 🚀 Project: `deploy.yml` — SSH to VM → `docker compose pull && up -d` → `prisma migrate deploy` (CD)
 - [ ] 🎓 HLD commute: weekend notes review
 
 ---
@@ -1439,14 +1447,15 @@ Done when: back-of-envelope estimates and scale-to-millions framework understood
 **🧠 DSA upkeep**
 - [ ] ≥ 2 timed mediums solved this week
 
-**🚀 Project — Wk 11 start of `PROJECT_PLAN.md`: KEDA autoscaling + Terraform**
-- [ ] KEDA + queue-depth autoscaler on workers
-- [ ] Terraform skeleton (AWS or Hetzner)
-- [ ] `terraform plan` clean for chosen target
+**🚀 Project — DevOps L2 (VM-first): secrets + CD**
+Done when: merging to `main` auto-deploys live with migrations, zero manual steps
+- [ ] Secrets in GH Actions + server .env (nothing sensitive in git)
+- [ ] CD workflow: pull + up + migrate deploy
+- [ ] Redeploy-previous-SHA rollback understood
 
 ---
 
-## Week 19 · Sep 20–26 · LLD: Vending Machine + Task Management · Project Wk 11 finish
+## Week 19 · Sep 20–26 · LLD: Vending Machine + Task Management · Project DevOps VM-first S7 (observability)
 
 ### 📅 Daily
 
@@ -1478,10 +1487,10 @@ Done when: back-of-envelope estimates and scale-to-millions framework understood
 **D138 · Sat Sep 26** _(+ Weekly retro)_
 - [ ] 🧠 DSA: 2 timed mediums
 - [ ] 🧩 LLD Retro
-- [ ] 🚀 Project: GitHub OIDC trust + IAM role; `aws-actions/configure-aws-credentials@v4` in deploy.yml
-- [ ] 🚀 Project: Environment-gated workflow — staging auto, production manual approval
-- [ ] 🚀 Project: Helm `helm upgrade` from CI onto live cluster, HTTPS works
-- [ ] 🚀 Project: Recording a video on the live URL triggers full pipeline
+- [ ] 🚀 Project: `/health` + `/ready` endpoints on api; container logs queryable
+- [ ] 🚀 Project: UptimeRobot → `/health` (downtime alerts)
+- [ ] 🚀 Project: (optional) basic Prometheus + Grafana tile — queue depth + AI $ spent
+- [ ] 🚀 Project: Recording a video on the live URL triggers the full pipeline end-to-end
 
 ---
 
@@ -1497,16 +1506,16 @@ Done when: back-of-envelope estimates and scale-to-millions framework understood
 **🧠 DSA upkeep**
 - [ ] ≥ 2 timed mediums
 
-**🚀 Project — Wk 11 finish: Cloud deploy + GitHub OIDC**
-Done when: recording on live URL triggers full pipeline
-- [ ] OIDC trust + IAM
-- [ ] Environment-gated workflow
-- [ ] `helm upgrade` from CI with HTTPS
-- [ ] End-to-end live test
+**🚀 Project — DevOps L2 (VM-first): basic observability**
+Done when: you get an alert if Loom goes down; full pipeline runs on the live URL
+- [ ] /health + /ready + queryable logs
+- [ ] UptimeRobot downtime alerting
+- [ ] (optional) basic Grafana tile
+- [ ] End-to-end live pipeline test
 
 ---
 
-## Week 20 · Sep 27 – Oct 3 · LLD: PubSub + ATM · Project Wk 12 start
+## Week 20 · Sep 27 – Oct 3 · LLD: PubSub + ATM · Project Polish (README + demo + load test)
 
 ### 📅 Daily
 
@@ -1539,8 +1548,8 @@ Done when: recording on live URL triggers full pipeline
 **D145 · Sat Oct 3** _(+ Weekly retro)_
 - [ ] 🧠 DSA: 2 timed mediums
 - [ ] 🧩 LLD Retro
-- [ ] 🚀 Project: Prometheus scraping API + worker `/metrics` (prom-client)
-- [ ] 🚀 Project: Grafana dashboard 1 — "system health" (RPS, p95, queue depth, transcode duration)
+- [ ] 🚀 Project: README — architecture diagram, live URL, AI cost-per-video breakdown
+- [ ] 🚀 Project: Light load test (k6/autocannon: ~30 uploads + ~20 chats) + "what broke" note
 
 ---
 
@@ -1556,23 +1565,23 @@ Done when: recording on live URL triggers full pipeline
 **🧠 DSA upkeep**
 - [ ] ≥ 2 timed mediums
 
-**🚀 Project — Wk 12 start of `PROJECT_PLAN.md`: Observability**
-- [ ] Prometheus `/metrics` endpoints
-- [ ] Grafana "system health" dashboard
-- [ ] Loki for structured JSON logs (continues into next week)
-- [ ] Grafana "AI cost & quality" dashboard (continues into next week)
+**🚀 Project — Portfolio polish**
+Done when: README has demo GIF + cost breakdown; load-test note committed
+- [ ] README with arch diagram + live URL + AI cost breakdown
+- [ ] Light load test + "what broke / what I'd fix" note
+- [ ] 60-second demo recording (finished next week)
 
 ---
 
-## Week 21 · Oct 4–10 · LLD: Hotel Management + Elevator · Project Wk 12 finish — **Project complete!**
+## Week 21 · Oct 4–10 · LLD: Hotel Management + Elevator · Project VM-first COMPLETE + Phase B stretch — **Project complete!**
 
 ### 📅 Daily
 
 **D146 · Sun Oct 4**
 - [ ] 🧩 LLD #7 Hotel Management — **design**: Factory (room types), Strategy (pricing), Repository
 - [ ] 🧠 DSA upkeep: 1 medium
-- [ ] 🚀 Project: Loki for structured JSON logs (pino) with trace IDs
-- [ ] 🚀 Project: Grafana dashboard 2 — "AI cost & quality" (tokens, $, model used)
+- [ ] 🚀 Project: 60-second portfolio screen recording (record → transcribe → chat flow)
+- [ ] 🚀 Project: Phase B stretch (if ahead) — Trivy/Hadolint/Gitleaks scans in CI
 - [ ] 🎓 HLD commute: Vol 1 ch 9 (web crawler)
 
 **D147 · Mon Oct 5**
@@ -1598,11 +1607,8 @@ Done when: recording on live URL triggers full pipeline
 
 **D152 · Sat Oct 10** _(+ Weekly retro)_
 - [ ] 🧠 DSA: 2 timed mediums
-- [ ] 🚀 Project: OpenTelemetry tracing API → worker → LLM call (trace IDs in logs)
-- [ ] 🚀 Project: k6 load test — 100 concurrent uploads + 50 concurrent RAG chats; document where it broke
-- [ ] 🚀 Project: README with architecture diagram, demo GIF, live URL, AI cost breakdown
-- [ ] 🚀 Project: 60-second screen recording for portfolio
-- [ ] 🚀 **PROJECT COMPLETION CHECK** — see Section 8 of `PROJECT_PLAN.md` "Done" criteria
+- [ ] 🚀 Project: Phase B stretch (if ahead) — k3d + Helm charts redeploy the same images; else catch-up/polish
+- [ ] 🚀 **PROJECT COMPLETION CHECK** — VM-first Section 8 criteria (1–6) green; K8s items (7–9) are Phase B
 
 ---
 
@@ -1618,13 +1624,12 @@ Done when: recording on live URL triggers full pipeline
 **🧠 DSA upkeep**
 - [ ] ≥ 2 timed mediums
 
-**🚀 Project — Wk 12 finish: OpenTelemetry + load test + README polish — PROJECT COMPLETE**
-Done when: all `PROJECT_PLAN.md` Section 8 criteria green
-- [ ] OTel tracing across services
-- [ ] k6 load test results documented
-- [ ] README with diagram + demo GIF + live URL + cost breakdown
-- [ ] 60s portfolio screen recording
-- [ ] Section 8 Done criteria verified
+**🚀 Project — VM-first COMPLETE + Phase B stretch buffer**
+Done when: VM-first Section 8 criteria (1–6) green — project is portfolio-ready
+- [ ] 60-second portfolio recording
+- [ ] VM-first Section 8 (1–6) verified — **project complete**
+- [ ] Phase B (K8s/KEDA/Terraform/full-obs) noted as post-completion / formal-course track
+- [ ] Buffer: absorb any slippage from the compressed Wk 8/9 AI weeks
 
 ---
 
