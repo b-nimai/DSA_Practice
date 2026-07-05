@@ -530,7 +530,7 @@ Done when: video plays via HLS URL
 
 **D52 · Thu Jul 2**
 - [ ✅ ] 🧠 DSA New: #207 Course Schedule ⭐
-- [ ] 🧠 DSA New: #210 Course Schedule II
+- [ ✅ ] 🧠 DSA New: #210 Course Schedule II
 - [ ] 🧠 DSA Review: #994 (D+2)
 - [ ] 🧠 DSA Review: #124 (D+10)
 - [ ] 🧠 DSA Review: #20 (D+30)
