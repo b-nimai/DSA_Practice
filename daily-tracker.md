@@ -538,7 +538,7 @@ Done when: video plays via HLS URL
 - [ ] 📚 LLD: Facade Pattern
 
 **D53 · Fri Jul 3**
-- [ ] 🧠 DSA New: #785 Is Graph Bipartite? ⭐
+- [ ✅ ] 🧠 DSA New: #785 Is Graph Bipartite? ⭐
 - [ ] 🧠 DSA Review: #102 (D+10)
 - [ ] 📚 LLD: Composite Pattern
 
