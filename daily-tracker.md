@@ -543,7 +543,7 @@ Done when: video plays via HLS URL
 - [ ] 📚 LLD: Composite Pattern
 
 **D54 · Sat Jul 4**
-- [ ] 🧠 DSA New: #417 Pacific Atlantic Water Flow
+- [ ✅ ] 🧠 DSA New: #417 Pacific Atlantic Water Flow
 - [ ] 🧠 DSA New: #1091 Shortest Path in Binary Matrix
 - [ ] 🧠 DSA Review: #207 (D+2)
 - [ ] 🧠 DSA Review: #103 (D+10)
