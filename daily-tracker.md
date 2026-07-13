@@ -518,20 +518,20 @@ Done when: video plays via HLS URL
 - [ ✅ ] 🧠 DSA New: #994 Rotting Oranges ⭐
 - [ ✅ ] 🧠 DSA New: #130 Surrounded Regions
 - [ ✅ ] 🧠 DSA Review: #98 (D+10)
-- [ ] 📚 LLD: Adapter Pattern
+- [ ✅ ] 📚 LLD: Adapter Pattern
 
 **D51 · Wed Jul 1**
 - [ ✅ ] 🧠 DSA New: #133 Clone Graph
 - [ ✅ ] 🧠 DSA Review: #200 (D+2)
 - [ ✅ ] 🧠 DSA Review: #236 (D+10)
-- [ ] 🧠 DSA Review: #410 (D+30)
+- [ ✅ ] 🧠 DSA Review: #410 (D+30)
 - [ ] 🧠 DSA Review: #4 (D+30)
 - [ ] 📚 LLD: Decorator Pattern
 
 **D52 · Thu Jul 2**
 - [ ✅ ] 🧠 DSA New: #207 Course Schedule ⭐
 - [ ✅ ] 🧠 DSA New: #210 Course Schedule II
-- [ ] 🧠 DSA Review: #994 (D+2)
+- [ ✅ ] 🧠 DSA Review: #994 (D+2)
 - [ ] 🧠 DSA Review: #124 (D+10)
 - [ ] 🧠 DSA Review: #20 (D+30)
 - [ ] 🧠 DSA Review: #155 (D+30)
