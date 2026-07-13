@@ -565,7 +565,7 @@ Done when: video plays via HLS URL
 - [ ✅ ] 🚀 Project: Protected dashboard route + session cookie persistence _(done ahead Jul 3)_
 
 **D56 · Mon Jul 6**
-- [ ] 🧠 DSA New: #269 Alien Dictionary 🔴
+- [ ✅ ] 🧠 DSA New: #269 Alien Dictionary 🔴
 - [ ] 🧠 DSA New: #215 Kth Largest Element ⭐
 - [ ] 🧠 DSA New: #703 Kth Largest in Stream
 - [ ] 🧠 DSA Review: #111 (D+10)
