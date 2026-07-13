@@ -544,7 +544,7 @@ Done when: video plays via HLS URL
 
 **D54 · Sat Jul 4**
 - [ ✅ ] 🧠 DSA New: #417 Pacific Atlantic Water Flow
-- [ ] 🧠 DSA New: #1091 Shortest Path in Binary Matrix
+- [ ✅ ] 🧠 DSA New: #1091 Shortest Path in Binary Matrix
 - [ ] 🧠 DSA Review: #207 (D+2)
 - [ ] 🧠 DSA Review: #103 (D+10)
 - [ ] 🧠 DSA Review: #739 (D+30)
@@ -554,7 +554,7 @@ Done when: video plays via HLS URL
 - [ ✅ ] 🚀 Project: Login + signup pages (shadcn `Form` + react-hook-form + zod), hitting `/api/*` same-origin _(done ahead Jul 3)_
 
 **D55 · Sun Jul 5** _(+ Weekly retro)_
-- [ ] 🧠 DSA New: #127 Word Ladder ⭐ 🔴
+- [ ✅ ] 🧠 DSA New: #127 Word Ladder ⭐ 🔴
 - [ ] 🧠 DSA Review: #785 (D+2)
 - [ ] 🧠 DSA Review: #199 (D+10)
 - [ ] 🧠 DSA Review: #15 (D+60)
