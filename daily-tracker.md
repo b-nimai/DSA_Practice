@@ -525,28 +525,28 @@ Done when: video plays via HLS URL
 - [ ✅ ] 🧠 DSA Review: #200 (D+2)
 - [ ✅ ] 🧠 DSA Review: #236 (D+10)
 - [ ✅ ] 🧠 DSA Review: #410 (D+30)
-- [ ] 🧠 DSA Review: #4 (D+30)
+- [ ✅ ] 🧠 DSA Review: #4 (D+30)
 - [ ] 📚 LLD: Decorator Pattern
 
 **D52 · Thu Jul 2**
 - [ ✅ ] 🧠 DSA New: #207 Course Schedule ⭐
 - [ ✅ ] 🧠 DSA New: #210 Course Schedule II
 - [ ✅ ] 🧠 DSA Review: #994 (D+2)
-- [ ] 🧠 DSA Review: #124 (D+10)
-- [ ] 🧠 DSA Review: #20 (D+30)
+- [ ✅ ] 🧠 DSA Review: #124 (D+10)
+- [ ✅ ] 🧠 DSA Review: #20 (D+30)
 - [ ] 🧠 DSA Review: #155 (D+30)
 - [ ] 📚 LLD: Facade Pattern
 
 **D53 · Fri Jul 3**
 - [ ✅ ] 🧠 DSA New: #785 Is Graph Bipartite? ⭐
-- [ ] 🧠 DSA Review: #102 (D+10)
+- [ ✅ ] 🧠 DSA Review: #102 (D+10)
 - [ ] 📚 LLD: Composite Pattern
 
 **D54 · Sat Jul 4**
 - [ ✅ ] 🧠 DSA New: #417 Pacific Atlantic Water Flow
 - [ ✅ ] 🧠 DSA New: #1091 Shortest Path in Binary Matrix
-- [ ] 🧠 DSA Review: #207 (D+2)
-- [ ] 🧠 DSA Review: #103 (D+10)
+- [ ✅ ] 🧠 DSA Review: #207 (D+2)
+- [ ✅ ] 🧠 DSA Review: #103 (D+10)
 - [ ] 🧠 DSA Review: #739 (D+30)
 - [ ] 🧠 DSA Review: #167 (D+60)
 - [ ] 🧠 DSA Review: #11 (D+60)
