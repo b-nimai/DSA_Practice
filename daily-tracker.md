@@ -1281,7 +1281,7 @@ Done when: answers stream with clickable `[mm:ss]` citations
 - [ ] 📚 LLD: Re-watch concurrency section
 
 **D117 · Sat Sep 5** — Weighted Graphs (Dijkstra / MST)
-- [ ] 🧠 DSA New: #743 Network Delay Time ⭐
+- [ ✅ ] 🧠 DSA New: #743 Network Delay Time ⭐ (2026-07-16)
 - [ ] 🧠 DSA New: #787 Cheapest Flights Within K Stops
 - [ ] 🧠 DSA New: #1584 Min Cost to Connect All Points (MST)
 - [ ] 🧠 DSA Review: #207 (D+60)

@@ -432,7 +432,7 @@ while (!q.empty()) {
 
 | ✓ | Date | # | Problem | Diff | Trigger phrase |
 |---|------|---|---------|------|----------------|
-| ☐ |      | 743 | [Network Delay Time](https://leetcode.com/problems/network-delay-time/) | 🟡 | Dijkstra: min time to reach all nodes from source |
+| ✅ | 2026-07-16 | 743 | [Network Delay Time](https://leetcode.com/problems/network-delay-time/) | 🟡 | Signal reaches all nodes: min-heap Dijkstra, answer = **max** of shortest dists, INT_MAX ⇒ -1 |
 | ☐ |      | 787 | [Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/) | 🟡 | Shortest path with ≤K edges → Bellman-Ford / BFS layers |
 | ☐ |      | 1584 | [Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/) | 🟡 | Connect all nodes cheapest → MST (Prim/Kruskal) |
 | ☐ |      | 778 | [Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/) | 🔴 | Minimize max edge on a path → Dijkstra-on-grid / binary search + DFS |
