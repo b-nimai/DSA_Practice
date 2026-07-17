@@ -547,9 +547,9 @@ Done when: video plays via HLS URL
 - [ ✅ ] 🧠 DSA New: #1091 Shortest Path in Binary Matrix
 - [ ✅ ] 🧠 DSA Review: #207 (D+2)
 - [ ✅ ] 🧠 DSA Review: #103 (D+10)
-- [ ] 🧠 DSA Review: #739 (D+30)
-- [ ] 🧠 DSA Review: #167 (D+60)
-- [ ] 🧠 DSA Review: #11 (D+60)
+- [ ✅ ] 🧠 DSA Review: #739 (D+30)
+- [ ✅ ] 🧠 DSA Review: #167 (D+60)
+- [ ✅ ] 🧠 DSA Review: #11 (D+60)
 - [ ✅ ] 🚀 Project: `@nestjs/passport` + `passport-local` + `passport-google-oauth20` + `@fastify/secure-session` wired _(done ahead Jul 3)_
 - [ ✅ ] 🚀 Project: Login + signup pages (shadcn `Form` + react-hook-form + zod), hitting `/api/*` same-origin _(done ahead Jul 3)_
 
@@ -600,8 +600,8 @@ Done when: email/password + Google-OAuth login both work
 ### 📅 Daily
 
 **D57 · Tue Jul 7**
-- [ ] 🧠 DSA New: #347 Top K Frequent Elements ⭐
-- [ ] 🧠 DSA New: #692 Top K Frequent Words
+- [ ✅ ] 🧠 DSA New: #347 Top K Frequent Elements ⭐ (Jul 17)
+- [ ✅ ] 🧠 DSA New: #692 Top K Frequent Words (Jul 17)
 - [ ] 🧠 DSA Review: #127 (D+2)
 - [ ] 🧠 DSA Review: #394 (D+30)
 - [ ] 🧠 DSA Review: #424 (D+60)
