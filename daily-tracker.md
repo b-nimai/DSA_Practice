@@ -555,12 +555,12 @@ Done when: video plays via HLS URL
 
 **D55 · Sun Jul 5** _(+ Weekly retro)_
 - [ ✅ ] 🧠 DSA New: #127 Word Ladder ⭐ 🔴
-- [ ] 🧠 DSA Review: #785 (D+2)
-- [ ] 🧠 DSA Review: #199 (D+10)
-- [ ] 🧠 DSA Review: #15 (D+60)
-- [ ] 🧠 DSA Review: #42 (D+60)
-- [ ] 🧠 DSA Review: #18 (D+60)
-- [ ] 🧠 DSA Retro
+- [ ✅ ] 🧠 DSA Review: #785 (D+2)
+- [ ✅ ] 🧠 DSA Review: #199 (D+10)
+- [ ✅ ] 🧠 DSA Review: #15 (D+60)
+- [ ✅ ] 🧠 DSA Review: #42 (D+60)
+- [ ✅ ] 🧠 DSA Review: #18 (D+60)
+- [ ✅ ] 🧠 DSA Retro
 - [ ✅ ] 🚀 Project: Google OAuth flow end-to-end _(done ahead Jul 3)_
 - [ ✅ ] 🚀 Project: Protected dashboard route + session cookie persistence _(done ahead Jul 3)_
 
@@ -568,8 +568,8 @@ Done when: video plays via HLS URL
 - [ ✅ ] 🧠 DSA New: #269 Alien Dictionary 🔴
 - [ ✅ ] 🧠 DSA New: #215 Kth Largest Element ⭐ _(Jul 15)_
 - [ ✅ ] 🧠 DSA New: #703 Kth Largest in Stream _(Jul 15)_
-- [ ] 🧠 DSA Review: #111 (D+10)
-- [ ] 🧠 DSA Review: #3 (D+60)
+- [ ✅ ] 🧠 DSA Review: #111 (D+10)
+- [ ✅ ] 🧠 DSA Review: #3 (D+60)
 - [ ] 📚 LLD: Review the 4 structural patterns
 
 
