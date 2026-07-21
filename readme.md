@@ -433,8 +433,8 @@ while (!q.empty()) {
 | ✓ | Date | # | Problem | Diff | Trigger phrase |
 |---|------|---|---------|------|----------------|
 | ✅ | 2026-07-16 | 743 | [Network Delay Time](https://leetcode.com/problems/network-delay-time/) | 🟡 | Signal reaches all nodes: min-heap Dijkstra, answer = **max** of shortest dists, INT_MAX ⇒ -1 |
-| ☐ |      | 787 | [Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/) | 🟡 | Shortest path with ≤K edges → Bellman-Ford / BFS layers |
-| ☐ |      | 1584 | [Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/) | 🟡 | Connect all nodes cheapest → MST (Prim/Kruskal) |
+| ✅ | 2026-07-21 | 787 | [Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/) | 🟡 | "cheapest `src→dst` with **at most `k` stops**" → hop-limited shortest path ⇒ **BFS on `{cost, stops, node}` with a plain FIFO `queue`**, `if (stops > k) continue;` at **pop** (`k` stops = `k+1` edges), no `visited[]`. **Dijkstra fails**: cost-only pruning lets a cheaper-but-too-long path evict the pricier fewer-hop path that could still reach `dst` — FIFO is safe because pops advance hops monotonically. Alt: Bellman-Ford `k+1` rounds with a `temp = dist` copy |
+| ✅ | 2026-07-21 | 1584 | [Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/) | 🟡 | "connect **all** points at **min total cost**" (no `src`/`dst`) → **MST, not Dijkstra**. Graph is **complete + implicit**: node = index, weight = Manhattan. Prim heap pushes **`w`, not `dis + w`**; mark visited on **pop**. Complete graph ⇒ **dense Prim** O(n²)/O(n) beats heap O(n² log n)/O(n²) |
 | ☐ |      | 778 | [Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/) | 🔴 | Minimize max edge on a path → Dijkstra-on-grid / binary search + DFS |
 
 ---

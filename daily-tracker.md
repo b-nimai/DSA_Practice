@@ -1282,8 +1282,8 @@ Done when: answers stream with clickable `[mm:ss]` citations
 
 **D117 · Sat Sep 5** — Weighted Graphs (Dijkstra / MST)
 - [ ✅ ] 🧠 DSA New: #743 Network Delay Time ⭐ (2026-07-16)
-- [ ] 🧠 DSA New: #787 Cheapest Flights Within K Stops
-- [ ] 🧠 DSA New: #1584 Min Cost to Connect All Points (MST)
+- [ ✅ ] 🧠 DSA New: #787 Cheapest Flights Within K Stops (2026-07-21)
+- [ ✅ ] 🧠 DSA New: #1584 Min Cost to Connect All Points (MST) (2026-07-21)
 - [ ] 🧠 DSA Review: #207 (D+60)
 - [ ] 🚀 Project: Multi-stage prod Dockerfiles for api/worker/web (standalone, non-root, prod-only deps)
 - [ ] 🚀 Project: GitHub Actions CI — install/typecheck/lint/build, pnpm cache, path filters
