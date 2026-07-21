@@ -1299,7 +1299,7 @@ Done when: answers stream with clickable `[mm:ss]` citations
 - [ ] 🚀 Project: Local end-to-end smoke test of the built images via `docker-compose.prod.yml`
 
 **D119 · Mon Sep 7** — Breadth wrap
-- [ ] 🧠 DSA New: #778 Swim in Rising Water 🔴 (Dijkstra-on-grid)
+- [ ✅ ] 🧠 DSA New: #778 Swim in Rising Water 🔴 (Dijkstra-on-grid)
 - [ ] 🧠 DSA New: #289 Game of Life
 - [ ] 🧠 DSA Review: #146 (LRU Cache final)
 - [ ] 🧠 DSA Review: #127 (D+60)
