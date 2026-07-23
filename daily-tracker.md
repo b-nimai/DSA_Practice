@@ -602,9 +602,9 @@ Done when: email/password + Google-OAuth login both work
 **D57 · Tue Jul 7**
 - [ ✅ ] 🧠 DSA New: #347 Top K Frequent Elements ⭐ (Jul 17)
 - [ ✅ ] 🧠 DSA New: #692 Top K Frequent Words (Jul 17)
-- [ ] 🧠 DSA Review: #127 (D+2)
-- [ ] 🧠 DSA Review: #394 (D+30)
-- [ ] 🧠 DSA Review: #424 (D+60)
+- [ ✅ ] 🧠 DSA Review: #127 (D+2)
+- [ ✅ ] 🧠 DSA Review: #394 (D+30)
+- [ ✅ ] 🧠 DSA Review: #424 (D+60)
 - [ ] 📚 LLD: Proxy Pattern
 
 **D58 · Wed Jul 8**
