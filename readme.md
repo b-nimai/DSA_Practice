@@ -466,7 +466,7 @@ for (int x : nums) {
 | ✅ | Jul 15 | 703 | [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/) | 🟢 | "kth largest so far after each add / live cut-off" → size-K min-heap kept as member; pop only if size > k (heap can start < k since k ≤ len+1) |
 | ✅ | Jul 17 | 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | 🟡 | "k most frequent, beat O(n log n)" → hash-map count + size-K min-heap of {freq, num}; O(n) via bucket sort by frequency |
 | ✅ | Jul 17 | 692 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) | 🟡 | "k most frequent words, lexicographic ties" → 347 + custom comparator; min-heap = "worst on top" so BOTH keys invert; fill result backwards |
-| ☐ |      | 973 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) | 🟡 |  |
+| ✅ | Jul 24 | 973 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) | 🟡 | "k closest points / k smallest by a metric, any order" → size-K **max**-heap keyed by dist²=x²+y² (top = farthest, evict it); never sqrt; static array → quickselect/`nth_element` O(n) |
 | ☐ |      | 658 | [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/) | 🟡 |  |
 | ☐ |      | 1046| [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/) | 🟢 |  |
 | ☐ |      | 621 | [Task Scheduler](https://leetcode.com/problems/task-scheduler/) | 🟡 |  |

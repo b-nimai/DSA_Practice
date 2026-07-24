@@ -608,8 +608,8 @@ Done when: email/password + Google-OAuth login both work
 - [ ] 📚 LLD: Proxy Pattern
 
 **D58 · Wed Jul 8**
-- [ ] 🧠 DSA New: #973 K Closest Points to Origin ⭐
-- [ ] 🧠 DSA Review: #215 (D+2)
+- [ ✅ ] 🧠 DSA New: #973 K Closest Points to Origin ⭐
+- [ ✅ ] 🧠 DSA Review: #215 (D+2)
 - [ ] 🧠 DSA Review: #84 (D+30)
 - [ ] 📚 LLD: Bridge Pattern
 
