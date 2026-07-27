@@ -610,14 +610,14 @@ Done when: email/password + Google-OAuth login both work
 **D58 · Wed Jul 8**
 - [ ✅ ] 🧠 DSA New: #973 K Closest Points to Origin ⭐
 - [ ✅ ] 🧠 DSA Review: #215 (D+2)
-- [ ] 🧠 DSA Review: #84 (D+30)
+- [ ✅ ] 🧠 DSA Review: #84 (D+30)
 - [ ] 📚 LLD: Bridge Pattern
 
 **D59 · Thu Jul 9**
-- [ ] 🧠 DSA New: #658 Find K Closest Elements
-- [ ] 🧠 DSA New: #1046 Last Stone Weight
-- [ ] 🧠 DSA Review: #347 (D+2)
-- [ ] 🧠 DSA Review: #200 (D+10)
+- [ ✅ ] 🧠 DSA New: #658 Find K Closest Elements
+- [ ✅ ] 🧠 DSA New: #1046 Last Stone Weight
+- [ ✅ ] 🧠 DSA Review: #347 (D+2)
+- [ ✅ ] 🧠 DSA Review: #200 (D+10)
 - [ ] 📚 LLD: Flyweight Pattern
 
 **D60 · Fri Jul 10**

@@ -467,8 +467,8 @@ for (int x : nums) {
 | ✅ | Jul 17 | 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | 🟡 | "k most frequent, beat O(n log n)" → hash-map count + size-K min-heap of {freq, num}; O(n) via bucket sort by frequency |
 | ✅ | Jul 17 | 692 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) | 🟡 | "k most frequent words, lexicographic ties" → 347 + custom comparator; min-heap = "worst on top" so BOTH keys invert; fill result backwards |
 | ✅ | Jul 24 | 973 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) | 🟡 | "k closest points / k smallest by a metric, any order" → size-K **max**-heap keyed by dist²=x²+y² (top = farthest, evict it); never sqrt; static array → quickselect/`nth_element` O(n) |
-| ☐ |      | 658 | [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/) | 🟡 |  |
-| ☐ |      | 1046| [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/) | 🟢 |  |
+| ✅ | Jul 27 | 658 | [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/) | 🟡 | "k closest to x, output sorted, input already sorted" → answer is a **contiguous window**, so binary-search the start `lo ∈ [0, n-k]` (drop `arr[mid]` vs gain `arr[mid+k]`, strict `>` = tie goes left) O(log(n-k)+k); heap fallback = size-K max-heap of `{|num-x|, num}` + final sort |
+| ✅ | Jul 27 | 1046| [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/) | 🟢 | "repeatedly take the largest two, transform, put the result back" → heap as a **simulation frontier** (not Top-K): pop `y`, pop `x` (max-heap gives `x ≤ y` free), push `y-x` if `x != y`; guard `empty()` → 0. Contrast **1049** = you pick the order ⇒ subset-sum DP, greedy wrong |
 | ☐ |      | 621 | [Task Scheduler](https://leetcode.com/problems/task-scheduler/) | 🟡 |  |
 | ☐ |      | 1167| [Minimum Cost to Connect Sticks](https://leetcode.com/problems/minimum-cost-to-connect-sticks/) | 🟡 |  |
 | ☐ |      | 378 | [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) | 🟡 |  |
