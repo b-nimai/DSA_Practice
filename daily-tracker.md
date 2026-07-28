@@ -621,10 +621,10 @@ Done when: email/password + Google-OAuth login both work
 - [ ] 📚 LLD: Flyweight Pattern
 
 **D60 · Fri Jul 10**
-- [ ] 🧠 DSA New: #621 Task Scheduler ⭐
-- [ ] 🧠 DSA Review: #973 (D+2)
-- [ ] 🧠 DSA Review: #994 (D+10)
-- [ ] 🧠 DSA Review: #992 (D+60)
+- [ ✅ ] 🧠 DSA New: #621 Task Scheduler ⭐
+- [ ✅ ] 🧠 DSA Review: #973 (D+2)
+- [ ✅ ] 🧠 DSA Review: #994 (D+10)
+- [ ✅ ] 🧠 DSA Review: #992 (D+60)
 - [ ] 📚 LLD: Review all 7 structural patterns
 
 **D61 · Sat Jul 11**
