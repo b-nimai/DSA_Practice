@@ -628,7 +628,7 @@ Done when: email/password + Google-OAuth login both work
 - [ ] 📚 LLD: Review all 7 structural patterns
 
 **D61 · Sat Jul 11**
-- [ ] 🧠 DSA New: #1167 Minimum Cost to Connect Sticks
+- [ ✅ ] 🧠 DSA New: #1167 Minimum Cost to Connect Sticks
 - [ ] 🧠 DSA New: #378 Kth Smallest in Sorted Matrix
 - [ ] 🧠 DSA Review: #76 (D+60)
 - [ ] 🧠 DSA Review: #239 (D+60)
