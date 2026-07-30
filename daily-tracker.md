@@ -629,14 +629,14 @@ Done when: email/password + Google-OAuth login both work
 
 **D61 · Sat Jul 11**
 - [ ✅ ] 🧠 DSA New: #1167 Minimum Cost to Connect Sticks
-- [ ] 🧠 DSA New: #378 Kth Smallest in Sorted Matrix
-- [ ] 🧠 DSA Review: #76 (D+60)
-- [ ] 🧠 DSA Review: #239 (D+60)
+- [ ✅ ] 🧠 DSA New: #378 Kth Smallest in Sorted Matrix
+- [ ✅ ] 🧠 DSA Review: #76 (D+60)
+- [ ✅ ] 🧠 DSA Review: #239 (D+60)
 - [ ✅ ] 🚀 Project: API endpoint issuing multipart upload session (presigned URLs per part) _(done ahead Jul 3)_
 - [ ✅ ] 🚀 Project: Browser uploader — slice Blob into parts, upload in parallel, retry on fail _(done ahead Jul 3)_
 
 **D62 · Sun Jul 12** _(+ Weekly retro)_
-- [ ] 🧠 DSA New: #295 Find Median from Data Stream ⭐ 🔴
+- [ ✅ ] 🧠 DSA New: #295 Find Median from Data Stream ⭐ 🔴
 - [ ] 🧠 DSA Review: #621 (D+2)
 - [ ] 🧠 DSA Review: #207 (D+10)
 - [ ] 🧠 DSA Review: #141 (D+60)
