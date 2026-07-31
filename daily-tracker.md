@@ -646,7 +646,7 @@ Done when: email/password + Google-OAuth login both work
 - [ ✅ ] 🚀 Project: DB state transitions `pending → uploading → uploaded` _(done ahead Jul 3)_
 
 **D63 · Mon Jul 13**
-- [ ] 🧠 DSA New: #480 Sliding Window Median 🔴
+- [ ✅ ] 🧠 DSA New: #480 Sliding Window Median 🔴 _(done Jul 31)_
 - [ ] 🧠 DSA New: #78 Subsets ⭐
 - [ ] 🧠 DSA New: #90 Subsets II
 - [ ] 🧠 DSA Review: #785 (D+10)
