@@ -850,8 +850,8 @@ double myPow(double x, long n) {       // fast power
 # 🧭 Daily routine cheat sheet
 
 ```
-06:30 - 08:30  Mornings:     DSA daily problem (May 12 → Sep 12) → LLD problem (Sep 13 → Oct 25) → DSA upkeep + mocks (Oct 26+)
-08:30 - 10:00  Commute out:  LLD concept videos → switches to HLD videos (Sep 13+)
+06:30 - 08:30  Mornings:     DSA daily problem (May 12 → Sep 21) → LLD problem (Sep 22 → Nov 2) → DSA upkeep + mocks (Nov 3+)
+08:30 - 10:00  Commute out:  LLD concept videos → switches to HLD videos (Sep 22+)
 10:00 - 20:30  Office
 20:30 - 22:00  Commute back: continue LLD/HLD videos
 22:00 - 23:30  Eve (non-class): Project work (3 nights/wk × 1.5 hr)
@@ -861,6 +861,6 @@ Saturday + Sunday: Project (~5 hr each) + 1 weekly DSA review slot
 ```
 
 **Red lines** (never break):
-- DSA morning slot is sacred until Sep 12 — never lose to project work.
+- DSA morning slot is sacred until Sep 21 — never lose to project work.
 - One full off-period/week — burnout is the #1 reason 6-month plans fail.
 - Project work only in evenings/weekends — never push it into DSA time.

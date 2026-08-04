@@ -3,7 +3,7 @@
 > **Part of the 6-month switch plan.** Sibling roadmaps: [🧠 DSA](./readme.md) · [🧩 LLD](./lld-roadmap.md) · [📅 Daily tracker](./daily-tracker.md).
 > Project build plan (per-week "Learn first / Build / Done when"): [`PROJECT_PLAN.md`](./PROJECT_PLAN.md).
 >
-> **Project goal:** ship Loom-lite AI (video recording → transcoding → transcription → embeddings → RAG chat) by Oct 10, on a live cloud URL with observability.
+> **Project goal:** ship Loom-lite AI (video recording → transcoding → transcription → embeddings → RAG chat) by Oct 19, on a live cloud URL with observability.
 > **Apply goal:** sign an offer by **2026-11-28**.
 
 ---
@@ -30,23 +30,23 @@
 | ☐ | 16 | Aug 25 – 31     | **Wk 10** start | Containers + CI + local K8s | `helm upgrade` works on local k3d cluster |
 | ☐ | 17 | Sep 1 – 7       | **Wk 10** finish | Ingress + cert-manager | Local cluster full pipeline end-to-end works |
 | ☐ | Buf| Sep 8 – 12      | Catch-up | — | Missed deliverables closed |
-| ☐ | 18 | Sep 13 – 19     | **Wk 11** start | KEDA autoscaling + Terraform | KEDA on workers + `terraform plan` clean |
-| ☐ | 19 | Sep 20 – 26     | **Wk 11** finish | Cloud deploy + GitHub OIDC | Recording on live URL triggers full pipeline |
-| ☐ | 20 | Sep 27 – Oct 3  | **Wk 12** start | Observability | Prometheus + Grafana system-health dashboard live |
-| ☐ | 21 | Oct 4 – 10      | **Wk 12** finish | OTel + load test + README — **PROJECT COMPLETE** | All `PROJECT_PLAN.md` §8 Done criteria green |
+| ☐ | 17 | Sep 22 – 28     | **Wk 11** start | KEDA autoscaling + Terraform | KEDA on workers + `terraform plan` clean |
+| ☐ | 18 | Sep 29 – Oct 5  | **Wk 11** finish | Cloud deploy + GitHub OIDC | Recording on live URL triggers full pipeline |
+| ☐ | 19 | Oct 6 – 12      | **Wk 12** start | Observability | Prometheus + Grafana system-health dashboard live |
+| ☐ | 20 | Oct 13 – 19     | **Wk 12** finish | OTel + load test + README — **PROJECT COMPLETE** | All `PROJECT_PLAN.md` §8 Done criteria green |
 
 ---
 
-# 📨 Apply Phase (Oct 11 – Nov 28)
+# 📨 Apply Phase (Oct 20 – Nov 28)
 
 > Begins the day Project work ships. Tracks the application + interview crunch into the Nov 28 switch deadline.
 
 | ✓ | Cal Wk | Dates | Goal | Done when |
 |---|--------|-------|------|-----------|
-| ☐ | 22 | Oct 11 – 17 | Apply phase 1 | Resume + LinkedIn polished, 20+ applications, Pramp/Interviewing.io profile set up |
-| ☐ | 23 | Oct 18 – 24 | Apply phase 2 | 40+ total applications, 1 system design mock done, 4 STAR stories drafted |
-| ☐ | 24 | Oct 26 – Nov 1 | Interview prep crunch | 3 weakest LLD re-coded, 8–10 STAR stories complete, first mock (DSA + LLD), 10+ new apps |
-| ☐ | 25 | Nov 2 – 8 | Active interviewing | Tailored resume per company, 1 timed DSA mock/day, LLD revision before each interview, 4-hr recruiter response SLA |
-| ☐ | 26 | Nov 9 – 15 | Active interviewing | Follow-ups, daily LLD revision (~30 min), 1 system design mock this week |
-| ☐ | 27 | Nov 16 – 22 | Negotiation prep | Band research done (levels.fyi), 1 mandatory rest day before any onsite, 1 medium/day (no new content) |
-| ☐ | 28 | Nov 23 – 28 | Final rounds + offer signing | Final-round prep per company, offers compared if multiple, **Switch deadline: Nov 28** ✅ |
+| ☐ | 21 | Oct 20 – 26 | Apply phase 1 | Resume + LinkedIn polished, 20+ applications, Pramp/Interviewing.io profile set up |
+| ☐ | 22 | Oct 27 – Nov 2 | Apply phase 2 | 40+ total applications, 1 system design mock done, 4 STAR stories drafted |
+| ☐ | 23 | Nov 3 – 9 | Interview prep crunch | 3 weakest LLD re-coded, 8–10 STAR stories complete, first mock (DSA + LLD), 10+ new apps |
+| ☐ | 24 | Nov 10 – 16 | Active interviewing | Tailored resume per company, 1 timed DSA mock/day, LLD revision before each interview, 4-hr recruiter response SLA |
+| ☐ | 25 | Nov 17 – 23 | Active interviewing | Follow-ups, daily LLD revision (~30 min), 1 system design mock this week |
+| ☐ | 26 | Nov 24 – 28 | Negotiation prep | Band research done (levels.fyi), 1 mandatory rest day before any onsite, 1 medium/day (no new content) |
+| ☐ | 26 | *(merged above)* | Final rounds + offer signing | Final-round prep per company, offers compared if multiple, **Switch deadline: Nov 28** ✅ |

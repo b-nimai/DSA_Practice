@@ -3,11 +3,11 @@
 > **Part of the 6-month switch plan.** Sibling roadmaps: [🧠 DSA](./readme.md) · [🚀 Project + 📨 Apply](./project-roadmap.md) · [📅 Daily tracker](./daily-tracker.md).
 > Curriculum source: [`lld_content_index.md`](./lld_content_index.md).
 
-> **Phase 1 (May 28 → Sep 12):** Commute videos only — passive learning of concepts. Watch one section per calendar week per `daily-tracker.md`.
-> **Phase 2 (Sep 13 → Oct 25):** Active morning practice — solve 2 problems/week (design diagram first ~30 min, then C++ implementation ~90 min). Mornings switch from DSA to LLD here.
+> **Phase 1 (May 28 → Sep 21):** Commute videos only — passive learning of concepts. Watch one section per calendar week per `daily-tracker.md`.
+> **Phase 2 (Sep 22 → Nov 2):** Active morning practice — solve 2 problems/week (design diagram first ~30 min, then C++ implementation ~90 min). Mornings switch from DSA to LLD here.
 > **Goal:** Be able to walk into an LLD interview and confidently design 8+ classic systems with proper class diagrams, design pattern usage, and concurrency considerations.
 
-## 📺 Concept track (Phase 1 — commute videos, May 28 → Sep 12)
+## 📺 Concept track (Phase 1 — commute videos, May 28 → Sep 21)
 
 Source: `lld_content_index.md`. Watch in order. ~1 section per week.
 
@@ -30,23 +30,23 @@ Source: `lld_content_index.md`. Watch in order. ~1 section per week.
 | ☐ | 17 | Sep 1 – 7      | Re-watch weakest sections         | — |
 | ☐ | Buf| Sep 8 – 12     | Full review pass                  | — |
 
-## 🛠️ Problem track (Phase 2 — daily-active practice, Sep 13 → Oct 25)
+## 🛠️ Problem track (Phase 2 — daily-active practice, Sep 22 → Nov 2)
 
 > Cadence: **2 problems/week** = 1 design + 1 code session each. Store solutions in `lld-solutions/<problem-slug>/` with `design.md` (class diagram + reasoning) and `*.cpp` (implementation).
 
 | ✓ | # | Problem | Wk | Suggested mornings | Key patterns to apply |
 |---|---|---------|----|--------------------|------------------------|
-| ☐ | 1  | **Parking Lot**               | 18 | Sep 13 (design) · Sep 14 (code) | Strategy (pricing), Singleton (lot), Factory (slots) |
-| ☐ | 2  | **Logging Framework**         | 18 | Sep 16 (design) · Sep 17 (code) | Chain of Responsibility, Singleton, Strategy (sinks) |
+| ☐ | 1  | **Parking Lot**               | 17 | Sep 22 (design) · Sep 23 (code) | Strategy (pricing), Singleton (lot), Factory (slots) |
+| ☐ | 2  | **Logging Framework**         | 17 | Sep 25 (design) · Sep 26 (code) | Chain of Responsibility, Singleton, Strategy (sinks) |
 | ☐ | 3  | **Traffic Signal System**     | — *(skip if short on time, or do as bonus)* | — | State, Observer |
-| ☐ | 4  | **Vending Machine**           | 19 | Sep 20 (design) · Sep 21 (code) | State, Command |
-| ☐ | 5  | **Task Management System**    | 19 | Sep 23 (design) · Sep 24 (code) | Observer, Strategy (priority), Repository |
-| ☐ | 6  | **PubSub System**             | 20 | Sep 27 (design) · Sep 28 (code) | Observer, Concurrency, Thread-safe queue |
-| ☐ | 7  | **ATM Machine**               | 20 | Sep 30 (design) · Oct 1 (code) | State, Strategy (transactions) |
-| ☐ | 8  | **Hotel Management**          | 21 | Oct 4 (design) · Oct 5 (code) | Factory, Strategy (pricing), Repository |
-| ☐ | 9  | **Elevator System**           | 21 | Oct 7 (design) · Oct 8 (code) | State, Strategy (scheduling), Observer, Concurrency |
-| ☐ | 10 | **Digital Wallet** (+ locking) | 22 | Oct 11 (design) · Oct 12 (code) | Concurrency (locks), Command (txn log), State |
-| ☐ | 11 | **Ride Booking App**          | 22 | Oct 14 (design) · Oct 15 (code) | Strategy (matching), Observer (driver updates), State |
-| ☐ | 12 | **Music Streaming Platform** (+ streaming protocols) | 23 | Oct 18 (design) · Oct 19 (code) | Strategy (codec), Decorator, Factory |
+| ☐ | 4  | **Vending Machine**           | 18 | Sep 29 (design) · Sep 30 (code) | State, Command |
+| ☐ | 5  | **Task Management System**    | 18 | Oct 2 (design) · Oct 3 (code) | Observer, Strategy (priority), Repository |
+| ☐ | 6  | **PubSub System**             | 19 | Oct 6 (design) · Oct 7 (code) | Observer, Concurrency, Thread-safe queue |
+| ☐ | 7  | **ATM Machine**               | 19 | Oct 9 (design) · Oct 10 (code) | State, Strategy (transactions) |
+| ☐ | 8  | **Hotel Management**          | 20 | Oct 13 (design) · Oct 14 (code) | Factory, Strategy (pricing), Repository |
+| ☐ | 9  | **Elevator System**           | 20 | Oct 16 (design) · Oct 17 (code) | State, Strategy (scheduling), Observer, Concurrency |
+| ☐ | 10 | **Digital Wallet** (+ locking) | 21 | Oct 20 (design) · Oct 21 (code) | Concurrency (locks), Command (txn log), State |
+| ☐ | 11 | **Ride Booking App**          | 21 | Oct 23 (design) · Oct 24 (code) | Strategy (matching), Observer (driver updates), State |
+| ☐ | 12 | **Music Streaming Platform** (+ streaming protocols) | 22 | Oct 27 (design) · Oct 28 (code) | Strategy (codec), Decorator, Factory |
 
 **Done criteria:** All 11 numbered problems coded + diagrammed. Re-code your 3 weakest in Week 24.
