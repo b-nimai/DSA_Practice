@@ -647,8 +647,8 @@ Done when: email/password + Google-OAuth login both work
 
 **D63 · Mon Jul 13**
 - [ ✅ ] 🧠 DSA New: #480 Sliding Window Median 🔴 _(done Jul 31)_
-- [ ] 🧠 DSA New: #78 Subsets ⭐
-- [ ] 🧠 DSA New: #90 Subsets II
+- [ ✅ ] 🧠 DSA New: #78 Subsets ⭐ _(done Aug 3)_
+- [ ✅ ] 🧠 DSA New: #90 Subsets II _(done Aug 3)_
 - [ ] 🧠 DSA Review: #785 (D+10)
 - [ ] 📚 LLD: Start Section 6 — Iterator Pattern
 
@@ -679,8 +679,8 @@ Done when: 500 MB file uploads from browser → MinIO
 ### 📅 Daily
 
 **D64 · Tue Jul 14**
-- [ ] 🧠 DSA New: #46 Permutations ⭐
-- [ ] 🧠 DSA New: #47 Permutations II
+- [ ✅ ] 🧠 DSA New: #46 Permutations ⭐
+- [ ✅ ] 🧠 DSA New: #47 Permutations II
 - [ ] 🧠 DSA Review: #295 (D+2)
 - [ ] 📚 LLD: Iterator Pattern
 
