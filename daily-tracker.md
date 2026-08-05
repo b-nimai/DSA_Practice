@@ -711,11 +711,11 @@ interview crunch absorbs the squeeze (34 day-blocks → 26 days). **Nov 28 deadl
 - [ ] 📚 LLD: Iterator Pattern
 
 **D65 · Wed Aug 5**
-- [ ] 🧠 DSA New: #39 Combination Sum ⭐
-- [ ] 🧠 DSA Review: #78 (overdue D+2)
-- [ ] 🧠 DSA Review: #102 (overdue D+30)
-- [ ] 🧠 DSA Review: #875 (overdue D+60)
-- [ ] 🧠 DSA Review: #104 (overdue D+60)
+- [ ✅ ] 🧠 DSA New: #39 Combination Sum ⭐
+- [ ✅ ] 🧠 DSA Review: #78 (overdue D+2)
+- [ ✅ ] 🧠 DSA Review: #102 (overdue D+30)
+- [ ✅ ] 🧠 DSA Review: #875 (overdue D+60)
+- [ ✅ ] 🧠 DSA Review: #104 (overdue D+60)
 - [ ] 📚 LLD: Observer Pattern
 
 **D66 · Thu Aug 6**
