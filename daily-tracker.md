@@ -719,11 +719,11 @@ interview crunch absorbs the squeeze (34 day-blocks → 26 days). **Nov 28 deadl
 - [ ] 📚 LLD: Observer Pattern
 
 **D66 · Thu Aug 6**
-- [ ] 🧠 DSA New: #40 Combination Sum II
-- [ ] 🧠 DSA New: #17 Letter Combinations of Phone Number
-- [ ] 🧠 DSA Review: #46 (D+2)
-- [ ] 🧠 DSA Review: #127 (overdue D+10)
-- [ ] 🧠 DSA Review: #215 (overdue D+10)
+- [ ✅ ] 🧠 DSA New: #40 Combination Sum II
+- [ ✅ ] 🧠 DSA New: #17 Letter Combinations of Phone Number
+- [ ✅ ] 🧠 DSA Review: #46 (D+2)
+- [ ✅ ] 🧠 DSA Review: #127 (overdue D+10)
+- [ ✅ ] 🧠 DSA Review: #215 (overdue D+10)
 - [ ] 📚 LLD: Strategy Pattern
 - [ ] 📚 LLD: Command Pattern
 
