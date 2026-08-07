@@ -728,10 +728,10 @@ interview crunch absorbs the squeeze (34 day-blocks → 26 days). **Nov 28 deadl
 - [ ] 📚 LLD: Command Pattern
 
 **D67 · Fri Aug 7**
-- [ ] 🧠 DSA New: #79 Word Search ⭐
-- [ ] 🧠 DSA Review: #39 (D+2)
-- [ ] 🧠 DSA Review: #104 (overdue D+30)
-- [ ] 🧠 DSA Review: #347 (overdue D+10)
+- [ ✅ ] 🧠 DSA New: #79 Word Search ⭐
+- [ ✅ ] 🧠 DSA Review: #39 (D+2)
+- [ ✅ ] 🧠 DSA Review: #104 (overdue D+30)
+- [ ✅ ] 🧠 DSA Review: #347 (overdue D+10)
 - [ ✅ ] 🚀 Project: MediaRecorder UI — capture screen + webcam + mic, preview, trigger upload _(done ahead Jul 3)_
 - [ ✅ ] 🚀 Project: BullMQ producer in API enqueues `video.process` on upload completion _(done ahead Jul 3)_
 
