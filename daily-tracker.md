@@ -744,10 +744,10 @@ interview crunch absorbs the squeeze (34 day-blocks → 26 days). **Nov 28 deadl
 - [ ✅ ] 🚀 Project: `transcode.processor.ts` consumes job, logs video ID _(done ahead Jul 3)_
 
 **D69 · Sun Aug 9** _(+ Weekly retro)_
-- [ ] 🧠 DSA New: #51 N-Queens ⭐ 🔴
-- [ ] 🧠 DSA New: #37 Sudoku Solver 🔴
+- [ ✅ ] 🧠 DSA New: #51 N-Queens ⭐ 🔴
+- [ ✅ ] 🧠 DSA New: #37 Sudoku Solver 🔴
 - [ ] 🧠 DSA Retro
-- [ ] 🧠 DSA Review: #79 (D+2)
+- [ ✅ ] 🧠 DSA Review: #79 (D+2)
 - [ ] 🧠 DSA Catch-up + extra review of weakest 2 patterns from mocks
 - [ ] 🧠 DSA Final Mock: Mixed Practice 21–40 redo with timer · Target ≥34/40 patterns in 60s · ≥30/40 solved unaided
 - [ ] 📚 LLD: Template Method
