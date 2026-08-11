@@ -736,10 +736,10 @@ interview crunch absorbs the squeeze (34 day-blocks → 26 days). **Nov 28 deadl
 - [ ✅ ] 🚀 Project: BullMQ producer in API enqueues `video.process` on upload completion _(done ahead Jul 3)_
 
 **D68 · Sat Aug 8**
-- [ ] 🧠 DSA New: #131 Palindrome Partitioning
-- [ ] 🧠 DSA New: #93 Restore IP Addresses
-- [ ] 🧠 DSA Review: #287 (overdue D+60)
-- [ ] 🧠 DSA Review: #155 (overdue D+60)
+- [ ✅ ] 🧠 DSA New: #131 Palindrome Partitioning
+- [ ✅ ] 🧠 DSA New: #93 Restore IP Addresses
+- [ ✅ ] 🧠 DSA Review: #287 (overdue D+60)
+- [ ✅ ] 🧠 DSA Review: #155 (overdue D+60)
 - [ ✅ ] 🚀 Project: `apps/worker` NestJS standalone app (`createApplicationContext`) _(done ahead Jul 3)_
 - [ ✅ ] 🚀 Project: `transcode.processor.ts` consumes job, logs video ID _(done ahead Jul 3)_
 
