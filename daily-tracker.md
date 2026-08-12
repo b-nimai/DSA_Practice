@@ -786,14 +786,14 @@ Done when: 30s clip records → uploads → worker logs "received video X"
 
 **D71 · Tue Aug 11**
 - [ ] 🧠 DSA New: #57 Insert Interval
-- [ ] 🧠 DSA New: #252 Meeting Rooms
+- [ ✅ ] 🧠 DSA New: #252 Meeting Rooms
 - [ ] 🧠 DSA Review: #51 (D+2)
 - [ ] 🧠 DSA Review: #98 (overdue D+30)
 - [ ] 🧠 DSA Mock 1: 5 random past titles — predict pattern in 60s + solve ≤25 min
 - [ ] 📚 LLD: Visitor Pattern
 
 **D72 · Wed Aug 12**
-- [ ] 🧠 DSA New: #253 Meeting Rooms II ⭐
+- [ ✅ ] 🧠 DSA New: #253 Meeting Rooms II ⭐
 - [ ] 🧠 DSA New: #435 Non-overlapping Intervals ⭐
 - [ ] 🧠 DSA Review: #56 (D+2)
 - [ ] 🧠 DSA Review: #974 (overdue D+60)
