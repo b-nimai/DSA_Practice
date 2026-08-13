@@ -794,14 +794,14 @@ Done when: 30s clip records → uploads → worker logs "received video X"
 
 **D72 · Wed Aug 12**
 - [ ✅ ] 🧠 DSA New: #253 Meeting Rooms II ⭐
-- [ ] 🧠 DSA New: #435 Non-overlapping Intervals ⭐
+- [ ✅ ] 🧠 DSA New: #435 Non-overlapping Intervals ⭐
 - [ ] 🧠 DSA Review: #56 (D+2)
 - [ ] 🧠 DSA Review: #974 (overdue D+60)
 - [ ] 🧠 DSA Review: #146 (LRU Cache final)
 - [ ] 📚 LLD: Mediator Pattern
 
 **D73 · Thu Aug 13**
-- [ ] 🧠 DSA New: #452 Min Arrows to Burst Balloons
+- [ ✅ ] 🧠 DSA New: #452 Min Arrows to Burst Balloons
 - [ ] 🧠 DSA Review: #621 (overdue D+10)
 - [ ] 🧠 DSA Review: #236 (overdue D+30)
 - [ ] 🧠 DSA Review: #124 (overdue D+30)
