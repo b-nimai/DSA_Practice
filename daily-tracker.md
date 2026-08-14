@@ -810,8 +810,8 @@ Done when: 30s clip records → uploads → worker logs "received video X"
 - [ ] 🚀 Project: HLS playlist generation (`.m3u8` + segments) + thumbnail
 
 **D74 · Fri Aug 14**
-- [ ] 🧠 DSA New: #55 Jump Game ⭐
-- [ ] 🧠 DSA New: #45 Jump Game II
+- [ ✅ ] 🧠 DSA New: #55 Jump Game ⭐
+- [ ✅ ] 🧠 DSA New: #45 Jump Game II
 - [ ] 🧠 DSA Review: #253 (D+2)
 - [ ] 🧠 DSA Review: #435 (D+2)
 - [ ] 🧠 DSA Review: #525 (overdue D+60)
