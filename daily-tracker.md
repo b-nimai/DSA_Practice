@@ -748,16 +748,12 @@ interview crunch absorbs the squeeze (34 day-blocks → 26 days). **Nov 28 deadl
 - [ ✅ ] 🧠 DSA New: #37 Sudoku Solver 🔴
 - [ ] 🧠 DSA Retro
 - [ ✅ ] 🧠 DSA Review: #79 (D+2)
-- [ ] 🧠 DSA Catch-up + extra review of weakest 2 patterns from mocks
-- [ ] 🧠 DSA Final Mock: Mixed Practice 21–40 redo with timer · Target ≥34/40 patterns in 60s · ≥30/40 solved unaided
 - [ ] 📚 LLD: Template Method
 
 **D70 · Mon Aug 10**
-- [ ] 🧠 DSA New: #56 Merge Intervals ⭐
+- [ ✅ ] 🧠 DSA New: #56 Merge Intervals ⭐
 - [ ] 🧠 DSA Review: #543 (overdue D+30)
 - [ ] 🧠 DSA Review: #560 (overdue D+60)
-- [ ] 🧠 DSA Catch-up on any missed reviews from prior weeks
-- [ ] 🧠 DSA Mock 2: 5 random past titles · Target ≥4/5 correctly identified
 - [ ] 📚 LLD: State Pattern
 - [ ] 📚 LLD: Chain of Responsibility
 
@@ -785,7 +781,7 @@ Done when: 30s clip records → uploads → worker logs "received video X"
 ### 📅 Daily
 
 **D71 · Tue Aug 11**
-- [ ] 🧠 DSA New: #57 Insert Interval
+- [ ✅ ] 🧠 DSA New: #57 Insert Interval
 - [ ✅ ] 🧠 DSA New: #252 Meeting Rooms
 - [ ] 🧠 DSA Review: #51 (D+2)
 - [ ] 🧠 DSA Review: #98 (overdue D+30)
@@ -820,7 +816,7 @@ Done when: 30s clip records → uploads → worker logs "received video X"
 - [ ] 📚 LLD: Memento Pattern
 
 **D75 · Sat Aug 15**
-- [ ] 🧠 DSA New: #763 Partition Labels ⭐
+- [ ✅ ] 🧠 DSA New: #763 Partition Labels ⭐
 - [ ] 🧠 DSA Review: #39 (D+10)
 - [ ] 🧠 DSA Review: #295 (overdue D+10)
 - [ ] 🧠 DSA MP drill: #53
@@ -829,7 +825,7 @@ Done when: 30s clip records → uploads → worker logs "received video X"
 - [ ] 📚 LLD: Multithreading & Concurrency intro
 
 **D76 · Sun Aug 16** _(+ Weekly retro)_
-- [ ] 🧠 DSA New: #134 Gas Station
+- [ ✅ ] 🧠 DSA New: #134 Gas Station
 - [ ] 🧠 DSA New: #122 Best Time to Buy/Sell Stock II
 - [ ] 🧠 DSA Retro
 - [ ] 🧠 DSA Review: #55 (D+2)
