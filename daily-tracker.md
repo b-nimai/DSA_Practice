@@ -826,7 +826,7 @@ Done when: 30s clip records → uploads → worker logs "received video X"
 
 **D76 · Sun Aug 16** _(+ Weekly retro)_
 - [ ✅ ] 🧠 DSA New: #134 Gas Station
-- [ ] 🧠 DSA New: #122 Best Time to Buy/Sell Stock II
+- [ ✅ ] 🧠 DSA New: #122 Best Time to Buy/Sell Stock II
 - [ ] 🧠 DSA Retro
 - [ ] 🧠 DSA Review: #55 (D+2)
 - [ ] 🧠 DSA MP drill: #162
@@ -834,8 +834,8 @@ Done when: 30s clip records → uploads → worker logs "received video X"
 - [ ] 📚 LLD: Creating and Managing Threads
 
 **D77 · Mon Aug 17**
-- [ ] 🧠 DSA New: #1326 Minimum Taps to Water Garden 🔴
-- [ ] 🧠 DSA New: #70 Climbing Stairs ⭐
+- [ ✅ ] 🧠 DSA New: #1326 Minimum Taps to Water Garden 🔴
+- [ ✅ ] 🧠 DSA New: #70 Climbing Stairs ⭐
 - [ ] 🧠 DSA Review: #763 (D+2)
 - [ ] 🧠 DSA Review: #79 (D+10)
 - [ ] 🧠 DSA Review: #437 (overdue D+60)
