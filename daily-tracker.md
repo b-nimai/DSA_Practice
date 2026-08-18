@@ -752,8 +752,8 @@ interview crunch absorbs the squeeze (34 day-blocks → 26 days). **Nov 28 deadl
 
 **D70 · Mon Aug 10**
 - [ ✅ ] 🧠 DSA New: #56 Merge Intervals ⭐
-- [ ] 🧠 DSA Review: #543 (overdue D+30)
-- [ ] 🧠 DSA Review: #560 (overdue D+60)
+- [ ✅ ] 🧠 DSA Review: #543 (overdue D+30)
+- [ ✅ ] 🧠 DSA Review: #560 (overdue D+60)
 - [ ] 📚 LLD: State Pattern
 - [ ] 📚 LLD: Chain of Responsibility
 
@@ -783,16 +783,15 @@ Done when: 30s clip records → uploads → worker logs "received video X"
 **D71 · Tue Aug 11**
 - [ ✅ ] 🧠 DSA New: #57 Insert Interval
 - [ ✅ ] 🧠 DSA New: #252 Meeting Rooms
-- [ ] 🧠 DSA Review: #51 (D+2)
-- [ ] 🧠 DSA Review: #98 (overdue D+30)
-- [ ] 🧠 DSA Mock 1: 5 random past titles — predict pattern in 60s + solve ≤25 min
+- [ ✅ ] 🧠 DSA Review: #51 (D+2)
+- [ ✅ ] 🧠 DSA Review: #98 (overdue D+30)
 - [ ] 📚 LLD: Visitor Pattern
 
 **D72 · Wed Aug 12**
 - [ ✅ ] 🧠 DSA New: #253 Meeting Rooms II ⭐
 - [ ✅ ] 🧠 DSA New: #435 Non-overlapping Intervals ⭐
-- [ ] 🧠 DSA Review: #56 (D+2)
-- [ ] 🧠 DSA Review: #974 (overdue D+60)
+- [ ✅ ] 🧠 DSA Review: #56 (D+2)
+- [ ✅ ] 🧠 DSA Review: #974 (overdue D+60)
 - [ ] 🧠 DSA Review: #146 (LRU Cache final)
 - [ ] 📚 LLD: Mediator Pattern
 
@@ -865,11 +864,11 @@ Done when: video plays via HLS URL
 ### 📅 Daily
 
 **D78 · Tue Aug 18**
-- [ ] 🧠 DSA New: #746 Min Cost Climbing Stairs
-- [ ] 🧠 DSA Review: #78 (overdue D+10)
-- [ ] 🧠 DSA Review: #103 (overdue D+30)
-- [ ] 🧠 DSA Review: #199 (overdue D+30)
-- [ ] 🧠 DSA MP drill: #91
+- [ ✅ ] 🧠 DSA New: #746 Min Cost Climbing Stairs
+- [ ✅ ] 🧠 DSA Review: #78 (overdue D+10)
+- [ ✅ ] 🧠 DSA Review: #103 (overdue D+30)
+- [ ✅ ] 🧠 DSA Review: #199 (overdue D+30)
+- [ ✅ ] 🧠 DSA MP drill: #91
 - [ ] 📚 LLD: Recap concurrency basics
 - [ ] 🚀 Project: Public share page `app/v/[slug]` — server-rendered w/ `generateMetadata()` (OG/SEO); HLS.js player as nested client component
 - [ ] 🚀 Project: View counter via Beacon API + watch-time tracking
