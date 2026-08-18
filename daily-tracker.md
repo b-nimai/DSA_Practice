@@ -1156,7 +1156,7 @@ Done when: answers stream with clickable `[mm:ss]` citations
 - [ ] 📚 LLD: How to approach a LLD Interview
 
 **D100 · Wed Sep 9**
-- [ ] 🧠 DSA New: #146 LRU Cache (Hash Map + Doubly Linked List)
+- [ ✅ ] 🧠 DSA New: #146 LRU Cache (Hash Map + Doubly Linked List) — *done early 2026-08-18 (D78)*
 - [ ] 🧠 DSA New: #48 Rotate Image ⭐
 - [ ] 🧠 DSA Review: #721 (D+2)
 - [ ] 🧠 DSA Review: #56 (D+30)

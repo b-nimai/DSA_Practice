@@ -308,7 +308,7 @@ return dummy.next;
 | ☐ |      | 25  | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | 🔴 |  |
 | ☐ |      | 138 | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | 🟡 |  |
 | ☐ |      | 23  | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | 🔴 |  |
-| ☐ |      | 146 | [LRU Cache](https://leetcode.com/problems/lru-cache/) | 🟡 | (also in #19 Design) |
+| ✅ | Aug 18 | 146 | [LRU Cache](https://leetcode.com/problems/lru-cache/) | 🟡 | "**least recently used**" + "**evict**" + an explicit "**`get`/`put` in O(1) average**" → hash map (lookup) + **doubly** linked list (recency) with head/tail **sentinels**; front = MRU, `tail->prev` = victim. **Node stores the KEY** so eviction can `mpp.erase(victim->key)` in O(1) (else an O(n) map scan) — copy/erase it **before** `delete`. `put` on an existing key = **update + move-to-front, never evict**. Doubly because unlinking needs the predecessor (also in #19 Design) |
 
 ---
 
@@ -744,7 +744,7 @@ for (auto& row : m) reverse(row.begin(), row.end());
 
 | ✓ | Date | # | Problem | Diff | Trigger phrase |
 |---|------|---|---------|------|----------------|
-| ☐ |      | 146 | [LRU Cache](https://leetcode.com/problems/lru-cache/) | 🟡 | Hash map + doubly linked list, move-to-front |
+| ✅ | Aug 18 | 146 | [LRU Cache](https://leetcode.com/problems/lru-cache/) | 🟡 | "**least recently used**" + "**evict**" + an explicit "**`get`/`put` in O(1) average**" → hash map (lookup) + **doubly** linked list (recency) with head/tail **sentinels**; front = MRU, `tail->prev` = victim. **Node stores the KEY** so eviction can `mpp.erase(victim->key)` in O(1) (else an O(n) map scan) — copy/erase it **before** `delete`. `put` on an existing key = **update + move-to-front, never evict**. Doubly because unlinking needs the predecessor |
 | ☐ |      | 460 | [LFU Cache](https://leetcode.com/problems/lfu-cache/) | 🔴 | Freq → DLL buckets + key→node map, track minFreq |
 | ☐ |      | 380 | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) | 🟡 | Array + value→index map; swap-with-last to delete |
 | ☐ |      | 706 | [Design HashMap](https://leetcode.com/problems/design-hashmap/) | 🟢 | Buckets + chaining; modulo hash |
