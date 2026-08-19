@@ -874,11 +874,11 @@ Done when: video plays via HLS URL
 - [ ] 🚀 Project: View counter via Beacon API + watch-time tracking
 
 **D79 · Wed Aug 19**
-- [ ] 🧠 DSA New: #198 House Robber ⭐
-- [ ] 🧠 DSA New: #213 House Robber II
-- [ ] 🧠 DSA Review: #51 (D+10)
-- [ ] 🧠 DSA Review: #70 (D+2)
-- [ ] 🧠 DSA Review: #128 (overdue D+60)
+- [ ✅ ] 🧠 DSA New: #198 House Robber ⭐
+- [ ✅ ] 🧠 DSA New: #213 House Robber II
+- [ ✅ ] 🧠 DSA Review: #51 (D+10)
+- [ ✅ ] 🧠 DSA Review: #70 (D+2)
+- [ ✅ ] 🧠 DSA Review: #128 (overdue D+60)
 - [ ] 🚀 Project: Dashboard polish — status badges, thumbnails, copy-link + Sonner toast
 - [ ] 🚀 Project: `MailModule` scaffold — Mailtrap dev, Brevo prod via env vars
 
