@@ -883,8 +883,8 @@ Done when: video plays via HLS URL
 - [ ] 🚀 Project: `MailModule` scaffold — Mailtrap dev, Brevo prod via env vars
 
 **D80 · Thu Aug 20**
-- [ ] 🧠 DSA New: #53 Maximum Subarray (Kadane) ⭐
-- [ ] 🧠 DSA Review: #56 (D+10)
+- [ ✅ ] 🧠 DSA New: #53 Maximum Subarray (Kadane) ⭐
+- [ ✅ ] 🧠 DSA Review: #56 (D+10)
 - [ ] 🧠 DSA Review: #704 (overdue D+60)
 - [ ] 🧠 DSA MP drill: #42
 - [ ] 🧠 DSA MP drill: #208
