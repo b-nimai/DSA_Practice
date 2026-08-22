@@ -891,15 +891,15 @@ Done when: video plays via HLS URL
 - [ ] 📚 LLD: Thread Safety intro
 
 **D81 · Fri Aug 21**
-- [ ] 🧠 DSA New: #152 Maximum Product Subarray
-- [ ] 🧠 DSA New: #121 Best Time to Buy/Sell Stock
+- [ ✅ ] 🧠 DSA New: #152 Maximum Product Subarray
+- [ ✅ ] 🧠 DSA New: #121 Best Time to Buy/Sell Stock
 - [ ] 🧠 DSA Review: #198 (D+2)
 - [ ] 🧠 DSA Review: #111 (overdue D+30)
 - [ ] 🧠 DSA MP drill: #973
 - [ ] 📚 LLD: Thread Safety and Synchronization
 
 **D82 · Sat Aug 22**
-- [ ] 🧠 DSA New: #322 Coin Change ⭐
+- [ ✅ ] 🧠 DSA New: #322 Coin Change ⭐
 - [ ] 🧠 DSA New: #300 Longest Increasing Subsequence ⭐
 - [ ] 🧠 DSA Review: #253 (D+10)
 - [ ] 🧠 DSA Review: #53 (D+2)
